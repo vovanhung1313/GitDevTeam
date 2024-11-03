@@ -1,0 +1,131 @@
+﻿@model WebBanGiay.Models.NguoiDungModel
+
+@{
+    ViewData["Title"] = "Đăng Ký";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#toggleMatKhau').click(function () {
+                var input = $('#matKhau');
+                var icon = $('#eyeIcon');
+                if (input.attr('type') === 'password') {
+                    input.attr('type', 'text');
+                    icon.removeClass('fa-eye').addClass('fa-eye-slash');
+                } else {
+                    input.attr('type', 'password');
+                    icon.removeClass('fa-eye-slash').addClass('fa-eye');
+                }
+            });
+        });
+    </script>
+}
+
+<style>
+    /* Style cho icon con mắt */
+    .input-group-text {
+        cursor: pointer;
+        background-color: transparent;
+        height: 37px;
+        background-color: #e9ecf0;
+    }
+
+        .input-group-text .fa-eye,
+        .input-group-text .fa-eye-slash {
+            color: #333;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+    .form-control {
+        margin-bottom: 10px;
+    }
+
+    .register-container {
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn-den {
+        background-color: #fcf000;
+        border-color: #fcf000;
+        color: #000;
+        font-weight: bold;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+        .btn-den:hover {
+            background-color: #000;
+            border-color: #000;
+            color: #fcf000;
+        }
+
+    .form-title {
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        color: #333;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+</style>
+
+<div class="register-container" style="margin-top: 50px">
+    <h2 class="form-title">Đăng Ký vào TeamDev !!</h2>
+    <form asp-action="DangKy" method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="form-group">
+            <label asp-for="HO_TEN" class="control-label">Họ và tên</label>
+            <input asp-for="HO_TEN" class="form-control" />
+            <span asp-validation-for="HO_TEN" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="SDT" class="control-label">Số điện thoại</label>
+            <input asp-for="SDT" maxlength="10" class="form-control" />
+            <span asp-validation-for="SDT" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="EMAIL" class="control-label">Email</label>
+            <input asp-for="EMAIL" class="form-control" />
+            <span asp-validation-for="EMAIL" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="DIA_CHI" class="control-label">Địa chỉ</label>
+            <input asp-for="DIA_CHI" class="form-control" />
+            <span asp-validation-for="DIA_CHI" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="TAI_KHOAN" class="control-label">Tài khoản</label>
+            <input asp-for="TAI_KHOAN" class="form-control" />
+            <span asp-validation-for="TAI_KHOAN" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="MAT_KHAU" class="control-label">Mật khẩu</label>
+            <div class="input-group">
+                <input asp-for="MAT_KHAU" class="form-control" id="matKhau" type="password" placeholder="Vui lòng nhập mật khẩu" />
+                <div class="input-group-append">
+                    <span class="input-group-text" id="toggleMatKhau">
+                        <i id="eyeIcon" class="fa fa-eye"></i>
+                    </span>
+                </div>
+            </div>
+            <span asp-validation-for="MAT_KHAU" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <input type="submit" value="ĐĂNG KÝ" class="btn btn-den btn-primary btn-full-width" />
+        </div>
+    </form>
+</div>

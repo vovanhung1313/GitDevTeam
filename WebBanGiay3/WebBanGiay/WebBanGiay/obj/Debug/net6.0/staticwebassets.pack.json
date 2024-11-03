@@ -1,0 +1,1825 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebBanGiay.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebBanGiay.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\404.html",
+      "PackagePath": "staticwebassets\\404.html"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\404.html",
+      "PackagePath": "staticwebassets\\Admin\\404.html"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\Admin\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\READ-ME.txt",
+      "PackagePath": "staticwebassets\\Admin\\READ-ME.txt"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\blank.html",
+      "PackagePath": "staticwebassets\\Admin\\blank.html"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\bootstrap-5-admin-template.jpg",
+      "PackagePath": "staticwebassets\\Admin\\bootstrap-5-admin-template.jpg"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\button.html",
+      "PackagePath": "staticwebassets\\Admin\\button.html"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\chart.html",
+      "PackagePath": "staticwebassets\\Admin\\chart.html"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\css\\style.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\style.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\element.html",
+      "PackagePath": "staticwebassets\\Admin\\element.html"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\form.html",
+      "PackagePath": "staticwebassets\\Admin\\form.html"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\img\\user.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\user.jpg"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\index.html",
+      "PackagePath": "staticwebassets\\Admin\\index.html"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\js\\main.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\main.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\lib\\chart\\chart.min.js",
+      "PackagePath": "staticwebassets\\Admin\\lib\\chart\\chart.min.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\Admin\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\Admin\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
+      "PackagePath": "staticwebassets\\Admin\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
+      "PackagePath": "staticwebassets\\Admin\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\lib\\tempusdominus\\js\\moment-timezone.min.js",
+      "PackagePath": "staticwebassets\\Admin\\lib\\tempusdominus\\js\\moment-timezone.min.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\lib\\tempusdominus\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\Admin\\lib\\tempusdominus\\js\\moment.min.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
+      "PackagePath": "staticwebassets\\Admin\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
+      "PackagePath": "staticwebassets\\Admin\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\Admin\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\Admin\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\signin.html",
+      "PackagePath": "staticwebassets\\Admin\\signin.html"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\signup.html",
+      "PackagePath": "staticwebassets\\Admin\\signup.html"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\table.html",
+      "PackagePath": "staticwebassets\\Admin\\table.html"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\typography.html",
+      "PackagePath": "staticwebassets\\Admin\\typography.html"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\widget.html",
+      "PackagePath": "staticwebassets\\Admin\\widget.html"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\404.html",
+      "PackagePath": "staticwebassets\\NhanVien\\404.html"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\NhanVien\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\READ-ME.txt",
+      "PackagePath": "staticwebassets\\NhanVien\\READ-ME.txt"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\blank.html",
+      "PackagePath": "staticwebassets\\NhanVien\\blank.html"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\bootstrap-5-admin-template.jpg",
+      "PackagePath": "staticwebassets\\NhanVien\\bootstrap-5-admin-template.jpg"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\button.html",
+      "PackagePath": "staticwebassets\\NhanVien\\button.html"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\chart.html",
+      "PackagePath": "staticwebassets\\NhanVien\\chart.html"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\NhanVien\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\css\\style.css",
+      "PackagePath": "staticwebassets\\NhanVien\\css\\style.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\element.html",
+      "PackagePath": "staticwebassets\\NhanVien\\element.html"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\form.html",
+      "PackagePath": "staticwebassets\\NhanVien\\form.html"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\NhanVien\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\NhanVien\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\img\\user.jpg",
+      "PackagePath": "staticwebassets\\NhanVien\\img\\user.jpg"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\index.html",
+      "PackagePath": "staticwebassets\\NhanVien\\index.html"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\js\\main.js",
+      "PackagePath": "staticwebassets\\NhanVien\\js\\main.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\lib\\chart\\chart.min.js",
+      "PackagePath": "staticwebassets\\NhanVien\\lib\\chart\\chart.min.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\NhanVien\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\NhanVien\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\NhanVien\\lib\\owlcarousel"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\NhanVien\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\NhanVien\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\NhanVien\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\NhanVien\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\NhanVien\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\NhanVien\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\NhanVien\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\NhanVien\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\NhanVien\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\NhanVien\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
+      "PackagePath": "staticwebassets\\NhanVien\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
+      "PackagePath": "staticwebassets\\NhanVien\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\lib\\tempusdominus\\js\\moment-timezone.min.js",
+      "PackagePath": "staticwebassets\\NhanVien\\lib\\tempusdominus\\js\\moment-timezone.min.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\lib\\tempusdominus\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\NhanVien\\lib\\tempusdominus\\js\\moment.min.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
+      "PackagePath": "staticwebassets\\NhanVien\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
+      "PackagePath": "staticwebassets\\NhanVien\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\NhanVien\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\NhanVien\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\NhanVien\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\signin.html",
+      "PackagePath": "staticwebassets\\NhanVien\\signin.html"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\signup.html",
+      "PackagePath": "staticwebassets\\NhanVien\\signup.html"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\table.html",
+      "PackagePath": "staticwebassets\\NhanVien\\table.html"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\typography.html",
+      "PackagePath": "staticwebassets\\NhanVien\\typography.html"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\NhanVien\\widget.html",
+      "PackagePath": "staticwebassets\\NhanVien\\widget.html"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\READ-ME.txt",
+      "PackagePath": "staticwebassets\\READ-ME.txt"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\about.html",
+      "PackagePath": "staticwebassets\\about.html"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\blog.html",
+      "PackagePath": "staticwebassets\\blog.html"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\contact.html",
+      "PackagePath": "staticwebassets\\contact.html"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\img\\User_images.jpg",
+      "PackagePath": "staticwebassets\\img\\User_images.jpg"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\img\\avt1.jpg",
+      "PackagePath": "staticwebassets\\img\\avt1.jpg"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\img\\avt10.jpg",
+      "PackagePath": "staticwebassets\\img\\avt10.jpg"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\img\\avt11.jpg",
+      "PackagePath": "staticwebassets\\img\\avt11.jpg"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\img\\avt15.jpg",
+      "PackagePath": "staticwebassets\\img\\avt15.jpg"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\img\\avt16.jpg",
+      "PackagePath": "staticwebassets\\img\\avt16.jpg"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\img\\avt2.jpg",
+      "PackagePath": "staticwebassets\\img\\avt2.jpg"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\img\\avt3.jpg",
+      "PackagePath": "staticwebassets\\img\\avt3.jpg"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\img\\avt4.jpg",
+      "PackagePath": "staticwebassets\\img\\avt4.jpg"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\img\\avt5.jpg",
+      "PackagePath": "staticwebassets\\img\\avt5.jpg"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\img\\carousel-1.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel-1.jpg"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\img\\carousel-2.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel-2.jpg"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\img\\layout1.jpg",
+      "PackagePath": "staticwebassets\\img\\layout1.jpg"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\img\\layout2.jpg",
+      "PackagePath": "staticwebassets\\img\\layout2.jpg"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\img\\logobeta.png",
+      "PackagePath": "staticwebassets\\img\\logobeta.png"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\animate\\animate.min.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.min.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\wow\\wow.js",
+      "PackagePath": "staticwebassets\\lib\\wow\\wow.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\lib\\wow\\wow.min.js",
+      "PackagePath": "staticwebassets\\lib\\wow\\wow.min.js"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\media\\KhachHang\\449accbec7a56969977431c31f9efb89 - Copy - Copy - Copy.jpg",
+      "PackagePath": "staticwebassets\\media\\KhachHang\\449accbec7a56969977431c31f9efb89 - Copy - Copy - Copy.jpg"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\media\\KhachHang\\Screenshot 2024-07-30 170421.png",
+      "PackagePath": "staticwebassets\\media\\KhachHang\\Screenshot 2024-07-30 170421.png"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\media\\KhachHang\\User_images.jpg",
+      "PackagePath": "staticwebassets\\media\\KhachHang\\User_images.jpg"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\media\\KhachHang\\aanh20.png",
+      "PackagePath": "staticwebassets\\media\\KhachHang\\aanh20.png"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\media\\KhachHang\\anh2.png",
+      "PackagePath": "staticwebassets\\media\\KhachHang\\anh2.png"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\media\\KhachHang\\anh4.png",
+      "PackagePath": "staticwebassets\\media\\KhachHang\\anh4.png"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\media\\KhachHang\\anh8.png",
+      "PackagePath": "staticwebassets\\media\\KhachHang\\anh8.png"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\media\\KhachHang\\tải xuống (7).jpg",
+      "PackagePath": "staticwebassets\\media\\KhachHang\\tải xuống (7).jpg"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\pest-control-website-template.jpg",
+      "PackagePath": "staticwebassets\\pest-control-website-template.jpg"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\price.html",
+      "PackagePath": "staticwebassets\\price.html"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\project.html",
+      "PackagePath": "staticwebassets\\project.html"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\service.html",
+      "PackagePath": "staticwebassets\\service.html"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\team.html",
+      "PackagePath": "staticwebassets\\team.html"
+    },
+    {
+      "Id": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\testimonial.html",
+      "PackagePath": "staticwebassets\\testimonial.html"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.WebBanGiay.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.WebBanGiay.props",
+      "PackagePath": "build\\WebBanGiay.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.WebBanGiay.props",
+      "PackagePath": "buildMultiTargeting\\WebBanGiay.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.WebBanGiay.props",
+      "PackagePath": "buildTransitive\\WebBanGiay.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,20 @@
+﻿@model WebBanGiay.Models.GioHangModel
+
+@{
+    ViewBag.Title = "Giỏ hàng";
+    ViewData["Title"] = "Giỏ hàng";
+}
+<!-- Tiêu đề Trang Bắt Đầu -->
+<div class="container-fluid page-header py-5">
+    <div class="container text-center py-5">
+        <h1 class="display-2 text-white mb-4 animated slideInDown">Giỏ hàng</h1>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb justify-content-center mb-0 animated slideInDown">
+                <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Trang Chủ</a></li>
+                <li class="breadcrumb-item"><a asp-controller="CuaHang" asp-action="Index">Cửa hàng</a></li>
+                <li class="breadcrumb-item text-white" aria-current="page">Giỏ hàng</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+<!-- Tiêu đề Trang Kết Thúc -->

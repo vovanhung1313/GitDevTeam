@@ -1,0 +1,176 @@
+﻿@model WebBanGiay.Models.NguoiDungModel
+@{
+    ViewData["Title"] = "Trang cá nhân";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if (ViewBag.ThatBai != null)
+{
+    <div class="alert alert-danger">
+        @ViewBag.ThatBai
+    </div>
+}
+
+<style>
+    .breadcrumb-section.breadcrumb-bg {
+        background-color: #fcf000;
+        padding: 20px 0;
+    }
+
+    .breadcrumb-text h2 {
+        color: #fff;
+    }
+
+    .card {
+        margin: 75px 0 25px;
+        border: 1px solid #fcf000;
+    }
+
+    .card-header {
+        background-color: #fcf000;
+        border-radius: 10px 10px 0 0;
+        color: #fff;
+    }
+
+    .btn-primary {
+        background-color: #fcf000;
+        border-color: #fcf000;
+        color: #000;
+        font-weight: bold;
+    }
+
+        .btn-primary:hover {
+            background-color: #000;
+            border-color: #000;
+            color: #fcf000;
+            font-weight: bold;
+        }
+
+    .form-group label {
+        color: #333;
+    }
+
+    .form-control {
+        margin-bottom: 20px;
+    }
+
+        .form-control:focus {
+            border-color: #fcf000;
+            box-shadow: 0 0 0 0.2rem rgba(242, 129, 35, 0.25);
+        }
+
+    .profile-image-wrapper {
+        width: 250px;
+        height: 250px;
+        margin: 0 auto;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 5px solid #fcf000;
+    }
+
+    .profile-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+</style>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">
+                    <h4 style="padding: 10px 0px;" class="card-title text-center mb-0">Trang cá nhân</h4>
+                </div>
+                <div class="card-body">
+                    <form asp-action="TrangCaNhan" method="post" enctype="multipart/form-data">
+                        <div class="profile-image-wrapper mb-4">
+                            <img src="~/media/KhachHang/@Model.HINH_ANH" alt="Profile Image" class="profile-image">
+                        </div>
+                        <h3 class="card-title text-center">@Model.HO_TEN</h3>
+                        <p class="card-title text-center @(Model.TRANG_THAI == 0 ? "text-success" : "text-danger")">
+                            @if (Model.TRANG_THAI == 0)
+                            {
+                                <text>Hoạt động</text>
+                            }
+                            else
+                            {
+                                <text>Không hoạt động</text>
+                            }
+                        </p>
+                        <div class="form-group">
+                            <label for="TaiKhoan">Tài Khoản</label>
+                            <input type="text" class="form-control" id="TaiKhoan" name="TaiKhoan" value="@Model.TAI_KHOAN" readonly />
+                        </div>
+                        <div class="form-group">
+                            <label for="VaiTro">Vai trò</label>
+                            <input type="text" class="form-control" id="VaiTro"
+                                   value="@(Model.VAI_TRO == 0 ? "Người dùng" : Model.VAI_TRO == 1 ? "Admin" : "Nhân viên")" readonly />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="NgayTao">Ngày tạo</label>
+                            <input type="text" class="form-control" id="NgayTao" value="@Model.NGAY_TAO.ToString("dd/MM/yyyy")" readonly />
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="HinhAnhTaiLen" class="control-label">Hình ảnh</label>
+                            <input asp-for="HinhAnhTaiLen" type="file" id="fileInput" accept="image/*" onchange="previewImage(event)" class="form-control" style="padding: 2.5px;" />
+                            <img id="imagePreview" src="~/media/KhachHang/@Model?.HINH_ANH" alt="Image Preview" style="max-width: 200px; height: 200px; margin-top: 20px; border-radius: 10px;" />
+                            <span asp-validation-for="HinhAnhTaiLen" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="HO_TEN">Họ tên</label>
+                            <input asp-for="HO_TEN" class="form-control" />
+                            <span asp-validation-for="HO_TEN" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="SDT">Số điện thoại</label>
+                            <input asp-for="SDT" class="form-control" />
+                            <span asp-validation-for="SDT" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="EMAIL">Email</label>
+                            <input asp-for="EMAIL" type="email" class="form-control" />
+                            <span asp-validation-for="EMAIL" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="DIA_CHI">Địa chỉ</label>
+                            <input asp-for="DIA_CHI" class="form-control" />
+                            <span asp-validation-for="DIA_CHI" class="text-danger"></span>
+                        </div>
+                        <br />
+                        <button type="submit" style="width: 100%" class="btn btn-primary">Cập nhật thông tin</button>
+                        <br /><br />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script src="/lib/jquery/dist/jquery.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <script>
+        function previewImage(event) {
+            const input = event.target;
+            const file = input.files[0];
+            const imagePreview = document.getElementById('imagePreview');
+
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    imagePreview.src = e.target.result;
+                };
+                reader.readAsDataURL(file);
+            } else {
+                imagePreview.src = '';
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            
+        });
+    </script>
+}
