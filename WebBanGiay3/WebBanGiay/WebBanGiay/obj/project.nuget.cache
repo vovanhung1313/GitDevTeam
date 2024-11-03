@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Lectj2OFldZ3XNuy8ZAbjZ+B7oLwO6nsp3hMqL2RFfj5w75H7r8YXSqeSFEXzuA6edipcf3jnYB/hRS9Xb9bZg==",
+  "dgSpecHash": "ZDfCo7h2JmNvpnpc9RY4O0QtOmvahjmu6N+GIUY1qEfYeK2tC2oGEKtvRkOyS+0gONWvMVvRhLV4A3coS4aNOA==",
   "success": true,
-  "projectFilePath": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\WebBanGiay.csproj",
+  "projectFilePath": "D:\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\WebBanGiay.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nguye\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\nguye\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
