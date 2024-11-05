@@ -1,12 +1,10 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using WebBanGiay.Models;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 using WebBanGiay.Services;
 using WebBanGiay.Repository;
-using Microsoft.AspNetCore.Authentication.Cookies;
 using WebBanGiay.Repositoty;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,7 +15,7 @@ builder.Services.AddDbContext<DataContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("WebBanGiay"));
 });
 
-// Thêm các d?ch v? c?n thi?t
+// ??ng ký các d?ch v? c?n thi?t
 builder.Services.AddScoped<EmailService>();
 builder.Services.AddSingleton<IVnPayService, VnPayService>();
 
@@ -30,25 +28,34 @@ builder.Services.AddSession(options =>
     options.Cookie.IsEssential = true;
 });
 
-// Thêm HttpContextAccessor
+// Thêm HttpContextAccessor ?? truy c?p HttpContext
 builder.Services.AddHttpContextAccessor();
 
 // Thêm MVC
 builder.Services.AddControllersWithViews();
 
-// C?u hình xác th?c
-builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-    .AddCookie(options =>
-    {
-        options.LoginPath = "/NguoiDung/DangNhap"; // Chuy?n h??ng ??n trang ??ng nh?p
-        options.LogoutPath = "/NguoiDung/DangKy"; // Chuy?n h??ng ??n trang ??ng xu?t
-        options.AccessDeniedPath = "/NguoiDung/Home"; // Chuy?n h??ng khi không có quy?n
-    });
-
+// C?u hình xác th?c b?ng Cookie và Google
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = GoogleDefaults.AuthenticationScheme;
+})
+.AddCookie(options =>
+{
+    options.LoginPath = "/NguoiDung/DangNhap";      // ???ng d?n trang ??ng nh?p
+    options.LogoutPath = "/NguoiDung/DangKy";       // ???ng d?n trang ??ng xu?t
+    options.AccessDeniedPath = "/NguoiDung/Home";   // ???ng d?n khi truy c?p b? t? ch?i
+})
+.AddGoogle(options =>
+{
+    options.ClientId = builder.Configuration["Google:ClientId"];
+    options.ClientSecret = builder.Configuration["Google:ClientSecret"];
+    options.CallbackPath = "/signin-google"; // ??m b?o CallbackPath này kh?p v?i URI ?y quy?n c?a b?n
+});
 
 var app = builder.Build();
 
-// C?u hình Exception Handling cho môi tr??ng không ph?i là Development
+// X? lý ngo?i l? khi môi tr??ng không ph?i là Development
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -63,8 +70,8 @@ app.UseAuthentication(); // ??m b?o g?i UseAuthentication tr??c UseAuthorization
 app.UseAuthorization();
 app.UseSession();
 
-// Thêm middleware ki?m tra quy?n
-app.UseMiddleware<AuthorizationMiddleware>(); // ??ng ký middleware ? ?ây
+// ??ng ký Middleware ki?m tra quy?n
+app.UseMiddleware<AuthorizationMiddleware>();
 
 // ??nh ngh?a các route
 app.MapControllerRoute(

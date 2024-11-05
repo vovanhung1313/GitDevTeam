@@ -5,6 +5,10 @@ using System.Net;
 using WebBanGiay.Models;
 using WebBanGiay.Repository;
 using WebBanGiay.Repositoty;
+using Microsoft.AspNetCore.Authentication.Google;
+using Microsoft.AspNetCore.Authentication;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace WebBanGiay.Controllers
 {
@@ -310,6 +314,82 @@ namespace WebBanGiay.Controllers
             HttpContext.Session.Remove("OTPExpiration");
 
             TempData["ThanhCong"] = "Mật khẩu của bạn đã được đổi thành công.";
+            return RedirectToAction("DangNhap");
+        }
+
+
+
+        [HttpGet]
+        public IActionResult GoogleLogin(string returnUrl = null)
+        {
+            var redirectUrl = Url.Action("GoogleResponse", "NguoiDung", new { returnUrl });
+            var properties = new AuthenticationProperties { RedirectUri = redirectUrl };
+            return Challenge(properties, GoogleDefaults.AuthenticationScheme);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GoogleResponse(string returnUrl = null)
+        {
+            var info = await HttpContext.AuthenticateAsync(GoogleDefaults.AuthenticationScheme);
+            if (info?.Principal != null)
+            {
+                // Lấy thông tin email và tên người dùng từ claim
+                var email = info.Principal.FindFirstValue(ClaimTypes.Email);
+                var name = info.Principal.FindFirstValue(ClaimTypes.Name);
+
+                // Kiểm tra xem email có giá trị không
+                if (string.IsNullOrEmpty(email))
+                {
+                    TempData["ThatBai"] = "Không thể lấy địa chỉ email từ tài khoản Google.";
+                    return RedirectToAction("DangNhap");
+                }
+
+                // Tìm người dùng trong cơ sở dữ liệu, nếu không có thì tạo mới
+                var user = await _dataContext.NGUOI_DUNGs.FirstOrDefaultAsync(u => u.EMAIL == email);
+                if (user == null)
+                {
+                    // Tạo mới người dùng
+                    user = new NguoiDungModel
+                    {
+                        EMAIL = email, // Đảm bảo thêm email vào mô hình
+                        TAI_KHOAN = email,
+                        HO_TEN = name,
+                        VAI_TRO = 0, // Người dùng thông thường
+                        HINH_ANH = "User_images.jpg",
+                        NGAY_TAO = DateTime.Now,
+                        DIA_CHI = "100 Ha Huy Tap",
+                        TRANG_THAI = 0, // Trạng thái kích hoạt
+                        SDT = "0383777823",
+                        GTTT = "User_images.jpg",
+                        MAT_KHAU = "123456" // Có thể cần mã hóa mật khẩu hoặc không lưu mật khẩu
+                    };
+
+                    // Thêm người dùng vào cơ sở dữ liệu
+                    await _dataContext.NGUOI_DUNGs.AddAsync(user);
+                    await _dataContext.SaveChangesAsync();
+                }
+
+                // Lưu thông tin người dùng vào session
+                HttpContext.Session.SetJson("User", user);
+                TempData["ThanhCong"] = "Đăng nhập thành công";
+
+                // Chuyển hướng đến trang phù hợp theo vai trò người dùng
+                if (user.VAI_TRO == 1)
+                {
+                    return RedirectToAction("Index", "HomeAdmin", new { area = "Admin" });
+                }
+                else if (user.VAI_TRO == 2)
+                {
+                    return RedirectToAction("Index", "HomeNhanVien", new { area = "NhanVien" });
+                }
+                else
+                {
+                    return RedirectToAction("Index", "Home");
+                }
+            }
+
+            // Nếu không có thông tin người dùng
+            TempData["ThatBai"] = "Đăng nhập không thành công.";
             return RedirectToAction("DangNhap");
         }
 

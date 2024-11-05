@@ -17,6 +17,8 @@ namespace WebBanGiay.Repositoty
         public DbSet<KichThuocSanPhamModel> KICH_THUOCs { get; set; }
         public DbSet<LoaiSanPhamModel> LOAI_SAN_PHAMs { get; set; }
         public DbSet<SanPhamMauModel> SAN_PHAM_MAUs { get; set; }
+        public DbSet<MauSanPhamModel> MauSanPhamModels { get; set; }
+
 
 
     }
