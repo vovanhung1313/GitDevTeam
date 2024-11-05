@@ -97,7 +97,7 @@ namespace WebBanGiay.Migrations
 
                     b.HasIndex("SanPhamModelID_SAN_PHAM");
 
-                    b.ToTable("MAU_SACs");
+                    b.ToTable("MauSanPhamModel");
                 });
 
             modelBuilder.Entity("WebBanGiay.Models.NguoiDungModel", b =>
@@ -107,6 +107,9 @@ namespace WebBanGiay.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID_NGUOI_DUNG"), 1L, 1);
+
+                    b.Property<string>("AccessToken")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("DIA_CHI")
                         .IsRequired()
@@ -121,6 +124,9 @@ namespace WebBanGiay.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("GoogleId")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("HINH_ANH")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -132,8 +138,8 @@ namespace WebBanGiay.Migrations
 
                     b.Property<string>("MAT_KHAU")
                         .IsRequired()
-                        .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)");
+                        .HasMaxLength(40)
+                        .HasColumnType("nvarchar(40)");
 
                     b.Property<DateTime>("NGAY_TAO")
                         .HasColumnType("datetime2");
@@ -145,8 +151,8 @@ namespace WebBanGiay.Migrations
 
                     b.Property<string>("TAI_KHOAN")
                         .IsRequired()
-                        .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)");
+                        .HasMaxLength(40)
+                        .HasColumnType("nvarchar(40)");
 
                     b.Property<int>("TRANG_THAI")
                         .HasColumnType("int");

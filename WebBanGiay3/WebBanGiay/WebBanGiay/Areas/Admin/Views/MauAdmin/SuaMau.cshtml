@@ -1,0 +1,40 @@
+﻿@model WebBanGiay.Models.MauSanPhamModel
+
+@{
+    ViewData["Title"] = "Sửa màu";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header text-white" style="background-color: #eb1515; border-radius: 5px 5px 0px 0px;">
+                    <h4 class="card-title mb-0">Màu</h4>
+                </div>
+                <div class="card-body">
+                    <form asp-action="SuaMau">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <input type="hidden" asp-for="ID_MAU" />
+                        <div class="form-group mb-3">
+                            <label asp-for="TEN_MAU" class="control-label">Tên màu</label>
+                            <input asp-for="TEN_MAU" class="form-control" />
+                            <span asp-validation-for="TEN_MAU" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Lưu" class="btn btn-primary" style="background-color:#212529; padding: 9px 176px 9px 176px" />
+                            <a asp-action="TrangMau" class="btn btn-secondary ms-2">Quay lại danh sách</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+

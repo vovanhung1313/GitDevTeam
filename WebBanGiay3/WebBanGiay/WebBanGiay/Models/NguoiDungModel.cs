@@ -10,7 +10,6 @@ namespace WebBanGiay.Models
 
         [Required(ErrorMessage = "Không được để trống họ và tên.")]
         [StringLength(40, MinimumLength = 5, ErrorMessage = "Họ tên phải từ 5 đến 40 ký tự.")]
-
         public string HO_TEN { get; set; }
 
         [Required(ErrorMessage = "Yêu cầu nhập số điện thoại")]
@@ -27,18 +26,19 @@ namespace WebBanGiay.Models
 
         [Required(ErrorMessage = "Yêu cầu nhập tên tài khoản")]
         [MinLength(5, ErrorMessage = "Tên tài khoản phải có ít nhất 5 ký tự.")]
-        [MaxLength(20, ErrorMessage = "Tên tài khoản không được vượt quá 20 ký tự.")]
+        [MaxLength(40, ErrorMessage = "Tên tài khoản không được vượt quá 40 ký tự.")]
         public string TAI_KHOAN { get; set; }
 
         [Required(ErrorMessage = "Yêu cầu nhập mật khẩu")]
         [MinLength(5, ErrorMessage = "Mật khẩu phải có ít nhất 5 ký tự.")]
-        [MaxLength(20, ErrorMessage = "Mật khẩu không được vượt quá 20 ký tự.")]
+        [MaxLength(40, ErrorMessage = "Mật khẩu không được vượt quá 40 ký tự.")]
         public string MAT_KHAU { get; set; }
 
         public int VAI_TRO { get; set; } = 0;
 
         [Required(ErrorMessage = "Không được để trống hình ảnh.")]
         public string HINH_ANH { get; set; } = "User_images.jpg";
+
         public DateTime NGAY_TAO { get; set; } = DateTime.Now;
         public int TRANG_THAI { get; set; } = 0;
 
@@ -47,8 +47,10 @@ namespace WebBanGiay.Models
 
         [Required(ErrorMessage = "Không được để trống địa chỉ.")]
         [StringLength(40, MinimumLength = 5, ErrorMessage = "Địa chỉ phải từ 5 đến 40 ký tự.")]
+        public string DIA_CHI { get; set; }
 
-        public string DIA_CHI { get; set; } 
-
+        // Thêm các thuộc tính cho Google Login
+        public string? GoogleId { get; set; } // ID người dùng Google
+        public string? AccessToken { get; set; } // Token truy cập từ Google
     }
 }
