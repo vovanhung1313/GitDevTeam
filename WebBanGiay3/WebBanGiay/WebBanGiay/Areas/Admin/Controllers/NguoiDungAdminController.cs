@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebBanGiay.Models;
-using WebBanGiay.Repository;
+
 using WebBanGiay.Repositoty;
 using X.PagedList;
 

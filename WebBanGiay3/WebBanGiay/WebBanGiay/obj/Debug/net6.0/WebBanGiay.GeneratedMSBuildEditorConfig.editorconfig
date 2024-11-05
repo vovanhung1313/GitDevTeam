@@ -9,203 +9,203 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebBanGiay
 build_property.RootNamespace = WebBanGiay
-build_property.ProjectDir = D:\c4\Git\GitDevTeam\WebBanGiay3\WebBanGiay\WebBanGiay\
+build_property.ProjectDir = D:\git\GitDevTeam\WebBanGiay3\WebBanGiay\WebBanGiay\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\c4\Git\GitDevTeam\WebBanGiay3\WebBanGiay\WebBanGiay
+build_property.MSBuildProjectDirectory = D:\git\GitDevTeam\WebBanGiay3\WebBanGiay\WebBanGiay
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/DonHangAdmin/Index.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/DonHangAdmin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRG9uSGFuZ0FkbWluXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/HomeAdmin/Index.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/HomeAdmin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/KichThuocAdmin/Index.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/KichThuocAdmin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS2ljaFRodW9jQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/LoaiAdmin/Index.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/LoaiAdmin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTG9haUFkbWluXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/LoaiAdmin/SuaLoai.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/LoaiAdmin/SuaLoai.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTG9haUFkbWluXFN1YUxvYWkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/MauAdmin/Index.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/MauAdmin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWF1QWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/MauAdmin/SuaMau.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/MauAdmin/SuaMau.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWF1QWRtaW5cU3VhTWF1LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/NguoiDungAdmin/Index.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/NguoiDungAdmin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmd1b2lEdW5nQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/NguoiDungAdmin/SuaNguoiDung.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/NguoiDungAdmin/SuaNguoiDung.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmd1b2lEdW5nQWRtaW5cU3VhTmd1b2lEdW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/NguoiDungAdmin/ThemNguoiDung.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/NguoiDungAdmin/ThemNguoiDung.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmd1b2lEdW5nQWRtaW5cVGhlbU5ndW9pRHVuZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/NguoiDungAdmin/XoaNguoiDung.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/NguoiDungAdmin/XoaNguoiDung.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmd1b2lEdW5nQWRtaW5cWG9hTmd1b2lEdW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/NhanVienAdmin/Index.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/NhanVienAdmin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmhhblZpZW5BZG1pblxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/NhanVienAdmin/SuaNhanVien.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/NhanVienAdmin/SuaNhanVien.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmhhblZpZW5BZG1pblxTdWFOaGFuVmllbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/NhanVienAdmin/ThemNhanVien.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/NhanVienAdmin/ThemNhanVien.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmhhblZpZW5BZG1pblxUaGVtTmhhblZpZW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/SanPhamAdmin/Index.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/SanPhamAdmin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2FuUGhhbUFkbWluXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/Shared/_NotificationPartial.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/Shared/_NotificationPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9Ob3RpZmljYXRpb25QYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/_ViewImports.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/_ViewStart.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/NhanVien/Views/HomeNhanVien/Index.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/NhanVien/Views/HomeNhanVien/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmhhblZpZW5cVmlld3NcSG9tZU5oYW5WaWVuXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/NhanVien/Views/NguoiDungNhanVien/Index.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/NhanVien/Views/NguoiDungNhanVien/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmhhblZpZW5cVmlld3NcTmd1b2lEdW5nTmhhblZpZW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/NhanVien/Views/NguoiDungNhanVien/SuaNguoiDung.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/NhanVien/Views/NguoiDungNhanVien/SuaNguoiDung.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmhhblZpZW5cVmlld3NcTmd1b2lEdW5nTmhhblZpZW5cU3VhTmd1b2lEdW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/NhanVien/Views/NguoiDungNhanVien/ThemNguoiDung.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/NhanVien/Views/NguoiDungNhanVien/ThemNguoiDung.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmhhblZpZW5cVmlld3NcTmd1b2lEdW5nTmhhblZpZW5cVGhlbU5ndW9pRHVuZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/NhanVien/Views/Shared/_LayoutNhanVien.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/NhanVien/Views/Shared/_LayoutNhanVien.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmhhblZpZW5cVmlld3NcU2hhcmVkXF9MYXlvdXROaGFuVmllbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/NhanVien/Views/Shared/_NotificationPartial.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/NhanVien/Views/Shared/_NotificationPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmhhblZpZW5cVmlld3NcU2hhcmVkXF9Ob3RpZmljYXRpb25QYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/NhanVien/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/NhanVien/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmhhblZpZW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/NhanVien/_ViewImports.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/NhanVien/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmhhblZpZW5cX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/NhanVien/_ViewStart.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/NhanVien/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmhhblZpZW5cX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Views/CuaHang/Index.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Views/CuaHang/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VhSGFuZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Views/GioHang/Index.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Views/GioHang/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lvSGFuZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Views/GioiThieu/Index.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Views/GioiThieu/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lvaVRoaWV1XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Views/Home/Error.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Views/Home/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Views/Home/Index.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Views/Home/Privacy.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Views/LienHe/Index.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Views/LienHe/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGllbkhlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Views/NguoiDung/DangKy.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Views/NguoiDung/DangKy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmd1b2lEdW5nXERhbmdLeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Views/NguoiDung/DangNhap.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Views/NguoiDung/DangNhap.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmd1b2lEdW5nXERhbmdOaGFwLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Views/NguoiDung/QuenMatKhau.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Views/NguoiDung/QuenMatKhau.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmd1b2lEdW5nXFF1ZW5NYXRLaGF1LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Views/NguoiDung/TrangCaNhan.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Views/NguoiDung/TrangCaNhan.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmd1b2lEdW5nXFRyYW5nQ2FOaGFuLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Views/Shared/Error.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Views/Shared/_Footer.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Views/Shared/_Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Views/Shared/_Header.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Views/Shared/_Header.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Views/Shared/_NotificationPartial.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Views/Shared/_NotificationPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RpZmljYXRpb25QYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Views/_ViewImports.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Views/_ViewStart.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Views/Shared/_Layout.cshtml]
+[D:/git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-78ja7rmcu6
