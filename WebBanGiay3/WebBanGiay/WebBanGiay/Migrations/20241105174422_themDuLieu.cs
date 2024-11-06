@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace WebBanGiay.Migrations
 {
-    public partial class sdsssss : Migration
+    public partial class themDuLieu : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -156,6 +156,31 @@ namespace WebBanGiay.Migrations
                         principalTable: "SAN_PHAMs",
                         principalColumn: "ID_SAN_PHAM",
                         onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.InsertData(
+                table: "NGUOI_DUNGs",
+                columns: new[] { "ID_NGUOI_DUNG", "AccessToken", "DIA_CHI", "EMAIL", "GTTT", "GoogleId", "HINH_ANH", "HO_TEN", "MAT_KHAU", "NGAY_TAO", "SDT", "TAI_KHOAN", "TRANG_THAI", "VAI_TRO" },
+                values: new object[,]
+                {
+                    { 1, null, "Địa chỉ 1", "khachhang1@example.com", "CMND", null, "avt1.jpg", "Hồ Huy Linh", "matkhau1", new DateTime(2024, 11, 6, 0, 44, 21, 901, DateTimeKind.Local).AddTicks(3931), "0912345671", "khachhang1", 0, 0 },
+                    { 2, null, "Địa chỉ 2", "khachhang2@example.com", "CMND", null, "avt1.jpg", "Hồ Huy Long", "matkhau2", new DateTime(2024, 11, 6, 0, 44, 21, 901, DateTimeKind.Local).AddTicks(3934), "0912345672", "khachhang2", 0, 0 },
+                    { 3, null, "Địa chỉ 3", "khachhang3@example.com", "CMND", null, "avt1.jpg", "Hồ Huy Quân", "matkhau3", new DateTime(2024, 11, 6, 0, 44, 21, 901, DateTimeKind.Local).AddTicks(3936), "0912345673", "khachhang3", 0, 0 },
+                    { 4, null, "Địa chỉ 4", "khachhang4@example.com", "CMND", null, "avt1.jpg", "Võ Văn Hưng", "matkhau4", new DateTime(2024, 11, 6, 0, 44, 21, 901, DateTimeKind.Local).AddTicks(3937), "0912345674", "khachhang4", 0, 0 },
+                    { 5, null, "Địa chỉ 5", "khachhang5@example.com", "CMND", null, "avt1.jpg", "Phạm Bá Hậu", "matkhau5", new DateTime(2024, 11, 6, 0, 44, 21, 901, DateTimeKind.Local).AddTicks(3938), "0912345675", "khachhang5", 0, 0 },
+                    { 6, null, "Địa chỉ 6", "khachhang6@example.com", "CMND", null, "avt1.jpg", "Nguyễn Quang Quý", "matkhau6", new DateTime(2024, 11, 6, 0, 44, 21, 901, DateTimeKind.Local).AddTicks(3940), "0912345676", "khachhang6", 0, 0 },
+                    { 7, null, "Địa chỉ 7", "khachhang7@example.com", "CMND", null, "avt1.jpg", "Nguyễn Gia Nghi", "matkhau7", new DateTime(2024, 11, 6, 0, 44, 21, 901, DateTimeKind.Local).AddTicks(3943), "0912345677", "khachhang7", 0, 0 },
+                    { 8, null, "Địa chỉ 8", "khachhang8@example.com", "CMND", null, "avt1.jpg", "Nguyễn Phú Hưng", "matkhau8", new DateTime(2024, 11, 6, 0, 44, 21, 901, DateTimeKind.Local).AddTicks(3946), "0912345678", "khachhang8", 0, 0 },
+                    { 9, null, "Địa chỉ 9", "khachhang9@example.com", "CMND", null, "avt1.jpg", "Phạm Phượng", "matkhau9", new DateTime(2024, 11, 6, 0, 44, 21, 901, DateTimeKind.Local).AddTicks(3947), "0912345679", "khachhang9", 0, 0 },
+                    { 10, null, "Địa chỉ 10", "khachhang10@example.com", "CMND", null, "avt1.jpg", "Tạ Minh Tâm", "matkhau10", new DateTime(2024, 11, 6, 0, 44, 21, 901, DateTimeKind.Local).AddTicks(3948), "0912345680", "khachhang10", 0, 0 },
+                    { 11, null, "Địa chỉ Admin 1", "admin1@example.com", "CMND", null, "avt1.jpg", "Võ Văn Hưng", "matkhau11", new DateTime(2024, 11, 6, 0, 44, 21, 901, DateTimeKind.Local).AddTicks(4008), "0912345681", "admin1", 0, 1 },
+                    { 12, null, "Địa chỉ Admin 2", "admin2@example.com", "CMND", null, "avt1.jpg", "Bùi Phương Linh", "matkhau12", new DateTime(2024, 11, 6, 0, 44, 21, 901, DateTimeKind.Local).AddTicks(4010), "0912345682", "admin2", 0, 1 },
+                    { 13, null, "Địa chỉ Admin 3", "admin3@example.com", "CMND", null, "avt1.jpg", "Nguyễn Hoàng Trọng Khôi", "matkhau13", new DateTime(2024, 11, 6, 0, 44, 21, 901, DateTimeKind.Local).AddTicks(4011), "0912345683", "admin3", 0, 1 },
+                    { 14, null, "Địa chỉ Nhân Viên 1", "nhanvien1@example.com", "CMND", null, "avt1.jpg", "Nguyễn Hoàng Anh", "matkhau14", new DateTime(2024, 11, 6, 0, 44, 21, 901, DateTimeKind.Local).AddTicks(4013), "0912345684", "nhanvien1", 0, 2 },
+                    { 15, null, "Địa chỉ Nhân Viên 2", "nhanvien2@example.com", "CMND", null, "avt1.jpg", "Phạm Ngũ Lão", "matkhau15", new DateTime(2024, 11, 6, 0, 44, 21, 901, DateTimeKind.Local).AddTicks(4014), "0912345685", "nhanvien2", 0, 2 },
+                    { 16, null, "Địa chỉ Nhân Viên 3", "nhanvien3@example.com", "CMND", null, "avt1.jpg", "Trần Quốc Toản", "matkhau16", new DateTime(2024, 11, 6, 0, 44, 21, 901, DateTimeKind.Local).AddTicks(4017), "0912345686", "nhanvien3", 0, 2 },
+                    { 17, null, "Địa chỉ Nhân Viên 4", "nhanvien4@example.com", "CMND", null, "avt1.jpg", "Phạm Bá Thiên", "matkhau17", new DateTime(2024, 11, 6, 0, 44, 21, 901, DateTimeKind.Local).AddTicks(4019), "0912345687", "nhanvien4", 0, 2 },
+                    { 18, null, "Địa chỉ Nhân Viên 5", "nhanvien5@example.com", "CMND", null, "avt1.jpg", "Trần Tiến Luật", "matkhau18", new DateTime(2024, 11, 6, 0, 44, 21, 901, DateTimeKind.Local).AddTicks(4020), "0912345688", "nhanvien5", 0, 2 }
                 });
 
             migrationBuilder.CreateIndex(
