@@ -1,0 +1,1484 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241106032108_sdsssss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebBanGiay\\Migrations\\20241106032108_sdsssss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\controllers\\nguoidungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\controllers\\nguoidungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\areas\\admin\\controllers\\nguoidungadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\areas\\admin\\controllers\\nguoidungadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\areas\\admin\\views\\nguoidungadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\areas\\admin\\views\\nguoidungadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\areas\\admin\\views\\sanphamadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\areas\\admin\\views\\sanphamadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\areas\\admin\\views\\sanphamadmin\\suasanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\areas\\admin\\views\\sanphamadmin\\suasanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\models\\sanphammodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\models\\sanphammodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\areas\\admin\\views\\sanphamadmin\\themsanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\areas\\admin\\views\\sanphamadmin\\themsanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\areas\\admin\\controllers\\sanphamadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\areas\\admin\\controllers\\sanphamadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241105165241_sdsssss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\models\\nguoidungmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\models\\nguoidungmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241105164133_sdsssss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\areas\\admin\\views\\nguoidungadmin\\suanguoidung.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\areas\\admin\\views\\nguoidungadmin\\suanguoidung.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241105155421_sdsssss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\areas\\admin\\controllers\\kichthuocadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\areas\\admin\\controllers\\kichthuocadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\areas\\admin\\views\\kichthuocadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\areas\\admin\\views\\kichthuocadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\areas\\admin\\controllers\\mauadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\areas\\admin\\controllers\\mauadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241105153637_sdsssss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\areas\\admin\\views\\nguoidungadmin\\themnguoidung.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\areas\\admin\\views\\nguoidungadmin\\themnguoidung.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\areas\\admin\\views\\kichthuocadmin\\suakichthuoc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\areas\\admin\\views\\kichthuocadmin\\suakichthuoc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\areas\\admin\\controllers\\loaiadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\areas\\admin\\controllers\\loaiadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\repository\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\repository\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\viewmodels\\mausanphamviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\viewmodels\\mausanphamviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\models\\sanphammaumodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\models\\sanphammaumodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\models\\mausanphammodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\models\\mausanphammodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\models\\loaisanphammodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\models\\loaisanphammodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\areas\\admin\\views\\mauadmin\\suamau.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\areas\\admin\\views\\mauadmin\\suamau.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\areas\\admin\\views\\mauadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\areas\\admin\\views\\mauadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\areas\\admin\\views\\nguoidungadmin\\xoanguoidung.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\areas\\admin\\views\\nguoidungadmin\\xoanguoidung.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\areas\\admin\\views\\loaiadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\areas\\admin\\views\\loaiadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\areas\\admin\\controllers\\donhangadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\areas\\admin\\controllers\\donhangadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\areas\\admin\\controllers\\homeadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\areas\\admin\\controllers\\homeadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\areas\\admin\\controllers\\nhanvienadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\areas\\admin\\controllers\\nhanvienadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\areas\\admin\\views\\homeadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\areas\\admin\\views\\homeadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\areas\\admin\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\areas\\admin\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\controllers\\cuahangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\controllers\\cuahangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\controllers\\gioithieucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\controllers\\gioithieucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\controllers\\lienhecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\controllers\\lienhecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\models\\kichthuocsanphammodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\models\\kichthuocsanphammodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\viewmodels\\kichthuocsanphamviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\viewmodels\\kichthuocsanphamviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\viewmodels\\loaisanphamviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\viewmodels\\loaisanphamviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\viewmodels\\vnpaymentresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\viewmodels\\vnpaymentresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\views\\cuahang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\views\\cuahang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\views\\gioithieu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\views\\gioithieu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\views\\lienhe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\views\\lienhe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\views\\nguoidung\\trangcanhan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\views\\nguoidung\\trangcanhan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\views\\nguoidung\\quenmatkhau.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\views\\nguoidung\\quenmatkhau.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\views\\nguoidung\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\views\\nguoidung\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\views\\nguoidung\\dangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\views\\nguoidung\\dangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\areas\\admin\\views\\donhangadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\areas\\admin\\views\\donhangadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\areas\\admin\\views\\loaiadmin\\sualoai.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\areas\\admin\\views\\loaiadmin\\sualoai.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241105071149_sdsssss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241105071028_sdsssss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241105070124_sdsssss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\repository\\authorizationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\repository\\authorizationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\areas\\admin\\views\\nhanvienadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\areas\\admin\\views\\nhanvienadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\models\\lienhemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\models\\lienhemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\models\\quenmatkhaumodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\models\\quenmatkhaumodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\models\\cuahangmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\models\\cuahangmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\models\\gioithieumodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\models\\gioithieumodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\models\\hinhanhmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\models\\hinhanhmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\wwwroot\\admin\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\wwwroot\\admin\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\wwwroot\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\wwwroot\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\areas\\nhanvien\\views\\nguoidungnhanvien\\suanguoidung.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\areas\\nhanvien\\views\\nguoidungnhanvien\\suanguoidung.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\areas\\nhanvien\\controllers\\nguoidungadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\areas\\nhanvien\\controllers\\nguoidungadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\areas\\nhanvien\\views\\shared\\_layoutnhanvien.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\areas\\nhanvien\\views\\shared\\_layoutnhanvien.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\areas\\nhanvien\\controllers\\homenhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\areas\\nhanvien\\controllers\\homenhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\repository\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\repository\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\repository\\fileextensionattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\repository\\fileextensionattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\areas\\admin\\views\\nhanvienadmin\\themnhanvien.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\areas\\admin\\views\\nhanvienadmin\\themnhanvien.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\areas\\admin\\views\\nhanvienadmin\\suanhanvien.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\areas\\admin\\views\\nhanvienadmin\\suanhanvien.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\areas\\nhanvien\\views\\homenhanvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\areas\\nhanvien\\views\\homenhanvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\areas\\admin\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\areas\\admin\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\areas\\nhanvien\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\areas\\nhanvien\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\areas\\nhanvien\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\areas\\nhanvien\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\areas\\admin\\views\\shared\\_notificationpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\areas\\admin\\views\\shared\\_notificationpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\areas\\nhanvien\\views\\nguoidungnhanvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\areas\\nhanvien\\views\\nguoidungnhanvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\areas\\nhanvien\\views\\nguoidungnhanvien\\themnguoidung.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\areas\\nhanvien\\views\\nguoidungnhanvien\\themnguoidung.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\views\\shared\\_notificationpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\views\\shared\\_notificationpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241031133402_sdsssss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\services\\vnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\services\\vnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\services\\ivnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\services\\ivnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\helper\\paymenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\helper\\paymenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\git\\gitdevteam\\webbangiay3\\webbangiay\\webbangiay\\helper\\vnpaylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\helper\\vnpaylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20241106032108_sdsssss.cs",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241106032108_sdsssss.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Migrations\\20241106032108_sdsssss.cs",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241106032108_sdsssss.cs",
+              "RelativeToolTip": "WebBanGiay\\Migrations\\20241106032108_sdsssss.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T03:21:09.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\SanPhamAdmin\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Areas\\Admin\\Views\\SanPhamAdmin\\Index.cshtml",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\SanPhamAdmin\\Index.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Areas\\Admin\\Views\\SanPhamAdmin\\Index.cshtml",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAAAI8AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T02:42:37.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SuaSanPham.cshtml",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\SanPhamAdmin\\SuaSanPham.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Areas\\Admin\\Views\\SanPhamAdmin\\SuaSanPham.cshtml",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\SanPhamAdmin\\SuaSanPham.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Areas\\Admin\\Views\\SanPhamAdmin\\SuaSanPham.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAGUAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T13:51:18.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\NguoiDungAdmin\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Areas\\Admin\\Views\\NguoiDungAdmin\\Index.cshtml",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\NguoiDungAdmin\\Index.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Areas\\Admin\\Views\\NguoiDungAdmin\\Index.cshtml",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAFQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T05:31:54.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NguoiDungAdminController.cs",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Controllers\\NguoiDungAdminController.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Areas\\Admin\\Controllers\\NguoiDungAdminController.cs",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Controllers\\NguoiDungAdminController.cs",
+              "RelativeToolTip": "WebBanGiay\\Areas\\Admin\\Controllers\\NguoiDungAdminController.cs",
+              "ViewState": "AQIAAHAAAAAAAAAAAAAwwH4AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T05:29:34.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NguoiDungController.cs",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Controllers\\NguoiDungController.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Controllers\\NguoiDungController.cs",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Controllers\\NguoiDungController.cs",
+              "RelativeToolTip": "WebBanGiay\\Controllers\\NguoiDungController.cs",
+              "ViewState": "AgIAAGABAAAAAAAAAAAqwFwBAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T06:29:44.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SanPhamAdminController.cs",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Controllers\\SanPhamAdminController.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Areas\\Admin\\Controllers\\SanPhamAdminController.cs",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Controllers\\SanPhamAdminController.cs",
+              "RelativeToolTip": "WebBanGiay\\Areas\\Admin\\Controllers\\SanPhamAdminController.cs",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAEwIkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T02:42:52.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SanPhamModel.cs",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Models\\SanPhamModel.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Models\\SanPhamModel.cs",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Models\\SanPhamModel.cs",
+              "RelativeToolTip": "WebBanGiay\\Models\\SanPhamModel.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAwCIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T09:22:33.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20241105164133_sdsssss.cs",
+              "DocumentMoniker": "D:\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241105164133_sdsssss.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241105164133_sdsssss.cs",
+              "ToolTip": "D:\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241105164133_sdsssss.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241105164133_sdsssss.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T16:41:33.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20241105165241_sdsssss.cs",
+              "DocumentMoniker": "D:\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241105165241_sdsssss.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241105165241_sdsssss.cs",
+              "ToolTip": "D:\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241105165241_sdsssss.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241105165241_sdsssss.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T16:52:41.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ThemSanPham.cshtml",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\SanPhamAdmin\\ThemSanPham.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Areas\\Admin\\Views\\SanPhamAdmin\\ThemSanPham.cshtml",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\SanPhamAdmin\\ThemSanPham.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Areas\\Admin\\Views\\SanPhamAdmin\\ThemSanPham.cshtml",
+              "ViewState": "AQIAACgAAAAAAAAAAAAAADEAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T13:46:50.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAACgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T03:27:50.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SuaNguoiDung.cshtml",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\NguoiDungAdmin\\SuaNguoiDung.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Areas\\Admin\\Views\\NguoiDungAdmin\\SuaNguoiDung.cshtml",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\NguoiDungAdmin\\SuaNguoiDung.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Areas\\Admin\\Views\\NguoiDungAdmin\\SuaNguoiDung.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T05:37:10.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NguoiDungModel.cs",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Models\\NguoiDungModel.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Models\\NguoiDungModel.cs",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Models\\NguoiDungModel.cs",
+              "RelativeToolTip": "WebBanGiay\\Models\\NguoiDungModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T06:29:28.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20241105155421_sdsssss.cs",
+              "DocumentMoniker": "D:\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241105155421_sdsssss.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241105155421_sdsssss.cs",
+              "ToolTip": "D:\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241105155421_sdsssss.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241105155421_sdsssss.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T15:54:21.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MauAdminController.cs",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Controllers\\MauAdminController.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Areas\\Admin\\Controllers\\MauAdminController.cs",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Controllers\\MauAdminController.cs",
+              "RelativeToolTip": "WebBanGiay\\Areas\\Admin\\Controllers\\MauAdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T02:48:18.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\KichThuocAdmin\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Areas\\Admin\\Views\\KichThuocAdmin\\Index.cshtml",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\KichThuocAdmin\\Index.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Areas\\Admin\\Views\\KichThuocAdmin\\Index.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T02:49:06.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "KichThuocAdminController.cs",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Controllers\\KichThuocAdminController.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Areas\\Admin\\Controllers\\KichThuocAdminController.cs",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Controllers\\KichThuocAdminController.cs",
+              "RelativeToolTip": "WebBanGiay\\Areas\\Admin\\Controllers\\KichThuocAdminController.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAuwBgAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T02:48:03.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20241105153637_sdsssss.cs",
+              "DocumentMoniker": "D:\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241105153637_sdsssss.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241105153637_sdsssss.cs",
+              "ToolTip": "D:\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241105153637_sdsssss.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241105153637_sdsssss.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T15:36:38.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ThemNguoiDung.cshtml",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\NguoiDungAdmin\\ThemNguoiDung.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Areas\\Admin\\Views\\NguoiDungAdmin\\ThemNguoiDung.cshtml",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\NguoiDungAdmin\\ThemNguoiDung.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Areas\\Admin\\Views\\NguoiDungAdmin\\ThemNguoiDung.cshtml",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T05:36:54.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SuaKichThuoc.cshtml",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\KichThuocAdmin\\SuaKichThuoc.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Areas\\Admin\\Views\\KichThuocAdmin\\SuaKichThuoc.cshtml",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\KichThuocAdmin\\SuaKichThuoc.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Areas\\Admin\\Views\\KichThuocAdmin\\SuaKichThuoc.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAB2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T12:07:55.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LoaiAdminController.cs",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Controllers\\LoaiAdminController.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Areas\\Admin\\Controllers\\LoaiAdminController.cs",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Controllers\\LoaiAdminController.cs",
+              "RelativeToolTip": "WebBanGiay\\Areas\\Admin\\Controllers\\LoaiAdminController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T02:47:49.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Repository\\DataContext.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Repository\\DataContext.cs",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Repository\\DataContext.cs",
+              "RelativeToolTip": "WebBanGiay\\Repository\\DataContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T06:39:39.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MauSanPhamViewModel.cs",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\ViewModels\\MauSanPhamViewModel.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\ViewModels\\MauSanPhamViewModel.cs",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\ViewModels\\MauSanPhamViewModel.cs",
+              "RelativeToolTip": "WebBanGiay\\ViewModels\\MauSanPhamViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T09:43:24.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SanPhamMauModel.cs",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Models\\SanPhamMauModel.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Models\\SanPhamMauModel.cs",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Models\\SanPhamMauModel.cs",
+              "RelativeToolTip": "WebBanGiay\\Models\\SanPhamMauModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T10:11:01.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MauSanPhamModel.cs",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Models\\MauSanPhamModel.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Models\\MauSanPhamModel.cs",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Models\\MauSanPhamModel.cs",
+              "RelativeToolTip": "WebBanGiay\\Models\\MauSanPhamModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T09:24:05.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LoaiSanPhamModel.cs",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Models\\LoaiSanPhamModel.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Models\\LoaiSanPhamModel.cs",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Models\\LoaiSanPhamModel.cs",
+              "RelativeToolTip": "WebBanGiay\\Models\\LoaiSanPhamModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T09:25:01.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SuaMau.cshtml",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\MauAdmin\\SuaMau.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Areas\\Admin\\Views\\MauAdmin\\SuaMau.cshtml",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\MauAdmin\\SuaMau.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Areas\\Admin\\Views\\MauAdmin\\SuaMau.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAACDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T03:34:18.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\MauAdmin\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Areas\\Admin\\Views\\MauAdmin\\Index.cshtml",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\MauAdmin\\Index.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Areas\\Admin\\Views\\MauAdmin\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T02:48:49.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "XoaNguoiDung.cshtml",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\NguoiDungAdmin\\XoaNguoiDung.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Areas\\Admin\\Views\\NguoiDungAdmin\\XoaNguoiDung.cshtml",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\NguoiDungAdmin\\XoaNguoiDung.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Areas\\Admin\\Views\\NguoiDungAdmin\\XoaNguoiDung.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T08:09:14.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DonHangAdminController.cs",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Controllers\\DonHangAdminController.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Areas\\Admin\\Controllers\\DonHangAdminController.cs",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Controllers\\DonHangAdminController.cs",
+              "RelativeToolTip": "WebBanGiay\\Areas\\Admin\\Controllers\\DonHangAdminController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T02:44:35.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\LoaiAdmin\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Areas\\Admin\\Views\\LoaiAdmin\\Index.cshtml",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\LoaiAdmin\\Index.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Areas\\Admin\\Views\\LoaiAdmin\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T02:48:31.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "HomeAdminController.cs",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Controllers\\HomeAdminController.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Areas\\Admin\\Controllers\\HomeAdminController.cs",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Controllers\\HomeAdminController.cs",
+              "RelativeToolTip": "WebBanGiay\\Areas\\Admin\\Controllers\\HomeAdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T08:19:54.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "NhanVienAdminController.cs",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Controllers\\NhanVienAdminController.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Areas\\Admin\\Controllers\\NhanVienAdminController.cs",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Controllers\\NhanVienAdminController.cs",
+              "RelativeToolTip": "WebBanGiay\\Areas\\Admin\\Controllers\\NhanVienAdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T22:54:45.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\HomeAdmin\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Areas\\Admin\\Views\\HomeAdmin\\Index.cshtml",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\HomeAdmin\\Index.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Areas\\Admin\\Views\\HomeAdmin\\Index.cshtml",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAAAJAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T08:19:38.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "_LayoutAdmin.cshtml",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T05:26:53.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Areas\\Admin\\_ViewImports.cshtml",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\_ViewImports.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Areas\\Admin\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T16:37:08.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CuaHangController.cs",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Controllers\\CuaHangController.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Controllers\\CuaHangController.cs",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Controllers\\CuaHangController.cs",
+              "RelativeToolTip": "WebBanGiay\\Controllers\\CuaHangController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T06:26:23.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "GioiThieuController.cs",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Controllers\\GioiThieuController.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Controllers\\GioiThieuController.cs",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Controllers\\GioiThieuController.cs",
+              "RelativeToolTip": "WebBanGiay\\Controllers\\GioiThieuController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T06:12:20.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebBanGiay\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T04:36:47.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "LienHeController.cs",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Controllers\\LienHeController.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Controllers\\LienHeController.cs",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Controllers\\LienHeController.cs",
+              "RelativeToolTip": "WebBanGiay\\Controllers\\LienHeController.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAADgvwwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T03:23:00.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "KichThuocSanPhamModel.cs",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Models\\KichThuocSanPhamModel.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Models\\KichThuocSanPhamModel.cs",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Models\\KichThuocSanPhamModel.cs",
+              "RelativeToolTip": "WebBanGiay\\Models\\KichThuocSanPhamModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T09:24:21.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "KichThuocSanPhamViewModel.cs",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\ViewModels\\KichThuocSanPhamViewModel.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\ViewModels\\KichThuocSanPhamViewModel.cs",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\ViewModels\\KichThuocSanPhamViewModel.cs",
+              "RelativeToolTip": "WebBanGiay\\ViewModels\\KichThuocSanPhamViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T09:43:48.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "LoaiSanPhamViewModel.cs",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\ViewModels\\LoaiSanPhamViewModel.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\ViewModels\\LoaiSanPhamViewModel.cs",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\ViewModels\\LoaiSanPhamViewModel.cs",
+              "RelativeToolTip": "WebBanGiay\\ViewModels\\LoaiSanPhamViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T09:43:07.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "VnPaymentResponseModel.cs",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\ViewModels\\VnPaymentResponseModel.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\ViewModels\\VnPaymentResponseModel.cs",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\ViewModels\\VnPaymentResponseModel.cs",
+              "RelativeToolTip": "WebBanGiay\\ViewModels\\VnPaymentResponseModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T06:42:31.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Views\\CuaHang\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Views\\CuaHang\\Index.cshtml",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Views\\CuaHang\\Index.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Views\\CuaHang\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T06:25:27.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Views\\GioiThieu\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Views\\GioiThieu\\Index.cshtml",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Views\\GioiThieu\\Index.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Views\\GioiThieu\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T06:12:38.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Views\\LienHe\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Views\\LienHe\\Index.cshtml",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Views\\LienHe\\Index.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Views\\LienHe\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T03:11:36.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "TrangCaNhan.cshtml",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Views\\NguoiDung\\TrangCaNhan.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Views\\NguoiDung\\TrangCaNhan.cshtml",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Views\\NguoiDung\\TrangCaNhan.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Views\\NguoiDung\\TrangCaNhan.cshtml",
+              "ViewState": "AQIAAJ8AAAAAAAAAAAAAAFQAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T06:29:10.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "QuenMatKhau.cshtml",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Views\\NguoiDung\\QuenMatKhau.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Views\\NguoiDung\\QuenMatKhau.cshtml",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Views\\NguoiDung\\QuenMatKhau.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Views\\NguoiDung\\QuenMatKhau.cshtml",
+              "ViewState": "AQIAAIEAAAAAAAAAAAAAAIEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T13:21:50.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "DangNhap.cshtml",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Views\\NguoiDung\\DangNhap.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Views\\NguoiDung\\DangNhap.cshtml",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Views\\NguoiDung\\DangNhap.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Views\\NguoiDung\\DangNhap.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T06:28:37.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAKUAAAAAAAAAAAAAAGsAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T02:44:31.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\appsettings.json",
+              "RelativeDocumentMoniker": "WebBanGiay\\appsettings.json",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\appsettings.json",
+              "RelativeToolTip": "WebBanGiay\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-29T06:35:24.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "DangKy.cshtml",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Views\\NguoiDung\\DangKy.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Views\\NguoiDung\\DangKy.cshtml",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Views\\NguoiDung\\DangKy.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Views\\NguoiDung\\DangKy.cshtml",
+              "ViewState": "AQIAABoAAAAAAAAAAAArwGMAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T06:28:24.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Program.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Program.cs",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Program.cs",
+              "RelativeToolTip": "WebBanGiay\\Program.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T06:37:47.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\DonHangAdmin\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Areas\\Admin\\Views\\DonHangAdmin\\Index.cshtml",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\DonHangAdmin\\Index.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Areas\\Admin\\Views\\DonHangAdmin\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T02:44:57.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "SuaLoai.cshtml",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\LoaiAdmin\\SuaLoai.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Areas\\Admin\\Views\\LoaiAdmin\\SuaLoai.cshtml",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\LoaiAdmin\\SuaLoai.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Areas\\Admin\\Views\\LoaiAdmin\\SuaLoai.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T03:56:52.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "20241105070124_sdsssss.cs",
+              "DocumentMoniker": "D:\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241105070124_sdsssss.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241105070124_sdsssss.cs",
+              "ToolTip": "D:\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241105070124_sdsssss.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241105070124_sdsssss.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T07:01:24.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "20241105071028_sdsssss.cs",
+              "DocumentMoniker": "D:\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241105071028_sdsssss.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241105071028_sdsssss.cs",
+              "ToolTip": "D:\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241105071028_sdsssss.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241105071028_sdsssss.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T07:10:28.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "20241105071149_sdsssss.cs",
+              "DocumentMoniker": "D:\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241105071149_sdsssss.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241105071149_sdsssss.cs",
+              "ToolTip": "D:\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241105071149_sdsssss.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241105071149_sdsssss.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T07:11:49.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "AuthorizationMiddleware.cs",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Repository\\AuthorizationMiddleware.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Repository\\AuthorizationMiddleware.cs",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Repository\\AuthorizationMiddleware.cs",
+              "RelativeToolTip": "WebBanGiay\\Repository\\AuthorizationMiddleware.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwCgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T00:49:42.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\NhanVienAdmin\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Areas\\Admin\\Views\\NhanVienAdmin\\Index.cshtml",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\NhanVienAdmin\\Index.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Areas\\Admin\\Views\\NhanVienAdmin\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T05:34:27.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "LienHeModel.cs",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Models\\LienHeModel.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Models\\LienHeModel.cs",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Models\\LienHeModel.cs",
+              "RelativeToolTip": "WebBanGiay\\Models\\LienHeModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T03:23:32.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "QuenMatKhauModel.cs",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Models\\QuenMatKhauModel.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Models\\QuenMatKhauModel.cs",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Models\\QuenMatKhauModel.cs",
+              "RelativeToolTip": "WebBanGiay\\Models\\QuenMatKhauModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T13:20:56.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "CuaHangModel.cs",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Models\\CuaHangModel.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Models\\CuaHangModel.cs",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Models\\CuaHangModel.cs",
+              "RelativeToolTip": "WebBanGiay\\Models\\CuaHangModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T06:26:07.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "HinhAnhModel.cs",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Models\\HinhAnhModel.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Models\\HinhAnhModel.cs",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Models\\HinhAnhModel.cs",
+              "RelativeToolTip": "WebBanGiay\\Models\\HinhAnhModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T09:23:18.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "GioiThieuModel.cs",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Models\\GioiThieuModel.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Models\\GioiThieuModel.cs",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Models\\GioiThieuModel.cs",
+              "RelativeToolTip": "WebBanGiay\\Models\\GioiThieuModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T06:11:52.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "style.css",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\css\\style.css",
+              "RelativeDocumentMoniker": "WebBanGiay\\wwwroot\\Admin\\css\\style.css",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\Admin\\css\\style.css",
+              "RelativeToolTip": "WebBanGiay\\wwwroot\\Admin\\css\\style.css",
+              "ViewState": "AQIAAHkAAAAAAAAAAAAlwI8AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-03T05:06:38.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "SuaNguoiDung.cshtml",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\NhanVien\\Views\\NguoiDungNhanVien\\SuaNguoiDung.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Areas\\NhanVien\\Views\\NguoiDungNhanVien\\SuaNguoiDung.cshtml",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\NhanVien\\Views\\NguoiDungNhanVien\\SuaNguoiDung.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Areas\\NhanVien\\Views\\NguoiDungNhanVien\\SuaNguoiDung.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T01:22:59.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "bootstrap.min.css",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\css\\bootstrap.min.css",
+              "RelativeDocumentMoniker": "WebBanGiay\\wwwroot\\css\\bootstrap.min.css",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\css\\bootstrap.min.css",
+              "RelativeToolTip": "WebBanGiay\\wwwroot\\css\\bootstrap.min.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAB5TAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-03T03:02:14.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "style.css",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "WebBanGiay\\wwwroot\\css\\style.css",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "WebBanGiay\\wwwroot\\css\\style.css",
+              "ViewState": "AQIAAE4AAAAAAAAAAIBJwGEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-03T05:02:50.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "NguoiDungAdminController.cs",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\NhanVien\\Controllers\\NguoiDungAdminController.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Areas\\NhanVien\\Controllers\\NguoiDungAdminController.cs",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\NhanVien\\Controllers\\NguoiDungAdminController.cs",
+              "RelativeToolTip": "WebBanGiay\\Areas\\NhanVien\\Controllers\\NguoiDungAdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T01:20:50.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "_LayoutNhanVien.cshtml",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\NhanVien\\Views\\Shared\\_LayoutNhanVien.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Areas\\NhanVien\\Views\\Shared\\_LayoutNhanVien.cshtml",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\NhanVien\\Views\\Shared\\_LayoutNhanVien.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Areas\\NhanVien\\Views\\Shared\\_LayoutNhanVien.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T01:24:03.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "HomeNhanVienController.cs",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\NhanVien\\Controllers\\HomeNhanVienController.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Areas\\NhanVien\\Controllers\\HomeNhanVienController.cs",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\NhanVien\\Controllers\\HomeNhanVienController.cs",
+              "RelativeToolTip": "WebBanGiay\\Areas\\NhanVien\\Controllers\\HomeNhanVienController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T01:20:36.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "FileExtensionAttribute.cs",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Repository\\FileExtensionAttribute.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Repository\\FileExtensionAttribute.cs",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Repository\\FileExtensionAttribute.cs",
+              "RelativeToolTip": "WebBanGiay\\Repository\\FileExtensionAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T06:40:08.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "SessionExtensions.cs",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Repository\\SessionExtensions.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Repository\\SessionExtensions.cs",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Repository\\SessionExtensions.cs",
+              "RelativeToolTip": "WebBanGiay\\Repository\\SessionExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T06:40:17.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "ThemNhanVien.cshtml",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\NhanVienAdmin\\ThemNhanVien.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Areas\\Admin\\Views\\NhanVienAdmin\\ThemNhanVien.cshtml",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\NhanVienAdmin\\ThemNhanVien.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Areas\\Admin\\Views\\NhanVienAdmin\\ThemNhanVien.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T05:35:46.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "SuaNhanVien.cshtml",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\NhanVienAdmin\\SuaNhanVien.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Areas\\Admin\\Views\\NhanVienAdmin\\SuaNhanVien.cshtml",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\NhanVienAdmin\\SuaNhanVien.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Areas\\Admin\\Views\\NhanVienAdmin\\SuaNhanVien.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T05:36:01.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\NhanVien\\Views\\HomeNhanVien\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Areas\\NhanVien\\Views\\HomeNhanVien\\Index.cshtml",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\NhanVien\\Views\\HomeNhanVien\\Index.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Areas\\NhanVien\\Views\\HomeNhanVien\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T01:22:07.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T05:27:38.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\NhanVien\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Areas\\NhanVien\\_ViewImports.cshtml",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\NhanVien\\_ViewImports.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Areas\\NhanVien\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T16:39:23.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\NhanVien\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Areas\\NhanVien\\_ViewStart.cshtml",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\NhanVien\\_ViewStart.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Areas\\NhanVien\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T16:41:26.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "_NotificationPartial.cshtml",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\Shared\\_NotificationPartial.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Areas\\Admin\\Views\\Shared\\_NotificationPartial.cshtml",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\Shared\\_NotificationPartial.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Areas\\Admin\\Views\\Shared\\_NotificationPartial.cshtml",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAUwB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T05:26:57.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\NhanVien\\Views\\NguoiDungNhanVien\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Areas\\NhanVien\\Views\\NguoiDungNhanVien\\Index.cshtml",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\NhanVien\\Views\\NguoiDungNhanVien\\Index.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Areas\\NhanVien\\Views\\NguoiDungNhanVien\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T01:22:16.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "ThemNguoiDung.cshtml",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\NhanVien\\Views\\NguoiDungNhanVien\\ThemNguoiDung.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Areas\\NhanVien\\Views\\NguoiDungNhanVien\\ThemNguoiDung.cshtml",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Areas\\NhanVien\\Views\\NguoiDungNhanVien\\ThemNguoiDung.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Areas\\NhanVien\\Views\\NguoiDungNhanVien\\ThemNguoiDung.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T01:22:44.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "_Footer.cshtml",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Views\\Shared\\_Footer.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Views\\Shared\\_Footer.cshtml",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Views\\Shared\\_Footer.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Views\\Shared\\_Footer.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T02:46:37.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "_NotificationPartial.cshtml",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Views\\Shared\\_NotificationPartial.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Views\\Shared\\_NotificationPartial.cshtml",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Views\\Shared\\_NotificationPartial.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Views\\Shared\\_NotificationPartial.cshtml",
+              "ViewState": "AQIAABEAAAAAAAAAAAAUwDYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T07:49:20.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "20241031133402_sdsssss.cs",
+              "DocumentMoniker": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241031133402_sdsssss.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241031133402_sdsssss.cs",
+              "ToolTip": "D:\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241031133402_sdsssss.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\c4\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Migrations\\20241031133402_sdsssss.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T13:34:02.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "VnPayService.cs",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Services\\VnPayService.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Services\\VnPayService.cs",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Services\\VnPayService.cs",
+              "RelativeToolTip": "WebBanGiay\\Services\\VnPayService.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAIBJwAMAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T06:38:52.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "IVnPayService.cs",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Services\\IVnPayService.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Services\\IVnPayService.cs",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Services\\IVnPayService.cs",
+              "RelativeToolTip": "WebBanGiay\\Services\\IVnPayService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T06:38:41.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "PaymentType.cs",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Helper\\PaymentType.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Helper\\PaymentType.cs",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Helper\\PaymentType.cs",
+              "RelativeToolTip": "WebBanGiay\\Helper\\PaymentType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T06:41:15.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "VnPayLibrary.cs",
+              "DocumentMoniker": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Helper\\VnPayLibrary.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Helper\\VnPayLibrary.cs",
+              "ToolTip": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\Helper\\VnPayLibrary.cs",
+              "RelativeToolTip": "WebBanGiay\\Helper\\VnPayLibrary.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T06:41:24.49Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
