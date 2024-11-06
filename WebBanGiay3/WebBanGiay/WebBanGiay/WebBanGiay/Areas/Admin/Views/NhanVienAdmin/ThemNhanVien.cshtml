@@ -1,4 +1,119 @@
-﻿@{
-    ViewData["Title"] = "Thêm nhân viên";
+﻿@model WebBanGiay.ViewModels.KichThuocSanPhamViewModel
+
+@{
+    ViewData["Title"] = "Quản lý kích thước Admin";
     Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="container">
+    <div class="page-inner">
+        <div class="page-header"></div>
+        <div class="row">
+            <div class="col-md-12" style="margin: 50px 0px 50px 0px;">
+                <div class="card">
+                    <div class="card-header" style="background-color: #eb1515; border-radius: 5px 5px 0px 0px;">
+                        <div class="d-flex align-items-center">
+                            <h4 class="card-title">Kích thước</h4>
+                            <button class="btn btn-primary btn-round ms-auto" data-bs-toggle="modal" data-bs-target="#addRowModal">
+                                <i class="fa fa-plus"></i> Thêm kích thước
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="modal fade" id="addRowModal" tabindex="-1" role="dialog" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header border-0" style="background-color: #eb1515; border-radius: 5px 5px 0px 0px;">
+                                        <h5 class="modal-title">
+                                            <span class="fw-mediumbold"> Thêm</span>
+                                            <span class="fw-light"> kích thước</span>
+                                        </h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form asp-action="ThemKichThuoc" method="post" id="createForm">
+                                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                            <div class="form-group">
+                                                <label asp-for="KichThuoc.TEN_KICH_THUOC" class="control-label">Tên kích thước</label>
+                                                <input asp-for="KichThuoc.TEN_KICH_THUOC" class="form-control" style="background-color: #fff; color: #000" />
+                                                <span asp-validation-for="KichThuoc.TEN_KICH_THUOC" class="text-danger"></span>
+                                            </div>
+                                            <div class="modal-footer border-0">
+                                                <button type="submit" class="btn btn-primary">Thêm</button>
+                                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Đóng</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="table-responsive">
+                            <table id="add-row" class="display table table-striped table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>STT</th>
+                                        <th>Tên kích thước</th>
+                                        <th style="width: 10%">Thao tác</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model.DanhSachKichThuoc)
+                                    {
+                                        <tr>
+                                            <td>@item.ID_KICH_THUOC</td>
+                                            <td>@item.TEN_KICH_THUOC</td>
+                                            <td>
+                                                <div class="form-button-action">
+                                                    <a style="background-color: #fcf000; color: #000; padding: 2px 8px 2px 8px;" type="button" class="btn btn-link btn-primary btn-lg" asp-controller="KichThuocAdmin" asp-action="SuaKichThuoc" asp-route-id="@item.ID_KICH_THUOC">
+                                                        <i class="fa fa-edit"></i> Sửa
+                                                    </a>
+                                                    <button style="background-color: #eb1515; color: #000; padding: 4px 16px 4px 16px;" type="button" class="btn btn-link btn-danger" data-bs-toggle="modal" data-bs-target="#deleteRowModal" onclick="setDeleteId(@item.ID_KICH_THUOC)">
+                                                        <i class="bi bi-trash-fill"></i> Xóa
+                                                    </button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="modal fade" id="deleteRowModal" tabindex="-1" role="dialog" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header border-0" style="background-color: #eb1515; border-radius: 5px 5px 0px 0px;">
+                                        <h5 class="modal-title">
+                                            <span class="fw-mediumbold"> Xóa</span>
+                                            <span class="fw-light"> Kích thước</span>
+                                        </h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form asp-action="XoaKichThuoc" method="post">
+                                            <input type="hidden" id="deleteId" name="id" />
+                                            <p>Bạn có chắc chắn muốn xóa kích thước này?</p>
+                                            <div class="modal-footer border-0">
+                                                <button type="submit" class="btn btn-primary">Xóa</button>
+                                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Đóng</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                        <script>
+                            function setDeleteId(id) {
+                                $('#deleteId').val(id);
+                            }
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@{
+    await Html.RenderPartialAsync("_ValidationScriptsPartial");
 }
