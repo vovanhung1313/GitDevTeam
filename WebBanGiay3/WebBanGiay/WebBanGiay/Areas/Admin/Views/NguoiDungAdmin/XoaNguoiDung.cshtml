@@ -4,40 +4,63 @@
     Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
 }
 
-<h1>@ViewData["Title"]</h1>
+<style>
+    .container {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
 
-<h3>Bạn có chắc chắn muốn xóa người dùng này?</h3>
-<div>
-    <h4>NguoiDungModel</h4>
-    <hr />
-    <dl class="row">
-        <dt class="col-sm-2">Hình ảnh</dt>
-        <dd class="col-sm-10">@Model.HINH_ANH</dd>
-        <dt class="col-sm-2">Họ tên</dt>
-        <dd class="col-sm-10">@Model.HO_TEN</dd>
-        <dt class="col-sm-2">Số điện thoại</dt>
-        <dd class="col-sm-10">@Model.SDT</dd>
-        <dt class="col-sm-2">GTTT</dt>
-        <dd class="col-sm-10">@Model.GTTT</dd>
-        <dt class="col-sm-2">Email</dt>
-        <dd class="col-sm-10">@Model.EMAIL</dd>
-        <dt class="col-sm-2">Tài khoản</dt>
-        <dd class="col-sm-10">@Model.TAI_KHOAN</dd>
-        <dt class="col-sm-2">Vai trò</dt>
-        <dd class="col-sm-10">@Model.VAI_TRO</dd>
-        <dt class="col-sm-2">Ngày tạo</dt>
-        <dd class="col-sm-10">@Model.NGAY_TAO</dd>
-        <dt class="col-sm-2">Trạng thái</dt>
-        <dd class="col-sm-10">@Model.TRANG_THAI</dd>
-        <dt class="col-sm-2">Địa chỉ</dt>
-        <dd class="col-sm-10">@Model.DIA_CHI</dd>
-    </dl>
+    .btn-danger {
+        background-color: #eb1515;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
 
-    <form asp-action="XoaNguoiDung" method="post">
-        <input type="hidden" asp-for="ID_NGUOI_DUNG" />
-        <input type="submit" value="Xóa" class="btn btn-danger" />
-        <a asp-action="Index" class="btn btn-primary">Hủy bỏ</a>
-    </form>
+        .btn-danger:hover {
+            background-color: #d00000;
+            transition: background-color 0.3s;
+        }
+
+    .btn-primary {
+        margin-left: 10px;
+    }
+</style>
+
+<div class="container">
+    <h1 class="text-center">@ViewData["Title"]</h1>
+    <h3 class="text-center">Bạn có chắc chắn muốn xóa người dùng này?</h3>
+    <div>
+        <h4>Thông tin người dùng</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">Hình ảnh</dt>
+            <dd class="col-sm-10">@Model.HINH_ANH</dd>
+            <dt class="col-sm-2">Họ tên</dt>
+            <dd class="col-sm-10">@Model.HO_TEN</dd>
+            <dt class="col-sm-2">Số điện thoại</dt>
+            <dd class="col-sm-10">@Model.SDT</dd>
+            <dt class="col-sm-2">GTTT</dt>
+            <dd class="col-sm-10">@Model.GTTT</dd>
+            <dt class="col-sm-2">Email</dt>
+            <dd class="col-sm-10">@Model.EMAIL</dd>
+            <dt class="col-sm-2">Tài khoản</dt>
+            <dd class="col-sm-10">@Model.TAI_KHOAN</dd>
+            <dt class="col-sm-2">Vai trò</dt>
+            <dd class="col-sm-10">@Model.VAI_TRO</dd>
+            <dt class="col-sm-2">Ngày tạo</dt>
+            <dd class="col-sm-10">@Model.NGAY_TAO</dd>
+            <dt class="col-sm-2">Trạng thái</dt>
+            <dd class="col-sm-10">@Model.TRANG_THAI</dd>
+            <dt class="col-sm-2">Địa chỉ</dt>
+            <dd class="col-sm-10">@Model.DIA_CHI</dd>
+        </dl>
+
+        <form asp-action="XoaNguoiDung" method="post" class="text-center">
+            <input type="hidden" asp-for="ID_NGUOI_DUNG" />
+            <input type="submit" value="Xóa" class="btn btn-danger" />
+            <a asp-action="Index" class="btn btn-primary">Hủy bỏ</a>
+        </form>
+    </div>
 </div>
-
-

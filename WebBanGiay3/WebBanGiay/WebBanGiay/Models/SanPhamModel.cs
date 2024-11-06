@@ -13,22 +13,27 @@ namespace WebBanGiay.Models
         public string TEN_SAN_PHAM { get; set; }
 
         public int ID_LOAI { get; set; }
-        [ForeignKey("ID_LOAI_SAN_PHAM")]
+        [ForeignKey("ID_LOAI")]
         public LoaiSanPhamModel? TEN_LOAI { get; set; }
         public int ID_KICH_THUOC { get; set; }
         [ForeignKey("ID_KICH_THUOC")]
         public KichThuocSanPhamModel? TEN_KICH_THUOC { get; set; }
 
-        [Required(ErrorMessage = "Không được để chống số lượng.")]
-        [Range(1, int.MaxValue, ErrorMessage = "Số lượng không được âm")]
+        [Required(ErrorMessage = "Không được để trống số lượng.")]
+        [Range(1, int.MaxValue, ErrorMessage = "Số lượng phải là số nguyên dương.")]
+        [RegularExpression(@"^\d+$", ErrorMessage = "Số lượng phải là số nguyên dương.")]
         public int SO_LUONG { get; set; }
+
         [Required(ErrorMessage = "Không được để trống giá nhập.")]
-        [Range(1, double.MaxValue, ErrorMessage = "Giá nhập không được âm.")]
-        public decimal GIA_NHAP { get; set; }
+        [Range(1, int.MaxValue, ErrorMessage = "Giá nhập phải là số nguyên dương.")]
+        [RegularExpression(@"^\d+$", ErrorMessage = "Giá nhập phải là số nguyên dương.")]
+        public int GIA_NHAP { get; set; }
 
         [Required(ErrorMessage = "Không được để trống giá bán.")]
-        [Range(1, double.MaxValue, ErrorMessage = "Giá bán không được âm.")]
-        public decimal GIA_BAN { get; set; }
+        [Range(1, int.MaxValue, ErrorMessage = "Giá bán phải là số nguyên dương.")]
+        [RegularExpression(@"^\d+$", ErrorMessage = "Giá bán phải là số nguyên dương.")]
+        public int GIA_BAN { get; set; }
+
 
         [Required(ErrorMessage = "Không được để chống chất liệu.")]
         public string CHAT_LIEU { get; set; }
@@ -38,7 +43,7 @@ namespace WebBanGiay.Models
 
         public ICollection<HinhAnhModel>? HINH_ANH { get; set; }
 
-        public ICollection<MauSanPhamModel>? MauSanPham { get; set; }
+        public ICollection<SanPhamMauModel>? SanPhamMau { get; set; }
 
         [NotMapped]
         public IFormFile? HinhAnhTaiLen { get; set; }

@@ -11,7 +11,6 @@ public class LienHeController : Controller
         _emailService = emailService;
     }
 
-    // Hiển thị form liên hệ
     public IActionResult Index()
     {
         return View(new LienHeModel());
@@ -27,19 +26,19 @@ public class LienHeController : Controller
 
             try
             {
-                await _emailService.SendEmailAsync("nguyenhuythien9a1@gmail.com", subject, body); // Gửi đến địa chỉ email của bạn
+                await _emailService.SendEmailAsync("nguyenhuythien9a1@gmail.com", subject, body); 
 
                 TempData["ThanhCong"] = "Tin nhắn của bạn đã được gửi thành công!";
             }
             catch (Exception ex)
             {
                 TempData["ThatBai"] = "Có lỗi xảy ra khi gửi tin nhắn. Vui lòng thử lại.";
-                // Bạn có thể ghi log lỗi ở đây nếu cần
+
             }
 
-            return RedirectToAction("Index"); // Thay đổi tên action phù hợp
+            return RedirectToAction("Index"); 
         }
 
-        return View(model); // Trả về view với model nếu có lỗi
+        return View(model);
     }
 }

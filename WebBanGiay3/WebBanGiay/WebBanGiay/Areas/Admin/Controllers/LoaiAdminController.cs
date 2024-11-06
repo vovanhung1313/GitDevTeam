@@ -5,9 +5,7 @@ using System.Threading.Tasks;
 using WebBanGiay.Models;
 using WebBanGiay.Repositoty;
 using WebBanGiay.ViewModels;
-using WebBanGiay.Models;
-using WebBanGiay.Repositoty;
-using WebBanGiay.ViewModels;
+
 
 namespace WebBanGiay.Areas.Admin.Controllers
 {
