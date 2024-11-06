@@ -1,4 +1,57 @@
-﻿@{
-    ViewData["Title"] = "Sửa nhân viên";
-    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+﻿@model WebBanGiay.Models.NguoiDungModel
+@{
+    ViewData["Title"] = "Sửa thông tin nhân viên";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml"; // Đường dẫn đến layout của bạn
+}
+
+<div class="container">
+    <div class="page-inner">
+        <div class="page-header">
+            <h4 class="page-title">Sửa thông tin nhân viên</h4>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <form asp-action="SuaNhanVien" method="post">
+                            <input type="hidden" asp-for="ID_NGUOI_DUNG" />
+                            <div class="form-group">
+                                <label asp-for="TAI_KHOAN"></label>
+                                <input asp-for="TAI_KHOAN" class="form-control" />
+                                <span asp-validation-for="TAI_KHOAN" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="HO_TEN"></label>
+                                <input asp-for="HO_TEN" class="form-control" />
+                                <span asp-validation-for="HO_TEN" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="SDT"></label>
+                                <input asp-for="SDT" class="form-control" />
+                                <span asp-validation-for="SDT" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="DIA_CHI"></label>
+                                <input asp-for="DIA_CHI" class="form-control" />
+                                <span asp-validation-for="DIA_CHI" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="EMAIL"></label>
+                                <input asp-for="EMAIL" class="form-control" />
+                                <span asp-validation-for="EMAIL" class="text-danger"></span>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Lưu thông tin</button>
+                            <a href="@Url.Action("Index", "NhanVienAdmin")" class="btn btn-secondary">Quay lại</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

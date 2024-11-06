@@ -1049,10 +1049,6 @@
       "PackagePath": "staticwebassets\\img\\User_images.jpg"
     },
     {
-      "Id": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\img\\avt1.jpg",
-      "PackagePath": "staticwebassets\\img\\avt1.jpg"
-    },
-    {
       "Id": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\img\\avt10.jpg",
       "PackagePath": "staticwebassets\\img\\avt10.jpg"
     },
@@ -1069,20 +1065,24 @@
       "PackagePath": "staticwebassets\\img\\avt16.jpg"
     },
     {
-      "Id": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\img\\avt2.jpg",
-      "PackagePath": "staticwebassets\\img\\avt2.jpg"
+      "Id": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\img\\avt\\avt1.jpg",
+      "PackagePath": "staticwebassets\\img\\avt\\avt1.jpg"
     },
     {
-      "Id": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\img\\avt3.jpg",
-      "PackagePath": "staticwebassets\\img\\avt3.jpg"
+      "Id": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\img\\avt\\avt2.jpg",
+      "PackagePath": "staticwebassets\\img\\avt\\avt2.jpg"
     },
     {
-      "Id": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\img\\avt4.jpg",
-      "PackagePath": "staticwebassets\\img\\avt4.jpg"
+      "Id": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\img\\avt\\avt3.jpg",
+      "PackagePath": "staticwebassets\\img\\avt\\avt3.jpg"
     },
     {
-      "Id": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\img\\avt5.jpg",
-      "PackagePath": "staticwebassets\\img\\avt5.jpg"
+      "Id": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\img\\avt\\avt4.jpg",
+      "PackagePath": "staticwebassets\\img\\avt\\avt4.jpg"
+    },
+    {
+      "Id": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\img\\avt\\avt5.jpg",
+      "PackagePath": "staticwebassets\\img\\avt\\avt5.jpg"
     },
     {
       "Id": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\wwwroot\\img\\carousel-1.jpg",
