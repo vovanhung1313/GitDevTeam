@@ -24,15 +24,14 @@ namespace WebBanGiay.Controllers
         {
             if (ModelState.IsValid)
             {
-                // Nội dung email
+
 
                 string subject = "Đăng ký nhận bản tin thành công";
                 string body = "Chào bạn! Bạn đã đăng ký thành công để nhận các ưu đãi mới nhất từ chúng tôi.";
 
-                // Gửi email
+
                 await _emailService.SendEmailAsync(model.Email, subject, body);
 
-                // Thông báo thành công
                 TempData["ThanhCong"] = "Đăng ký nhận bản tin thành công!";
                 return RedirectToAction("Index");
             }

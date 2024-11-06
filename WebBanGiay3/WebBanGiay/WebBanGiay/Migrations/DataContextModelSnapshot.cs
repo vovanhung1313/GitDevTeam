@@ -53,7 +53,6 @@ namespace WebBanGiay.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID_KICH_THUOC"), 1L, 1);
 
                     b.Property<int>("TEN_KICH_THUOC")
-                        .HasMaxLength(1)
                         .HasColumnType("int");
 
                     b.HasKey("ID_KICH_THUOC");
@@ -86,16 +85,11 @@ namespace WebBanGiay.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID_MAU"), 1L, 1);
 
-                    b.Property<int?>("SanPhamModelID_SAN_PHAM")
-                        .HasColumnType("int");
-
                     b.Property<string>("TEN_MAU")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("ID_MAU");
-
-                    b.HasIndex("SanPhamModelID_SAN_PHAM");
 
                     b.ToTable("MauSanPhamModel");
                 });
@@ -200,19 +194,16 @@ namespace WebBanGiay.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<decimal>("GIA_BAN")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<int>("GIA_BAN")
+                        .HasColumnType("int");
 
-                    b.Property<decimal>("GIA_NHAP")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<int>("GIA_NHAP")
+                        .HasColumnType("int");
 
                     b.Property<int>("ID_KICH_THUOC")
                         .HasColumnType("int");
 
                     b.Property<int>("ID_LOAI")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("ID_LOAI_SAN_PHAM")
                         .HasColumnType("int");
 
                     b.Property<string>("MO_TA")
@@ -233,7 +224,7 @@ namespace WebBanGiay.Migrations
 
                     b.HasIndex("ID_KICH_THUOC");
 
-                    b.HasIndex("ID_LOAI_SAN_PHAM");
+                    b.HasIndex("ID_LOAI");
 
                     b.ToTable("SAN_PHAMs");
                 });
@@ -249,13 +240,6 @@ namespace WebBanGiay.Migrations
                     b.Navigation("SAN_PHAM");
                 });
 
-            modelBuilder.Entity("WebBanGiay.Models.MauSanPhamModel", b =>
-                {
-                    b.HasOne("WebBanGiay.Models.SanPhamModel", null)
-                        .WithMany("MauSanPham")
-                        .HasForeignKey("SanPhamModelID_SAN_PHAM");
-                });
-
             modelBuilder.Entity("WebBanGiay.Models.SanPhamMauModel", b =>
                 {
                     b.HasOne("WebBanGiay.Models.MauSanPhamModel", "Mau")
@@ -265,7 +249,7 @@ namespace WebBanGiay.Migrations
                         .IsRequired();
 
                     b.HasOne("WebBanGiay.Models.SanPhamModel", "SanPham")
-                        .WithMany()
+                        .WithMany("SanPhamMau")
                         .HasForeignKey("ID_SAN_PHAM")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -285,7 +269,9 @@ namespace WebBanGiay.Migrations
 
                     b.HasOne("WebBanGiay.Models.LoaiSanPhamModel", "TEN_LOAI")
                         .WithMany()
-                        .HasForeignKey("ID_LOAI_SAN_PHAM");
+                        .HasForeignKey("ID_LOAI")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("TEN_KICH_THUOC");
 
@@ -296,7 +282,7 @@ namespace WebBanGiay.Migrations
                 {
                     b.Navigation("HINH_ANH");
 
-                    b.Navigation("MauSanPham");
+                    b.Navigation("SanPhamMau");
                 });
 #pragma warning restore 612, 618
         }

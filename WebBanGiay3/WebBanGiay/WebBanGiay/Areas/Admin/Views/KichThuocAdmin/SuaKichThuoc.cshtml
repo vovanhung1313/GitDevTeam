@@ -1,0 +1,40 @@
+﻿@model WebBanGiay.Models.KichThuocSanPhamModel
+@{
+    ViewData["Title"] = "Quản lý kích thước Admin";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header text-white" style="background-color: #eb1515; border-radius: 5px 5px 0px 0px;">
+                    <h4 class="card-title mb-0">Sửa Kích thước</h4>
+
+
+                </div>
+                <div class="card-body">
+                    <form asp-action="SuaKichThuoc">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <input type="hidden" asp-for="ID_KICH_THUOC" />
+                        <div class="form-group mb-3">
+                            <label asp-for="TEN_KICH_THUOC" class="control-label">Tên kích thước</label>
+                            <input asp-for="TEN_KICH_THUOC" class="form-control" style="background-color: #fff; color: #000" />
+                            <span asp-validation-for="TEN_KICH_THUOC" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Lưu" class="btn btn-primary" style="background-color:#eb1515;  color: #000" />
+                            <a style="background-color: #eb1515; color: #000" asp-action="Index" class="btn btn-secondary ms-2">Quay lại danh sách</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

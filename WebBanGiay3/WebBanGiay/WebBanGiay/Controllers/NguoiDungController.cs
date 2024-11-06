@@ -32,17 +32,17 @@ namespace WebBanGiay.Controllers
         {
             if (ModelState.IsValid)
             {
-                // Tìm người dùng theo tên tài khoản hoặc email 
+
                 var khachHang = await _dataContext.NGUOI_DUNGs
                     .FirstOrDefaultAsync(kh => (kh.TAI_KHOAN == TAI_KHOAN || kh.EMAIL == TAI_KHOAN || kh.SDT == TAI_KHOAN) && kh.MAT_KHAU == MAT_KHAU);
 
                 if (khachHang != null)
                 {
-                    // Lưu thông tin người dùng vào session
+
                     HttpContext.Session.SetJson("User", khachHang);
                     TempData["ThanhCong"] = "Đăng nhập thành công";
 
-                    // Chuyển hướng đến trang phù hợp theo vai trò người dùng
+
                     if (khachHang.VAI_TRO == 1)
                     {
 
@@ -77,7 +77,7 @@ namespace WebBanGiay.Controllers
         {
             if (ModelState.IsValid)
             {
-                // Kiểm tra tài khoản đã tồn tại
+
                 if (await _dataContext.NGUOI_DUNGs.AnyAsync(nd => nd.TAI_KHOAN == nguoiDung.TAI_KHOAN))
                 {
                     ModelState.AddModelError("TAI_KHOAN", "Tài khoản này đã được sử dụng.");
@@ -96,12 +96,12 @@ namespace WebBanGiay.Controllers
                     return View(nguoiDung);
                 }
 
-                // Thiết lập thông tin người dùng
-                nguoiDung.VAI_TRO = 0; // Người dùng thông thường
+
+                nguoiDung.VAI_TRO = 0; 
                 nguoiDung.HINH_ANH = "User_images.jpg";
-                nguoiDung.GTTT = nguoiDung.GTTT ?? "User_images.jpg"; // Đảm bảo có giá trị mặc định
+                nguoiDung.GTTT = nguoiDung.GTTT ?? "User_images.jpg"; 
                 nguoiDung.NGAY_TAO = DateTime.Now;
-                nguoiDung.TRANG_THAI = 0; // Trạng thái người dùng: không kích hoạt
+                nguoiDung.TRANG_THAI = 0; 
 
                 _dataContext.Add(nguoiDung);
                 await _dataContext.SaveChangesAsync();
@@ -149,7 +149,7 @@ namespace WebBanGiay.Controllers
                 return View(modelNguoiDung);
             }
 
-            // Cập nhật thông tin người dùng
+
             userInfo.HO_TEN = modelNguoiDung.HO_TEN;
             userInfo.SDT = modelNguoiDung.SDT;
             userInfo.EMAIL = modelNguoiDung.EMAIL;
@@ -157,7 +157,6 @@ namespace WebBanGiay.Controllers
             userInfo.DIA_CHI = modelNguoiDung.DIA_CHI;
 
 
-            // Xử lý ảnh tải lên
             if (HinhAnhTaiLen != null && HinhAnhTaiLen.Length > 0)
             {
                 var fileName = Path.GetFileName(HinhAnhTaiLen.FileName);
@@ -176,7 +175,6 @@ namespace WebBanGiay.Controllers
                 userInfo.HINH_ANH = fileName;
             }
 
-            // Cập nhật cơ sở dữ liệu
             _dataContext.Update(userInfo);
             await _dataContext.SaveChangesAsync();
             HttpContext.Session.SetJson("User", userInfo);
@@ -209,10 +207,8 @@ namespace WebBanGiay.Controllers
                 }
                 else
                 {
-                    // Sinh mã OTP
                     string otp = GenerateOTP(6);
 
-                    // Lưu OTP và thời gian hết hạn vào Session
                     HttpContext.Session.SetString("UserEmail", user.EMAIL);
                     HttpContext.Session.SetString("OTP", otp);
                     HttpContext.Session.SetString("OTPExpiration", DateTime.Now.AddMinutes(10).ToString());
@@ -252,7 +248,6 @@ namespace WebBanGiay.Controllers
             return View(model);
         }
 
-        // Phương thức sinh mã OTP
         private string GenerateOTP(int length)
         {
             const string chars = "0123456789";
@@ -268,7 +263,7 @@ namespace WebBanGiay.Controllers
             if (matKhauMoi != xacNhanMatKhauMoi)
             {
                 TempData["ThatBai"] = "Mật khẩu xác nhận không khớp.";
-                return RedirectToAction("QuenMatKhau"); // Điều hướng về trang nhập lại thông tin
+                return RedirectToAction("QuenMatKhau"); 
             }
 
             if (matKhauMoi.Length < 5 || matKhauMoi.Length > 20 || xacNhanMatKhauMoi.Length < 5 || xacNhanMatKhauMoi.Length > 20)
@@ -277,7 +272,6 @@ namespace WebBanGiay.Controllers
                 return RedirectToAction("QuenMatKhau");
             }
 
-            // Lấy mã OTP và thời gian hết hạn từ Session
             var storedOtp = HttpContext.Session.GetString("OTP");
             var storedEmail = HttpContext.Session.GetString("UserEmail");
             var expiration = HttpContext.Session.GetString("OTPExpiration");
@@ -303,12 +297,10 @@ namespace WebBanGiay.Controllers
                 return RedirectToAction("QuenMatKhau");
             }
 
-            // Cập nhật mật khẩu mới (không mã hóa mật khẩu)
             user.MAT_KHAU = matKhauMoi;
             _dataContext.Update(user);
             await _dataContext.SaveChangesAsync();
 
-            // Xóa thông tin OTP khỏi Session
             HttpContext.Session.Remove("OTP");
             HttpContext.Session.Remove("UserEmail");
             HttpContext.Session.Remove("OTPExpiration");
@@ -333,47 +325,42 @@ namespace WebBanGiay.Controllers
             var info = await HttpContext.AuthenticateAsync(GoogleDefaults.AuthenticationScheme);
             if (info?.Principal != null)
             {
-                // Lấy thông tin email và tên người dùng từ claim
                 var email = info.Principal.FindFirstValue(ClaimTypes.Email);
                 var name = info.Principal.FindFirstValue(ClaimTypes.Name);
 
-                // Kiểm tra xem email có giá trị không
+
                 if (string.IsNullOrEmpty(email))
                 {
                     TempData["ThatBai"] = "Không thể lấy địa chỉ email từ tài khoản Google.";
                     return RedirectToAction("DangNhap");
                 }
 
-                // Tìm người dùng trong cơ sở dữ liệu, nếu không có thì tạo mới
                 var user = await _dataContext.NGUOI_DUNGs.FirstOrDefaultAsync(u => u.EMAIL == email);
                 if (user == null)
                 {
-                    // Tạo mới người dùng
                     user = new NguoiDungModel
                     {
-                        EMAIL = email, // Đảm bảo thêm email vào mô hình
+                        EMAIL = email, 
                         TAI_KHOAN = email,
                         HO_TEN = name,
-                        VAI_TRO = 0, // Người dùng thông thường
+                        VAI_TRO = 0, 
                         HINH_ANH = "User_images.jpg",
                         NGAY_TAO = DateTime.Now,
                         DIA_CHI = "100 Ha Huy Tap",
-                        TRANG_THAI = 0, // Trạng thái kích hoạt
+                        TRANG_THAI = 0, 
                         SDT = "0383777823",
                         GTTT = "User_images.jpg",
-                        MAT_KHAU = "123456" // Có thể cần mã hóa mật khẩu hoặc không lưu mật khẩu
+                        MAT_KHAU = "123456"
                     };
 
-                    // Thêm người dùng vào cơ sở dữ liệu
                     await _dataContext.NGUOI_DUNGs.AddAsync(user);
                     await _dataContext.SaveChangesAsync();
                 }
 
-                // Lưu thông tin người dùng vào session
+
                 HttpContext.Session.SetJson("User", user);
                 TempData["ThanhCong"] = "Đăng nhập thành công";
 
-                // Chuyển hướng đến trang phù hợp theo vai trò người dùng
                 if (user.VAI_TRO == 1)
                 {
                     return RedirectToAction("Index", "HomeAdmin", new { area = "Admin" });
@@ -388,7 +375,6 @@ namespace WebBanGiay.Controllers
                 }
             }
 
-            // Nếu không có thông tin người dùng
             TempData["ThatBai"] = "Đăng nhập không thành công.";
             return RedirectToAction("DangNhap");
         }

@@ -6,7 +6,7 @@
 }
 
 <style>
-    /* Style cho icon con mắt */
+
     .input-group-text {
         cursor: pointer;
         background-color: transparent;
@@ -70,7 +70,7 @@
             <div class="register-form">
                 <h3 class="form-title">@ViewData["Title"]</h3>
 
-                <!-- Form yêu cầu gửi liên kết đặt lại mật khẩu -->
+                
                 <form asp-action="QuenMatKhau" method="post">
                     <div class="form-group">
                         <label for="email">Email</label>
@@ -80,7 +80,6 @@
                     <button type="submit" class="btn btn-den">Gửi mã xác thực</button>
                 </form>
 
-                <!-- Form nhập mã xác nhận và mật khẩu mới -->
                 <div class="mt-4">
                     <form asp-action="ResetPassword" method="post">
                         <div class="form-group">
@@ -128,7 +127,7 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            // Toggle mật khẩu hiển thị
+
             document.getElementById('toggleMatKhauMoi').addEventListener('click', function () {
                 togglePasswordVisibility('MatKhauMoi', 'eyeIconMoi');
             });

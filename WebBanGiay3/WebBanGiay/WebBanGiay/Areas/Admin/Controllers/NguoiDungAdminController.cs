@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebBanGiay.Models;
-using WebBanGiay.Repository;
 using WebBanGiay.Repositoty;
 using X.PagedList;
 
@@ -27,7 +26,6 @@ namespace WebBanGiay.Areas.Admin.Controllers
                 .ToListAsync();
 
             var pagedNguoiDungs = nguoiDungs.ToPagedList(page, pageSize);
-
             return View(pagedNguoiDungs);
         }
 
@@ -42,19 +40,8 @@ namespace WebBanGiay.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                if (await _dataContext.NGUOI_DUNGs.AnyAsync(m => m.TAI_KHOAN == nguoiDungModel.TAI_KHOAN))
+                if (await IsAccountExists(nguoiDungModel))
                 {
-                    TempData["ThatBai"] = "Tài khoản đã có người sử dụng.";
-                    return View(nguoiDungModel);
-                }
-                if (await _dataContext.NGUOI_DUNGs.AnyAsync(m => m.SDT == nguoiDungModel.SDT))
-                {
-                    TempData["ThatBai"] = "Số điện thoại đã có người sử dụng.";
-                    return View(nguoiDungModel);
-                }
-                if (await _dataContext.NGUOI_DUNGs.AnyAsync(m => m.EMAIL == nguoiDungModel.EMAIL))
-                {
-                    TempData["ThatBai"] = "Email đã có người sử dụng.";
                     return View(nguoiDungModel);
                 }
 
@@ -64,7 +51,7 @@ namespace WebBanGiay.Areas.Admin.Controllers
                 nguoiDungModel.NGAY_TAO = DateTime.Now;
                 nguoiDungModel.TRANG_THAI = 0;
 
-                _dataContext.Add(nguoiDungModel);
+                await _dataContext.NGUOI_DUNGs.AddAsync(nguoiDungModel);
                 await _dataContext.SaveChangesAsync();
 
                 TempData["ThanhCong"] = "Thêm khách hàng thành công!";
@@ -75,10 +62,27 @@ namespace WebBanGiay.Areas.Admin.Controllers
             return View(nguoiDungModel);
         }
 
+        private async Task<bool> IsAccountExists(NguoiDungModel nguoiDungModel)
+        {
+            if (await _dataContext.NGUOI_DUNGs.AnyAsync(m => m.TAI_KHOAN == nguoiDungModel.TAI_KHOAN))
+            {
+                TempData["ThatBai"] = "Tài khoản đã có người sử dụng.";
+                return true;
+            }
+            if (await _dataContext.NGUOI_DUNGs.AnyAsync(m => m.SDT == nguoiDungModel.SDT))
+            {
+                TempData["ThatBai"] = "Số điện thoại đã có người sử dụng.";
+                return true;
+            }
+            if (await _dataContext.NGUOI_DUNGs.AnyAsync(m => m.EMAIL == nguoiDungModel.EMAIL))
+            {
+                TempData["ThatBai"] = "Email đã có người sử dụng.";
+                return true;
+            }
+            return false;
+        }
 
-
-
-        [HttpGet("Admin/NguoiDungAdmin/SuaNguoiDung/{id}")]
+        [HttpGet]
         public async Task<IActionResult> SuaNguoiDung(int id)
         {
             var nguoiDungModel = await _dataContext.NGUOI_DUNGs.FindAsync(id);
@@ -89,56 +93,72 @@ namespace WebBanGiay.Areas.Admin.Controllers
 
             return View(nguoiDungModel);
         }
-
-        [HttpPost("Admin/NguoiDungAdmin/SuaNguoiDung")]
+        [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> SuaNguoiDung(NguoiDungModel model)
         {
             if (!ModelState.IsValid)
             {
+
+                foreach (var error in ModelState.Values.SelectMany(v => v.Errors))
+                {
+                    Console.WriteLine(error.ErrorMessage); 
+                }
                 return View(model);
             }
 
-            // Kiểm tra email đã tồn tại và không trùng với người dùng hiện tại
+            if (await IsEmailOrPhoneExists(model))
+            {
+                ModelState.AddModelError("", "Email hoặc số điện thoại đã tồn tại."); 
+                return View(model); 
+            }
+
+            var nguoiDungModel = await _dataContext.NGUOI_DUNGs.FindAsync(model.ID_NGUOI_DUNG);
+            if (nguoiDungModel == null)
+            {
+                return NotFound(); 
+            }
+
+
+            UpdateUserDetails(nguoiDungModel, model);
+            await _dataContext.SaveChangesAsync();
+
+            TempData["ThanhCong"] = "Cập nhật thông tin người dùng thành công!"; 
+            return RedirectToAction(nameof(Index)); 
+        }
+
+
+
+        private async Task<bool> IsEmailOrPhoneExists(NguoiDungModel model)
+        {
             var emailExists = await _dataContext.NGUOI_DUNGs
                 .AnyAsync(nd => nd.EMAIL == model.EMAIL && nd.ID_NGUOI_DUNG != model.ID_NGUOI_DUNG);
 
             if (emailExists)
             {
                 ModelState.AddModelError("EMAIL", "Email đã tồn tại. Vui lòng nhập email khác.");
-                return View(model);
+                return true;
             }
 
-            // Kiểm tra số điện thoại đã tồn tại và không trùng với người dùng hiện tại
             var phoneExists = await _dataContext.NGUOI_DUNGs
                 .AnyAsync(nd => nd.SDT == model.SDT && nd.ID_NGUOI_DUNG != model.ID_NGUOI_DUNG);
 
             if (phoneExists)
             {
                 ModelState.AddModelError("SDT", "Số điện thoại đã tồn tại. Vui lòng nhập số điện thoại khác.");
-                return View(model);
+                return true;
             }
 
-            var nguoiDungModel = await _dataContext.NGUOI_DUNGs.FindAsync(model.ID_NGUOI_DUNG);
-            if (nguoiDungModel == null)
-            {
-                return NotFound();
-            }
+            return false;
+        }
 
+        private void UpdateUserDetails(NguoiDungModel nguoiDungModel, NguoiDungModel model)
+        {
             nguoiDungModel.HO_TEN = model.HO_TEN;
             nguoiDungModel.SDT = model.SDT;
             nguoiDungModel.EMAIL = model.EMAIL;
             nguoiDungModel.DIA_CHI = model.DIA_CHI;
-
-            await _dataContext.SaveChangesAsync();
-
-            TempData["ThanhCong"] = "Cập nhật thông tin người dùng thành công!";
-            return RedirectToAction(nameof(Index));
         }
-
-
-
-
 
         public async Task<IActionResult> XoaNguoiDung(int? id)
         {

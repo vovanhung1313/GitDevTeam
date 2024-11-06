@@ -9,17 +9,15 @@ using WebBanGiay.Repositoty;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// C?u hình DbContext
 builder.Services.AddDbContext<DataContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("WebBanGiay"));
 });
 
-// ??ng ký các d?ch v? c?n thi?t
 builder.Services.AddScoped<EmailService>();
 builder.Services.AddSingleton<IVnPayService, VnPayService>();
 
-// C?u hình Cache và Session
+
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession(options =>
 {
@@ -28,13 +26,12 @@ builder.Services.AddSession(options =>
     options.Cookie.IsEssential = true;
 });
 
-// Thêm HttpContextAccessor ?? truy c?p HttpContext
 builder.Services.AddHttpContextAccessor();
 
-// Thêm MVC
+
 builder.Services.AddControllersWithViews();
 
-// C?u hình xác th?c b?ng Cookie và Google
+
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
@@ -42,38 +39,37 @@ builder.Services.AddAuthentication(options =>
 })
 .AddCookie(options =>
 {
-    options.LoginPath = "/NguoiDung/DangNhap";      // ???ng d?n trang ??ng nh?p
-    options.LogoutPath = "/NguoiDung/DangKy";       // ???ng d?n trang ??ng xu?t
-    options.AccessDeniedPath = "/NguoiDung/Home";   // ???ng d?n khi truy c?p b? t? ch?i
+    options.LoginPath = "/NguoiDung/DangNhap"; 
+    options.LogoutPath = "/NguoiDung/DangKy"; 
+    options.AccessDeniedPath = "/NguoiDung/Home";
 })
 .AddGoogle(options =>
 {
     options.ClientId = builder.Configuration["Google:ClientId"];
     options.ClientSecret = builder.Configuration["Google:ClientSecret"];
-    options.CallbackPath = "/signin-google"; // ??m b?o CallbackPath này kh?p v?i URI ?y quy?n c?a b?n
+    options.CallbackPath = "/signin-google"; 
 });
 
 var app = builder.Build();
 
-// X? lý ngo?i l? khi môi tr??ng không ph?i là Development
+
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
     app.UseHsts();
 }
 
-// C?u hình Middleware
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
-app.UseAuthentication(); // ??m b?o g?i UseAuthentication tr??c UseAuthorization
+app.UseAuthentication();
 app.UseAuthorization();
 app.UseSession();
 
-// ??ng ký Middleware ki?m tra quy?n
+
 app.UseMiddleware<AuthorizationMiddleware>();
 
-// ??nh ngh?a các route
+
 app.MapControllerRoute(
     name: "Areas",
     pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");

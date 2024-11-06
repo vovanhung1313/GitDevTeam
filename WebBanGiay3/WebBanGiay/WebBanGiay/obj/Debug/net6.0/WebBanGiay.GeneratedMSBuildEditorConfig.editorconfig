@@ -30,6 +30,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS2ljaFRodW9jQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/KichThuocAdmin/SuaKichThuoc.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS2ljaFRodW9jQWRtaW5cU3VhS2ljaFRodW9jLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/LoaiAdmin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTG9haUFkbWluXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -76,6 +80,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/SanPhamAdmin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2FuUGhhbUFkbWluXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/SanPhamAdmin/SuaSanPham.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2FuUGhhbUFkbWluXFN1YVNhblBoYW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/SanPhamAdmin/ThemSanPham.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2FuUGhhbUFkbWluXFRoZW1TYW5QaGFtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/c4/Git/GitDevTeam/WebBanGiay3/WebBanGiay/WebBanGiay/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml]

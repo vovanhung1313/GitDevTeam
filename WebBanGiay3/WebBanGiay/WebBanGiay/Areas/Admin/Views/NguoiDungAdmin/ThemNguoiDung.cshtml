@@ -7,11 +7,12 @@
 <style>
     #togglePassword {
         height: 40px;
+        cursor: pointer;
     }
-    /* CSS cho giao diện form */
+
     .container {
         margin-top: 50px;
-        margin-bottom : 50px;
+        margin-bottom: 50px;
     }
 
     .row.justify-content-center {
@@ -48,10 +49,10 @@
         cursor: pointer;
     }
 
-    .btn-primary:hover {
-        background-color: #eb1515;
-        transition: background-color 0.3s;
-    }
+        .btn-primary:hover {
+            background-color: #c71111;
+            transition: background-color 0.3s;
+        }
 
     .text-danger {
         font-size: 0.9em;
@@ -59,9 +60,9 @@
 
     .form-control {
         width: 100%;
-        
-
+        color: black;
     }
+
     .control-label {
         color: black;
     }
@@ -72,42 +73,42 @@
         <div class="col-md-8">
             <div class="card" style="width: 100%;">
                 <div class="card-header bg-primary text-white">
-                    <h4 style="padding: 5px 0px 5px 0px;" class="card-title mb-0 text-center">@ViewData["Title"]</h4>
+                    <h4 style="padding: 5px 0px;" class="card-title mb-0 text-center">@ViewData["Title"]</h4>
                 </div>
                 <div class="card-body">
                     <form asp-action="ThemNguoiDung" method="post" enctype="multipart/form-data">
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="form-group">
-                                    <label asp-for="HO_TEN"  class="control-label">Họ tên</label>
-                                    <input asp-for="HO_TEN" class="form-control" placeholder="Vui lòng nhập họ tên" style="background-color: #fff;color: black" />
-                                    <span asp-validation-for="HO_TEN"  class="text-danger"></span>
+                                    <label asp-for="HO_TEN" class="control-label">Họ tên</label>
+                                    <input asp-for="HO_TEN" class="form-control" placeholder="Vui lòng nhập họ tên" style="background-color: #fff;" />
+                                    <span asp-validation-for="HO_TEN" class="text-danger"></span>
                                 </div>
                                 <div class="form-group">
-                                    <label asp-for="SDT"  class="control-label">Số điện thoại</label>
-                                    <input asp-for="SDT" class="form-control" placeholder="Vui lòng nhập số điện thoại" style="background-color: #fff; color: black" />
+                                    <label asp-for="SDT" class="control-label">Số điện thoại</label>
+                                    <input asp-for="SDT" class="form-control" placeholder="Vui lòng nhập số điện thoại" style="background-color: #fff;" />
                                     <span asp-validation-for="SDT" class="text-danger"></span>
                                 </div>
                                 <div class="form-group">
-                                    <label asp-for="EMAIL" class="control-email control-label">Email</label>
-                                    <input asp-for="EMAIL" class="form-control" placeholder="Vui lòng nhập email" style="background-color: #fff; color: black" />
+                                    <label asp-for="EMAIL" class="control-label">Email</label>
+                                    <input asp-for="EMAIL" class="form-control" placeholder="Vui lòng nhập email" style="background-color: #fff;" />
                                     <span asp-validation-for="EMAIL" class="text-danger"></span>
                                 </div>
                                 <div class="form-group">
-                                    <label asp-for="DIA_CHI"  class="control-label">Địa chỉ</label>
-                                    <input asp-for="DIA_CHI" class="form-control" placeholder="Vui lòng nhập địa chỉ" style="background-color: #fff; color: black" />
+                                    <label asp-for="DIA_CHI" class="control-label">Địa chỉ</label>
+                                    <input asp-for="DIA_CHI" class="form-control" placeholder="Vui lòng nhập địa chỉ" style="background-color: #fff;" />
                                     <span asp-validation-for="DIA_CHI" class="text-danger"></span>
                                 </div>
                                 <div class="form-group">
-                                    <label asp-for="TAI_KHOAN"  class="control-label">Tài khoản</label>
-                                    <input asp-for="TAI_KHOAN" class="form-control" placeholder="Vui lòng nhập tài khoản" style="background-color: #fff; color: black" />
+                                    <label asp-for="TAI_KHOAN" class="control-label">Tài khoản</label>
+                                    <input asp-for="TAI_KHOAN" class="form-control" placeholder="Vui lòng nhập tài khoản" style="background-color: #fff;" />
                                     <span asp-validation-for="TAI_KHOAN" class="text-danger"></span>
                                 </div>
 
                                 <div class="form-group">
                                     <label asp-for="MAT_KHAU" class="control-label">Mật khẩu</label>
                                     <div class="input-group">
-                                        <input id="MAT_KHAU" asp-for="MAT_KHAU" class="form-control" type="password" placeholder="Vui lòng nhập mật khẩu" style="background-color: #fff; color: black" />
+                                        <input id="MAT_KHAU" asp-for="MAT_KHAU" class="form-control" type="password" placeholder="Vui lòng nhập mật khẩu" style="background-color: #fff;" />
                                         <div class="input-group-append">
                                             <span class="input-group-text" id="togglePassword">
                                                 <i class="fas fa-eye"></i>
@@ -116,8 +117,6 @@
                                     </div>
                                     <span asp-validation-for="MAT_KHAU" class="text-danger"></span>
                                 </div>
-
-
 
                                 <input asp-for="HINH_ANH" type="hidden" value="User_images.jpg" />
                                 <input asp-for="GTTT" type="hidden" value="User_images.jpg" />
@@ -146,7 +145,6 @@
         const today = new Date().toISOString().split('T')[0];
         document.querySelector('input[name="NGAY_TAO"]').value = today;
 
-        // Toggle password visibility
         const togglePassword = document.getElementById('togglePassword');
         const passwordField = document.getElementById('MAT_KHAU');
 
@@ -154,7 +152,6 @@
             const type = passwordField.getAttribute('type') === 'password' ? 'text' : 'password';
             passwordField.setAttribute('type', type);
 
-            // Toggle the eye icon
             this.querySelector('i').classList.toggle('fa-eye');
             this.querySelector('i').classList.toggle('fa-eye-slash');
         });

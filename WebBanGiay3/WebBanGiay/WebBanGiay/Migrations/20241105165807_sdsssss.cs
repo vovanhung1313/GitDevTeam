@@ -15,7 +15,7 @@ namespace WebBanGiay.Migrations
                 {
                     ID_KICH_THUOC = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    TEN_KICH_THUOC = table.Column<int>(type: "int", maxLength: 1, nullable: false)
+                    TEN_KICH_THUOC = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -33,6 +33,19 @@ namespace WebBanGiay.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_LOAI_SAN_PHAMs", x => x.ID_LOAI);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "MauSanPhamModel",
+                columns: table => new
+                {
+                    ID_MAU = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    TEN_MAU = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_MauSanPhamModel", x => x.ID_MAU);
                 });
 
             migrationBuilder.CreateTable(
@@ -68,11 +81,10 @@ namespace WebBanGiay.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     TEN_SAN_PHAM = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     ID_LOAI = table.Column<int>(type: "int", nullable: false),
-                    ID_LOAI_SAN_PHAM = table.Column<int>(type: "int", nullable: true),
                     ID_KICH_THUOC = table.Column<int>(type: "int", nullable: false),
                     SO_LUONG = table.Column<int>(type: "int", nullable: false),
-                    GIA_NHAP = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    GIA_BAN = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    GIA_NHAP = table.Column<int>(type: "int", nullable: false),
+                    GIA_BAN = table.Column<int>(type: "int", nullable: false),
                     CHAT_LIEU = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     MO_TA = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     NGAY_TAO = table.Column<DateTime>(type: "datetime2", nullable: false)
@@ -87,10 +99,11 @@ namespace WebBanGiay.Migrations
                         principalColumn: "ID_KICH_THUOC",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_SAN_PHAMs_LOAI_SAN_PHAMs_ID_LOAI_SAN_PHAM",
-                        column: x => x.ID_LOAI_SAN_PHAM,
+                        name: "FK_SAN_PHAMs_LOAI_SAN_PHAMs_ID_LOAI",
+                        column: x => x.ID_LOAI,
                         principalTable: "LOAI_SAN_PHAMs",
-                        principalColumn: "ID_LOAI");
+                        principalColumn: "ID_LOAI",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -111,25 +124,6 @@ namespace WebBanGiay.Migrations
                         principalTable: "SAN_PHAMs",
                         principalColumn: "ID_SAN_PHAM",
                         onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "MauSanPhamModel",
-                columns: table => new
-                {
-                    ID_MAU = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    TEN_MAU = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    SanPhamModelID_SAN_PHAM = table.Column<int>(type: "int", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_MauSanPhamModel", x => x.ID_MAU);
-                    table.ForeignKey(
-                        name: "FK_MauSanPhamModel_SAN_PHAMs_SanPhamModelID_SAN_PHAM",
-                        column: x => x.SanPhamModelID_SAN_PHAM,
-                        principalTable: "SAN_PHAMs",
-                        principalColumn: "ID_SAN_PHAM");
                 });
 
             migrationBuilder.CreateTable(
@@ -164,11 +158,6 @@ namespace WebBanGiay.Migrations
                 column: "ID_SAN_PHAM");
 
             migrationBuilder.CreateIndex(
-                name: "IX_MauSanPhamModel_SanPhamModelID_SAN_PHAM",
-                table: "MauSanPhamModel",
-                column: "SanPhamModelID_SAN_PHAM");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_SAN_PHAM_MAUs_ID_MAU",
                 table: "SAN_PHAM_MAUs",
                 column: "ID_MAU");
@@ -184,9 +173,9 @@ namespace WebBanGiay.Migrations
                 column: "ID_KICH_THUOC");
 
             migrationBuilder.CreateIndex(
-                name: "IX_SAN_PHAMs_ID_LOAI_SAN_PHAM",
+                name: "IX_SAN_PHAMs_ID_LOAI",
                 table: "SAN_PHAMs",
-                column: "ID_LOAI_SAN_PHAM");
+                column: "ID_LOAI");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

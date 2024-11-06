@@ -67,4 +67,9 @@
     <PackageReference Include="X.PagedList.Mvc.Core" Version="9.1.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\media\NhanVien1\" />
+    <Folder Include="wwwroot\media\SanPham\" />
+  </ItemGroup>
+
 </Project>

@@ -10,9 +10,8 @@ namespace WebBanGiay.Models
         [Key]
         public int ID_KICH_THUOC { get; set; }
 
-        [Required(ErrorMessage = "YKhông được để trống kích thước")]
-        [RegularExpression(@"^\d{1}$", ErrorMessage = "Kich phải là số và có 1 ký tự.")]
-        [StringLength(1, MinimumLength = 5, ErrorMessage = "Kích thước phải là số và từ 1 đến 5 kí tự.")]
+        [Required(ErrorMessage = "Không được để trống tên kích thước.")]
+        [Range(1, 100, ErrorMessage = "Tên kích thước phải là số từ 1 đến 100.")]
 
         public int TEN_KICH_THUOC { get; set; }
     }

@@ -18,12 +18,12 @@
                         <input type="hidden" asp-for="ID_LOAI" />
                         <div class="form-group mb-3">
                             <label asp-for="TEN_LOAI" class="control-label">Tên Loại sản phẩm</label>
-                            <input asp-for="TEN_LOAI" class="form-control" />
+                            <input asp-for="TEN_LOAI" class="form-control" style="background-color: #fff; color: #000" />
                             <span asp-validation-for="TEN_LOAI" class="text-danger"></span>
                         </div>
                         <div class="form-group">
-                            <input type="submit" value="Lưu" class="btn btn-primary" style="background-color:#212529; padding: 9px 176px 9px 176px" />
-                            <a asp-action="Index" class="btn btn-secondary ms-2">Quay lại danh sách</a>
+                            <input type="submit" value="Lưu" class="btn btn-primary" style="background-color:#eb1515; color: #000" />
+                            <a style="background-color: #eb1515; color: #000" asp-action="Index" class="btn btn-secondary ms-2">Quay lại danh sách</a>
                         </div>
                     </form>
                 </div>
