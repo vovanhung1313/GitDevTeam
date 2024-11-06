@@ -1,0 +1,148 @@
+﻿@model WebBanGiay.Models.QuenMatKhauModel
+
+@{
+    ViewData["Title"] = "Đổi mật khẩu";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+
+    .input-group-text {
+        cursor: pointer;
+        background-color: transparent;
+        height: 37px;
+        background-color: #e9ecf0;
+    }
+
+        .input-group-text .fa-eye,
+        .input-group-text .fa-eye-slash {
+            color: #333;
+            font-size: 18px;
+            transition: color 0.3s;
+
+        }
+
+
+    .form-control {
+        margin-bottom: 10px;
+    }
+
+    .register-container {
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .text-danger {
+        color: #dc3545 !important;
+    }
+
+    .btn-den {
+        background-color: #fcf000;
+        border-color: #fcf000;
+        color: #000;
+        font-weight: bold;
+        width: 100%;
+    }
+
+        .btn-den:hover {
+            background-color: #000;
+            border-color: #000;
+            color: #fcf000;
+        }
+
+    .form-title {
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        color: #333;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+</style>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="register-container">
+            <div class="register-form">
+                <h3 class="form-title">@ViewData["Title"]</h3>
+
+                
+                <form asp-action="QuenMatKhau" method="post">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" name="Email" value="@Model.Email" required placeholder="Vui lòng nhập Email" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                    <button type="submit" class="btn btn-den">Gửi mã xác thực</button>
+                </form>
+
+                <div class="mt-4">
+                    <form asp-action="ResetPassword" method="post">
+                        <div class="form-group">
+                            <label for="code">Mã xác thực</label>
+                            <input type="text" class="form-control" id="code" name="Code" required placeholder="Vui lòng nhập mã xác thực" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="MatKhauMoi">Mật khẩu mới</label>
+                            <div class="input-group">
+                                <input type="password" class="form-control" id="MatKhauMoi" name="MatKhauMoi" placeholder="Nhập mật khẩu mới" required />
+                                <div class="input-group-append">
+                                    <span class="input-group-text" id="toggleMatKhauMoi">
+                                        <i id="eyeIconMoi" class="fa fa-eye"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <span class="text-danger" id="validationMessageMoi"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="XacNhanMatKhauMoi">Xác nhận mật khẩu mới</label>
+                            <div class="input-group">
+                                <input type="password" class="form-control" id="XacNhanMatKhauMoi" name="XacNhanMatKhauMoi" placeholder="Xác nhận mật khẩu mới" required />
+                                <div class="input-group-append">
+                                    <span class="input-group-text" id="toggleXacNhanMatKhauMoi">
+                                        <i id="eyeIconXacNhanMoi" class="fa fa-eye"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <span class="text-danger" id="validationMessageXacNhanMoi"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-den">Đặt lại mật khẩu</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script src="/lib/jquery/dist/jquery.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+
+            document.getElementById('toggleMatKhauMoi').addEventListener('click', function () {
+                togglePasswordVisibility('MatKhauMoi', 'eyeIconMoi');
+            });
+
+            document.getElementById('toggleXacNhanMatKhauMoi').addEventListener('click', function () {
+                togglePasswordVisibility('XacNhanMatKhauMoi', 'eyeIconXacNhanMoi');
+            });
+
+            function togglePasswordVisibility(inputId, iconId) {
+                const passwordInput = document.getElementById(inputId);
+                const icon = document.getElementById(iconId);
+                const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+                passwordInput.setAttribute('type', type);
+                icon.classList.toggle('fa-eye-slash');
+            }
+        });
+    </script>
+}
