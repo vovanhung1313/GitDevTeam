@@ -4064,6 +4064,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\8639322e-94a2-4ac6-921a-2689bfd56b2e_anh22.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\a081d806-1cf0-4140-9b4e-f58e47dc8dc9_anh25.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanGiay</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanGiay</BasePath>
+      <RelativePath>media/SanPham/a081d806-1cf0-4140-9b4e-f58e47dc8dc9_anh25.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\a081d806-1cf0-4140-9b4e-f58e47dc8dc9_anh25.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\a4fe2104-c67b-43f6-8120-e782afdee4d8_anh22.png))">
       <SourceType>Package</SourceType>
       <SourceId>WebBanGiay</SourceId>
