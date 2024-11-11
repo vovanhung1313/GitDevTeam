@@ -12,8 +12,8 @@ using WebBanGiay.Repositoty;
 namespace WebBanGiay.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20241106033013_sdss")]
-    partial class sdss
+    [Migration("20241111031723_sdsssss")]
+    partial class sdsssss
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -23,6 +23,135 @@ namespace WebBanGiay.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
+
+            modelBuilder.Entity("WebBanGiay.Models.ChiTietDonHangModel", b =>
+                {
+                    b.Property<int>("ID_CHI_TIET_DON_HANG")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID_CHI_TIET_DON_HANG"), 1L, 1);
+
+                    b.Property<decimal>("GIA_BAN")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("ID_DON_HANG")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ID_SAN_PHAM")
+                        .HasColumnType("int");
+
+                    b.Property<string>("MauSanPham")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("SO_LUONG")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("THANH_TIEN")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("ID_CHI_TIET_DON_HANG");
+
+                    b.HasIndex("ID_DON_HANG");
+
+                    b.HasIndex("ID_SAN_PHAM");
+
+                    b.ToTable("CHI_TIET_DON_HANGs");
+                });
+
+            modelBuilder.Entity("WebBanGiay.Models.DonHangModel", b =>
+                {
+                    b.Property<int>("ID_DON_HANG")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID_DON_HANG"), 1L, 1);
+
+                    b.Property<string>("DIACHI")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("HinhThucThanhToan")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ID_NGUOI_DUNG")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("ID_NHAN_VIEN")
+                        .HasColumnType("int");
+
+                    b.Property<string>("LY_DO_HUY")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("NGAY_DAT")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("NGAY_GIAO")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("TEN_NGUOI_NHAN")
+                        .IsRequired()
+                        .HasMaxLength(40)
+                        .HasColumnType("nvarchar(40)");
+
+                    b.Property<int>("TRANG_THAI_DH")
+                        .HasColumnType("int");
+
+                    b.Property<string>("TRANG_THAI_THANH_TOAN")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ID_DON_HANG");
+
+                    b.HasIndex("ID_NGUOI_DUNG");
+
+                    b.HasIndex("ID_NHAN_VIEN");
+
+                    b.ToTable("DON_HANGs");
+                });
+
+            modelBuilder.Entity("WebBanGiay.Models.GioHangModel", b =>
+                {
+                    b.Property<int>("ID_GIO_HANG")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID_GIO_HANG"), 1L, 1);
+
+                    b.Property<decimal>("GIA_BAN")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("ID_NGUOI_DUNG")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ID_SAN_PHAM")
+                        .HasColumnType("int");
+
+                    b.Property<string>("MAU_SP")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("SO_LUONG_GH")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("THANH_TIEN")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("TRANG_THAI")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ID_GIO_HANG");
+
+                    b.HasIndex("ID_NGUOI_DUNG");
+
+                    b.HasIndex("ID_SAN_PHAM");
+
+                    b.ToTable("GIO_HANGs");
+                });
 
             modelBuilder.Entity("WebBanGiay.Models.HinhAnhModel", b =>
                 {
@@ -231,6 +360,61 @@ namespace WebBanGiay.Migrations
                     b.ToTable("SAN_PHAMs");
                 });
 
+            modelBuilder.Entity("WebBanGiay.Models.ChiTietDonHangModel", b =>
+                {
+                    b.HasOne("WebBanGiay.Models.DonHangModel", "DON_HANG")
+                        .WithMany("CHI_TIET_DON_HANG")
+                        .HasForeignKey("ID_DON_HANG")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("WebBanGiay.Models.SanPhamModel", "SAN_PHAM")
+                        .WithMany()
+                        .HasForeignKey("ID_SAN_PHAM")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("DON_HANG");
+
+                    b.Navigation("SAN_PHAM");
+                });
+
+            modelBuilder.Entity("WebBanGiay.Models.DonHangModel", b =>
+                {
+                    b.HasOne("WebBanGiay.Models.NguoiDungModel", "NGUOI_DUNG")
+                        .WithMany()
+                        .HasForeignKey("ID_NGUOI_DUNG")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("WebBanGiay.Models.NguoiDungModel", "NHAN_VIEN")
+                        .WithMany()
+                        .HasForeignKey("ID_NHAN_VIEN");
+
+                    b.Navigation("NGUOI_DUNG");
+
+                    b.Navigation("NHAN_VIEN");
+                });
+
+            modelBuilder.Entity("WebBanGiay.Models.GioHangModel", b =>
+                {
+                    b.HasOne("WebBanGiay.Models.NguoiDungModel", "NGUOI_DUNG")
+                        .WithMany()
+                        .HasForeignKey("ID_NGUOI_DUNG")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("WebBanGiay.Models.SanPhamModel", "SAN_PHAM")
+                        .WithMany()
+                        .HasForeignKey("ID_SAN_PHAM")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("NGUOI_DUNG");
+
+                    b.Navigation("SAN_PHAM");
+                });
+
             modelBuilder.Entity("WebBanGiay.Models.HinhAnhModel", b =>
                 {
                     b.HasOne("WebBanGiay.Models.SanPhamModel", "SAN_PHAM")
@@ -278,6 +462,11 @@ namespace WebBanGiay.Migrations
                     b.Navigation("TEN_KICH_THUOC");
 
                     b.Navigation("TEN_LOAI");
+                });
+
+            modelBuilder.Entity("WebBanGiay.Models.DonHangModel", b =>
+                {
+                    b.Navigation("CHI_TIET_DON_HANG");
                 });
 
             modelBuilder.Entity("WebBanGiay.Models.SanPhamModel", b =>

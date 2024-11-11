@@ -3856,6 +3856,54 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\0fc4376d-a01d-4fd0-8b28-df28b39776f1_anh30.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\13a8aa9f-4664-4a8b-a0da-95f526ba01be_tải xuống (4).jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanGiay</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanGiay</BasePath>
+      <RelativePath>media/SanPham/13a8aa9f-4664-4a8b-a0da-95f526ba01be_tải xuống (4).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\13a8aa9f-4664-4a8b-a0da-95f526ba01be_tải xuống (4).jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\156dcd59-a356-4078-93da-851d9ee2aaf0_tải xuống (1).jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanGiay</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanGiay</BasePath>
+      <RelativePath>media/SanPham/156dcd59-a356-4078-93da-851d9ee2aaf0_tải xuống (1).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\156dcd59-a356-4078-93da-851d9ee2aaf0_tải xuống (1).jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\177eb493-e0c1-4b3a-a236-1f6c31ee2727_anh7.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanGiay</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanGiay</BasePath>
+      <RelativePath>media/SanPham/177eb493-e0c1-4b3a-a236-1f6c31ee2727_anh7.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\177eb493-e0c1-4b3a-a236-1f6c31ee2727_anh7.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\18fa9df9-65ba-4893-ab59-4088bc5f10a5_anh28.png))">
       <SourceType>Package</SourceType>
       <SourceId>WebBanGiay</SourceId>
@@ -3871,6 +3919,70 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\18fa9df9-65ba-4893-ab59-4088bc5f10a5_anh28.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\1b395863-1b30-4709-bf43-872d43f67d5f_tải xuống (3).jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanGiay</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanGiay</BasePath>
+      <RelativePath>media/SanPham/1b395863-1b30-4709-bf43-872d43f67d5f_tải xuống (3).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\1b395863-1b30-4709-bf43-872d43f67d5f_tải xuống (3).jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\21e2723e-7431-4d80-b777-09dbd6157c5c_tải xuống (7).jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanGiay</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanGiay</BasePath>
+      <RelativePath>media/SanPham/21e2723e-7431-4d80-b777-09dbd6157c5c_tải xuống (7).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\21e2723e-7431-4d80-b777-09dbd6157c5c_tải xuống (7).jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\25aef7e2-669d-4f19-b57a-dd69df447865_anh6.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanGiay</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanGiay</BasePath>
+      <RelativePath>media/SanPham/25aef7e2-669d-4f19-b57a-dd69df447865_anh6.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\25aef7e2-669d-4f19-b57a-dd69df447865_anh6.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\26e40f0b-f323-420e-a3ba-493e56ceb859_carousel-1.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanGiay</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanGiay</BasePath>
+      <RelativePath>media/SanPham/26e40f0b-f323-420e-a3ba-493e56ceb859_carousel-1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\26e40f0b-f323-420e-a3ba-493e56ceb859_carousel-1.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\27baee61-1bc1-420a-86bc-fa52e5331f42_anh26.png))">
       <SourceType>Package</SourceType>
@@ -3888,6 +4000,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\27baee61-1bc1-420a-86bc-fa52e5331f42_anh26.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\2893e632-7218-4dbc-b839-a85efcd5be91_tải xuống (5).jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanGiay</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanGiay</BasePath>
+      <RelativePath>media/SanPham/2893e632-7218-4dbc-b839-a85efcd5be91_tải xuống (5).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\2893e632-7218-4dbc-b839-a85efcd5be91_tải xuống (5).jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\2a217a35-e607-4e3a-8b74-862a3b0d2bdb_anh26.png))">
       <SourceType>Package</SourceType>
       <SourceId>WebBanGiay</SourceId>
@@ -3904,6 +4032,38 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\2a217a35-e607-4e3a-8b74-862a3b0d2bdb_anh26.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\2a8d88c2-7b3c-489d-ab28-b6daaed6a632_tải xuống (2).jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanGiay</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanGiay</BasePath>
+      <RelativePath>media/SanPham/2a8d88c2-7b3c-489d-ab28-b6daaed6a632_tải xuống (2).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\2a8d88c2-7b3c-489d-ab28-b6daaed6a632_tải xuống (2).jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\2cb451c0-9563-4251-ad44-7cdb9c742e9f_tải xuống (2).jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanGiay</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanGiay</BasePath>
+      <RelativePath>media/SanPham/2cb451c0-9563-4251-ad44-7cdb9c742e9f_tải xuống (2).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\2cb451c0-9563-4251-ad44-7cdb9c742e9f_tải xuống (2).jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\2eb7bba1-8b90-47d3-b401-eea8727c95e7_anh28.png))">
       <SourceType>Package</SourceType>
       <SourceId>WebBanGiay</SourceId>
@@ -3919,6 +4079,38 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\2eb7bba1-8b90-47d3-b401-eea8727c95e7_anh28.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\3460f384-9584-4ac3-9ca0-3cb1001409cd_tải xuống (3).jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanGiay</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanGiay</BasePath>
+      <RelativePath>media/SanPham/3460f384-9584-4ac3-9ca0-3cb1001409cd_tải xuống (3).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\3460f384-9584-4ac3-9ca0-3cb1001409cd_tải xuống (3).jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\368d5a9b-8ec3-4d93-9da5-83fe01ac18d8_tải xuống (7).jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanGiay</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanGiay</BasePath>
+      <RelativePath>media/SanPham/368d5a9b-8ec3-4d93-9da5-83fe01ac18d8_tải xuống (7).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\368d5a9b-8ec3-4d93-9da5-83fe01ac18d8_tải xuống (7).jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\368fb6fc-2746-4066-b0b8-183495a8878c_anh27.png))">
       <SourceType>Package</SourceType>
@@ -3951,6 +4143,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\3d063eb0-43fe-4962-9e9d-d1d3f188e92c_anh30.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\3e72d7a2-6f89-4e64-88f0-4b06aee7de8e_tải xuống (2).jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanGiay</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanGiay</BasePath>
+      <RelativePath>media/SanPham/3e72d7a2-6f89-4e64-88f0-4b06aee7de8e_tải xuống (2).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\3e72d7a2-6f89-4e64-88f0-4b06aee7de8e_tải xuống (2).jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\40212328-69ae-4310-bf62-49f5171d1ae8_anh27.png))">
       <SourceType>Package</SourceType>
@@ -4000,6 +4208,38 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\434cbaff-7c62-44d0-a2b7-409943585fe2_anh24.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\48c3d627-e702-4f73-9388-1415f554474d_carousel-1.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanGiay</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanGiay</BasePath>
+      <RelativePath>media/SanPham/48c3d627-e702-4f73-9388-1415f554474d_carousel-1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\48c3d627-e702-4f73-9388-1415f554474d_carousel-1.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\49059df3-c556-4f8e-ae31-ae48d7a7a22d_avt15.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanGiay</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanGiay</BasePath>
+      <RelativePath>media/SanPham/49059df3-c556-4f8e-ae31-ae48d7a7a22d_avt15.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\49059df3-c556-4f8e-ae31-ae48d7a7a22d_avt15.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\5dc8b6ec-be91-43ee-a6b8-4a4fa0d8d473_anh23.png))">
       <SourceType>Package</SourceType>
       <SourceId>WebBanGiay</SourceId>
@@ -4016,6 +4256,102 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\5dc8b6ec-be91-43ee-a6b8-4a4fa0d8d473_anh23.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\5ed80385-113f-43c3-be3c-fe8d8b5df34c_avt16.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanGiay</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanGiay</BasePath>
+      <RelativePath>media/SanPham/5ed80385-113f-43c3-be3c-fe8d8b5df34c_avt16.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\5ed80385-113f-43c3-be3c-fe8d8b5df34c_avt16.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\62c7eff3-5d7e-4e42-ac15-68acb1350c6c_tải xuống (1).jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanGiay</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanGiay</BasePath>
+      <RelativePath>media/SanPham/62c7eff3-5d7e-4e42-ac15-68acb1350c6c_tải xuống (1).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\62c7eff3-5d7e-4e42-ac15-68acb1350c6c_tải xuống (1).jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\65a5d4b2-2bf1-499d-ab4c-569dee764b82_tải xuống (3).jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanGiay</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanGiay</BasePath>
+      <RelativePath>media/SanPham/65a5d4b2-2bf1-499d-ab4c-569dee764b82_tải xuống (3).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\65a5d4b2-2bf1-499d-ab4c-569dee764b82_tải xuống (3).jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\65f9f72b-bb73-41f5-b33a-c75aaa910c7a_tải xuống (6).jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanGiay</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanGiay</BasePath>
+      <RelativePath>media/SanPham/65f9f72b-bb73-41f5-b33a-c75aaa910c7a_tải xuống (6).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\65f9f72b-bb73-41f5-b33a-c75aaa910c7a_tải xuống (6).jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\67d0306b-7d4e-4f18-8b52-eb6c99c86412_avt16.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanGiay</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanGiay</BasePath>
+      <RelativePath>media/SanPham/67d0306b-7d4e-4f18-8b52-eb6c99c86412_avt16.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\67d0306b-7d4e-4f18-8b52-eb6c99c86412_avt16.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\689dae5e-23b0-4335-a008-0116b4cdd2e9_tải xuống (4).jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanGiay</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanGiay</BasePath>
+      <RelativePath>media/SanPham/689dae5e-23b0-4335-a008-0116b4cdd2e9_tải xuống (4).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\689dae5e-23b0-4335-a008-0116b4cdd2e9_tải xuống (4).jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\6ea0efb7-7d98-4fe2-ada6-e190f4a88e06_anh23.png))">
       <SourceType>Package</SourceType>
       <SourceId>WebBanGiay</SourceId>
@@ -4031,6 +4367,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\6ea0efb7-7d98-4fe2-ada6-e190f4a88e06_anh23.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\7acc5c4a-194f-4547-9c61-eda622685593_images (2).jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanGiay</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanGiay</BasePath>
+      <RelativePath>media/SanPham/7acc5c4a-194f-4547-9c61-eda622685593_images (2).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\7acc5c4a-194f-4547-9c61-eda622685593_images (2).jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\7fa0b4a3-c94c-472a-9ff2-8c4b8325bd95_hinh11.jpg))">
       <SourceType>Package</SourceType>
@@ -4063,6 +4415,86 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\8639322e-94a2-4ac6-921a-2689bfd56b2e_anh22.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\88050eb7-c160-481d-9fa7-eabd18f6bc61_tải xuống (1).jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanGiay</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanGiay</BasePath>
+      <RelativePath>media/SanPham/88050eb7-c160-481d-9fa7-eabd18f6bc61_tải xuống (1).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\88050eb7-c160-481d-9fa7-eabd18f6bc61_tải xuống (1).jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\8afb8a6d-3c27-44d8-a3b2-4bbd18051bd4_carousel-1.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanGiay</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanGiay</BasePath>
+      <RelativePath>media/SanPham/8afb8a6d-3c27-44d8-a3b2-4bbd18051bd4_carousel-1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\8afb8a6d-3c27-44d8-a3b2-4bbd18051bd4_carousel-1.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\966ca13e-8ad8-407b-b28e-ec4af1f11362_tải xuống (2).jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanGiay</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanGiay</BasePath>
+      <RelativePath>media/SanPham/966ca13e-8ad8-407b-b28e-ec4af1f11362_tải xuống (2).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\966ca13e-8ad8-407b-b28e-ec4af1f11362_tải xuống (2).jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\99e42d1a-4cfc-4a9e-b270-85c514971870_avt16.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanGiay</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanGiay</BasePath>
+      <RelativePath>media/SanPham/99e42d1a-4cfc-4a9e-b270-85c514971870_avt16.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\99e42d1a-4cfc-4a9e-b270-85c514971870_avt16.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\9dd0bae6-9661-4bc8-80f5-b6188f559078_anh4.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanGiay</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanGiay</BasePath>
+      <RelativePath>media/SanPham/9dd0bae6-9661-4bc8-80f5-b6188f559078_anh4.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\9dd0bae6-9661-4bc8-80f5-b6188f559078_anh4.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\a081d806-1cf0-4140-9b4e-f58e47dc8dc9_anh25.png))">
       <SourceType>Package</SourceType>
@@ -4128,6 +4560,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\b0246dc6-4323-46a3-99e8-0c0034074c51_anh32.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\b7cf3476-ea0e-4c4a-9080-b73ef431cc84_tải xuống (3).jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanGiay</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanGiay</BasePath>
+      <RelativePath>media/SanPham/b7cf3476-ea0e-4c4a-9080-b73ef431cc84_tải xuống (3).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\b7cf3476-ea0e-4c4a-9080-b73ef431cc84_tải xuống (3).jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\bbbe137c-820f-4e8c-a2b9-7124386893c8_anh29.png))">
       <SourceType>Package</SourceType>
       <SourceId>WebBanGiay</SourceId>
@@ -4143,6 +4591,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\bbbe137c-820f-4e8c-a2b9-7124386893c8_anh29.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\bbe6691a-9050-4918-8d37-34e418661292_carousel-1.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanGiay</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanGiay</BasePath>
+      <RelativePath>media/SanPham/bbe6691a-9050-4918-8d37-34e418661292_carousel-1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\bbe6691a-9050-4918-8d37-34e418661292_carousel-1.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\bec6271a-96ba-4d8a-8294-687b78d7c61f_anh29.png))">
       <SourceType>Package</SourceType>
@@ -4160,6 +4624,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\bec6271a-96ba-4d8a-8294-687b78d7c61f_anh29.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\c2a4c303-0a8f-498a-b994-347c748962e1_anh3.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanGiay</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanGiay</BasePath>
+      <RelativePath>media/SanPham/c2a4c303-0a8f-498a-b994-347c748962e1_anh3.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\c2a4c303-0a8f-498a-b994-347c748962e1_anh3.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\c7c79842-c142-449a-8265-09688cf23a3c_anh29.png))">
       <SourceType>Package</SourceType>
       <SourceId>WebBanGiay</SourceId>
@@ -4175,6 +4655,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\c7c79842-c142-449a-8265-09688cf23a3c_anh29.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\d27670c4-509c-4470-be97-87628ed0c2e4_avt15.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanGiay</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanGiay</BasePath>
+      <RelativePath>media/SanPham/d27670c4-509c-4470-be97-87628ed0c2e4_avt15.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\d27670c4-509c-4470-be97-87628ed0c2e4_avt15.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\d6ee7b55-4a67-420d-b01f-5abee5cab3e8_anh25.png))">
       <SourceType>Package</SourceType>
@@ -4192,6 +4688,38 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\d6ee7b55-4a67-420d-b01f-5abee5cab3e8_anh25.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\d727b934-81d8-4dee-89db-da86e9f27502_images (1).jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanGiay</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanGiay</BasePath>
+      <RelativePath>media/SanPham/d727b934-81d8-4dee-89db-da86e9f27502_images (1).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\d727b934-81d8-4dee-89db-da86e9f27502_images (1).jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\e3f6be40-73ee-4d91-a987-6075a9ee4d2e_tải xuống (4).jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanGiay</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanGiay</BasePath>
+      <RelativePath>media/SanPham/e3f6be40-73ee-4d91-a987-6075a9ee4d2e_tải xuống (4).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\e3f6be40-73ee-4d91-a987-6075a9ee4d2e_tải xuống (4).jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\e699307d-30c4-4bbc-b0be-b4fbbb04ce80_anh27.png))">
       <SourceType>Package</SourceType>
       <SourceId>WebBanGiay</SourceId>
@@ -4207,6 +4735,102 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\e699307d-30c4-4bbc-b0be-b4fbbb04ce80_anh27.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\e77fd466-d466-490f-890f-7c8fc6423fc9_images (1).jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanGiay</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanGiay</BasePath>
+      <RelativePath>media/SanPham/e77fd466-d466-490f-890f-7c8fc6423fc9_images (1).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\e77fd466-d466-490f-890f-7c8fc6423fc9_images (1).jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\ef77091c-0492-4289-a1e1-a292cc74d5e8_anh6.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanGiay</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanGiay</BasePath>
+      <RelativePath>media/SanPham/ef77091c-0492-4289-a1e1-a292cc74d5e8_anh6.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\ef77091c-0492-4289-a1e1-a292cc74d5e8_anh6.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\eff860df-cb44-42f9-8575-5243b2f0118d_tải xuống (2).jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanGiay</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanGiay</BasePath>
+      <RelativePath>media/SanPham/eff860df-cb44-42f9-8575-5243b2f0118d_tải xuống (2).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\eff860df-cb44-42f9-8575-5243b2f0118d_tải xuống (2).jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\f7ca7ed3-5b61-4125-97b8-bb4a43bfff2c_anh9.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanGiay</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanGiay</BasePath>
+      <RelativePath>media/SanPham/f7ca7ed3-5b61-4125-97b8-bb4a43bfff2c_anh9.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\f7ca7ed3-5b61-4125-97b8-bb4a43bfff2c_anh9.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\f89abe4e-c822-4056-9975-0221216e2570_images (2).jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanGiay</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanGiay</BasePath>
+      <RelativePath>media/SanPham/f89abe4e-c822-4056-9975-0221216e2570_images (2).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\f89abe4e-c822-4056-9975-0221216e2570_images (2).jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\fe2c1fbe-b3f4-4881-b1f3-dacdf592509a_tải xuống (2).jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanGiay</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanGiay</BasePath>
+      <RelativePath>media/SanPham/fe2c1fbe-b3f4-4881-b1f3-dacdf592509a_tải xuống (2).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\SanPham\fe2c1fbe-b3f4-4881-b1f3-dacdf592509a_tải xuống (2).jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\NhanVien\404.html))">
       <SourceType>Package</SourceType>

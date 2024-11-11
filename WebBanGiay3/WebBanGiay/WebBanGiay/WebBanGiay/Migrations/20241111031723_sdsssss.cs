@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace WebBanGiay.Migrations
 {
-    public partial class sdss : Migration
+    public partial class sdsssss : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -107,6 +107,70 @@ namespace WebBanGiay.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "DON_HANGs",
+                columns: table => new
+                {
+                    ID_DON_HANG = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    ID_NGUOI_DUNG = table.Column<int>(type: "int", nullable: false),
+                    ID_NHAN_VIEN = table.Column<int>(type: "int", nullable: true),
+                    NGAY_DAT = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    TRANG_THAI_DH = table.Column<int>(type: "int", nullable: false),
+                    TRANG_THAI_THANH_TOAN = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    HinhThucThanhToan = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    NGAY_GIAO = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    LY_DO_HUY = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    TEN_NGUOI_NHAN = table.Column<string>(type: "nvarchar(40)", maxLength: 40, nullable: false),
+                    DIACHI = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_DON_HANGs", x => x.ID_DON_HANG);
+                    table.ForeignKey(
+                        name: "FK_DON_HANGs_NGUOI_DUNGs_ID_NGUOI_DUNG",
+                        column: x => x.ID_NGUOI_DUNG,
+                        principalTable: "NGUOI_DUNGs",
+                        principalColumn: "ID_NGUOI_DUNG",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_DON_HANGs_NGUOI_DUNGs_ID_NHAN_VIEN",
+                        column: x => x.ID_NHAN_VIEN,
+                        principalTable: "NGUOI_DUNGs",
+                        principalColumn: "ID_NGUOI_DUNG");
+                });
+
+            migrationBuilder.CreateTable(
+                name: "GIO_HANGs",
+                columns: table => new
+                {
+                    ID_GIO_HANG = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    ID_NGUOI_DUNG = table.Column<int>(type: "int", nullable: false),
+                    ID_SAN_PHAM = table.Column<int>(type: "int", nullable: false),
+                    SO_LUONG_GH = table.Column<int>(type: "int", nullable: false),
+                    THANH_TIEN = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    GIA_BAN = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    MAU_SP = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    TRANG_THAI = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_GIO_HANGs", x => x.ID_GIO_HANG);
+                    table.ForeignKey(
+                        name: "FK_GIO_HANGs_NGUOI_DUNGs_ID_NGUOI_DUNG",
+                        column: x => x.ID_NGUOI_DUNG,
+                        principalTable: "NGUOI_DUNGs",
+                        principalColumn: "ID_NGUOI_DUNG",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_GIO_HANGs_SAN_PHAMs_ID_SAN_PHAM",
+                        column: x => x.ID_SAN_PHAM,
+                        principalTable: "SAN_PHAMs",
+                        principalColumn: "ID_SAN_PHAM",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "HINH_ANHs",
                 columns: table => new
                 {
@@ -152,6 +216,66 @@ namespace WebBanGiay.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "CHI_TIET_DON_HANGs",
+                columns: table => new
+                {
+                    ID_CHI_TIET_DON_HANG = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    ID_DON_HANG = table.Column<int>(type: "int", nullable: false),
+                    ID_SAN_PHAM = table.Column<int>(type: "int", nullable: false),
+                    MauSanPham = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    SO_LUONG = table.Column<int>(type: "int", nullable: false),
+                    GIA_BAN = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    THANH_TIEN = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_CHI_TIET_DON_HANGs", x => x.ID_CHI_TIET_DON_HANG);
+                    table.ForeignKey(
+                        name: "FK_CHI_TIET_DON_HANGs_DON_HANGs_ID_DON_HANG",
+                        column: x => x.ID_DON_HANG,
+                        principalTable: "DON_HANGs",
+                        principalColumn: "ID_DON_HANG",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_CHI_TIET_DON_HANGs_SAN_PHAMs_ID_SAN_PHAM",
+                        column: x => x.ID_SAN_PHAM,
+                        principalTable: "SAN_PHAMs",
+                        principalColumn: "ID_SAN_PHAM",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_CHI_TIET_DON_HANGs_ID_DON_HANG",
+                table: "CHI_TIET_DON_HANGs",
+                column: "ID_DON_HANG");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_CHI_TIET_DON_HANGs_ID_SAN_PHAM",
+                table: "CHI_TIET_DON_HANGs",
+                column: "ID_SAN_PHAM");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_DON_HANGs_ID_NGUOI_DUNG",
+                table: "DON_HANGs",
+                column: "ID_NGUOI_DUNG");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_DON_HANGs_ID_NHAN_VIEN",
+                table: "DON_HANGs",
+                column: "ID_NHAN_VIEN");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_GIO_HANGs_ID_NGUOI_DUNG",
+                table: "GIO_HANGs",
+                column: "ID_NGUOI_DUNG");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_GIO_HANGs_ID_SAN_PHAM",
+                table: "GIO_HANGs",
+                column: "ID_SAN_PHAM");
+
             migrationBuilder.CreateIndex(
                 name: "IX_HINH_ANHs_ID_SAN_PHAM",
                 table: "HINH_ANHs",
@@ -181,19 +305,28 @@ namespace WebBanGiay.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
+                name: "CHI_TIET_DON_HANGs");
+
+            migrationBuilder.DropTable(
+                name: "GIO_HANGs");
+
+            migrationBuilder.DropTable(
                 name: "HINH_ANHs");
 
             migrationBuilder.DropTable(
-                name: "NGUOI_DUNGs");
+                name: "SAN_PHAM_MAUs");
 
             migrationBuilder.DropTable(
-                name: "SAN_PHAM_MAUs");
+                name: "DON_HANGs");
 
             migrationBuilder.DropTable(
                 name: "MauSanPhamModel");
 
             migrationBuilder.DropTable(
                 name: "SAN_PHAMs");
+
+            migrationBuilder.DropTable(
+                name: "NGUOI_DUNGs");
 
             migrationBuilder.DropTable(
                 name: "KICH_THUOCs");
