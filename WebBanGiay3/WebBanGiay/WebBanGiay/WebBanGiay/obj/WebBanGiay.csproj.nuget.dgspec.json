@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C4Vip\\WebBanGiay5\\WebBanGiay\\WebBanGiay\\WebBanGiay\\WebBanGiay.csproj": {}
+    "D:\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\WebBanGiay\\WebBanGiay.csproj": {}
   },
   "projects": {
-    "D:\\C4Vip\\WebBanGiay5\\WebBanGiay\\WebBanGiay\\WebBanGiay\\WebBanGiay.csproj": {
+    "D:\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\WebBanGiay\\WebBanGiay.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C4Vip\\WebBanGiay5\\WebBanGiay\\WebBanGiay\\WebBanGiay\\WebBanGiay.csproj",
+        "projectUniqueName": "D:\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\WebBanGiay\\WebBanGiay.csproj",
         "projectName": "WebBanGiay",
-        "projectPath": "D:\\C4Vip\\WebBanGiay5\\WebBanGiay\\WebBanGiay\\WebBanGiay\\WebBanGiay.csproj",
+        "projectPath": "D:\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\WebBanGiay\\WebBanGiay.csproj",
         "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "D:\\C4Vip\\WebBanGiay5\\WebBanGiay\\WebBanGiay\\WebBanGiay\\obj\\",
+        "outputPath": "D:\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\WebBanGiay\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

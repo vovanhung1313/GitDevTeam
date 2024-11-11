@@ -1,0 +1,327 @@
+﻿@model IEnumerable<WebBanGiay.Models.DonHangModel>
+
+@{
+    ViewData["Title"] = "Đơn Hàng";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<style>
+
+
+</style>
+
+<!-- Modal Hủy đơn hàng -->
+<div class="modal fade" id="huyDonModal" tabindex="-1" aria-labelledby="huyDonModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form asp-controller="DonHangAdmin" asp-action="HuyDon" method="post">
+                <div class="modal-header" style="background-color: #F28022; border-radius: 5px 5px 0px 0px;">
+                    <h5 class="modal-title" id="huyDonModalLabel">Nhập lý do hủy đơn hàng</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" id="donHangId" name="id" value="" />
+                    <div class="mb-3">
+                        <label for="lyDoHuy" class="col-form-label">Lý do hủy:</label>
+                        <textarea class="form-control" id="lyDoHuy" name="LyDoHuy" required></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                    <button type="submit" class="btn btn-primary">Lưu</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- Modal Chi tiết đơn hàng -->
+<div class="modal fade" id="ChiTietModal" tabindex="-1" aria-labelledby="ChiTietModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header" style="background-color: #F28022; border-radius: 5px 5px 0px 0px;">
+                <h5 class="modal-title" id="ChiTietModalLabel">Chi tiết đơn hàng</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>STT</th>
+                                <th>Tên sản phẩm</th>
+                                <th>Số lượng</th>
+                                <th>Giá</th>
+                                <th>Màu</th>
+                                <th>Thành tiền</th>
+                            </tr>
+                        </thead>
+                        <tbody id="chiTietSanPham">
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <h5>Thông tin người dùng</h5>
+                        <p><strong>Tên người nhận:</strong> <span id="tenNguoiNhan"></span></p>
+                        <p><strong>Địa chỉ:</strong> <span id="diaChi"></span></p>
+                        <p><strong>Số điện thoại:</strong> <span id="soDienThoai"></span></p>
+                        <p><strong>Tên người đặt:</strong> <span id="tenNguoiDat"></span></p>
+                    </div>
+                    <div class="col-md-6">
+                        <h5>Thông tin đơn hàng</h5>
+                        <p><strong>Ngày đặt:</strong> <span id="ngayDat"></span></p>
+                        <p><strong>Trạng thái:</strong> <span id="trangThaiDonHang"></span></p>
+                        <p><strong>Thanh toán:</strong> <span id="trangThaiThanhToan"></span></p>
+                        <p><strong>Hình thức thanh toán:</strong> <span id="hinhThucThanhToan"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container">
+    <div class="page-inner">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header" style="background-color: #F28022; border-radius: 5px 5px 0px 0px;">
+                        <h4 class="card-title">Đơn hàng</h4>
+                    </div>
+                    <div class="card-body">
+                        <ul class="nav nav-tabs nav-line nav-color-secondary" id="line-tab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="line-home-tab" data-bs-toggle="pill" href="#line-home" role="tab" aria-controls="pills-home" aria-selected="true">Đang xử lý</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="line-profile-tab" data-bs-toggle="pill" href="#line-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Đang giao</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="line-contact-tab" data-bs-toggle="pill" href="#line-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Hoàn thành</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content mt-3 mb-3" id="line-tabContent">
+                            <div class="tab-pane fade show active" id="line-home" role="tabpanel" aria-labelledby="line-home-tab">
+                                <div class="table-responsive">
+                                    <table id="add-row" class="display table table-striped table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>STT</th>
+                                                <th>Tên khách hàng</th>
+
+                                                <th>Ngày đặt</th>
+                                                <th>Trạng thái</th>
+                                                <th>Thanh toán</th>
+                                                <th>Hình thức thanh toán</th>
+                                                <th>Thao tác</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach (var item in ViewBag.ChoDuyet)
+                                            {
+                                                <tr>
+                                                    <td>@item.ID_DON_HANG</td>
+                                                    <td>@item.TEN_NGUOI_NHAN</td>
+
+                                                    <td>@item.NGAY_DAT.ToString("dd/MM/yyyy")</td>
+                                                    <td>Đang xử lý</td>
+                                                    <td>@item.TRANG_THAI_THANH_TOAN</td>
+                                                    <td>
+                                                        @if (item.HinhThucThanhToan == "COD")
+                                                        {
+                                                            <span>Thanh toán khi nhận hàng</span>
+                                                        }
+                                                        else if (item.HinhThucThanhToan == "VNPay")
+                                                        {
+                                                            <span>Thanh toán VNPay</span>
+                                                        }
+                                                    </td>
+                                                    <td>
+                                                        <div class="form-button-action">
+                                                            <form asp-controller="DonHangAdmin" asp-action="DuyetDon" method="post">
+                                                                <input type="hidden" name="id" value="@item.ID_DON_HANG" />
+                                                                <button type="submit" class="btn btn-link btn-primary">
+                                                                    <i class="fas fa-check"></i>
+                                                                </button>
+                                                            </form>
+                                                            @if (item.HinhThucThanhToan == "COD")
+                                                            {
+                                                                <button type="button" class="btn btn-link btn-danger" data-bs-toggle="modal" data-bs-target="#huyDonModal" onclick="setDeleteId(@item.ID_DON_HANG)">
+                                                                    <i class="fas fa-times"></i> <!-- Icon Hủy -->
+                                                                </button>
+                                                            }
+
+                                                            <button type="button" class="btn btn-link btn-secondary" onclick="loadChiTietDonHang(@item.ID_DON_HANG)">
+                                                                <i class="fas fa-bars"></i>
+                                                            </button>
+
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="line-profile" role="tabpanel" aria-labelledby="line-profile-tab">
+                                <div class="table-responsive">
+                                    <table id="add-row" class="display table table-striped table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>STT</th>
+                                                <th>Tên khách hàng</th>
+
+                                                <th>Ngày đặt</th>
+                                                <th>Trạng thái</th>
+                                                <th>Thanh toán</th>
+                                                <th>Hình thức thanh toán</th>
+                                                <th>Thao tác</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach (var item in ViewBag.DangGiao)
+                                            {
+                                                <tr>
+                                                    <td>@item.ID_DON_HANG</td>
+                                                    <td>@item.TEN_NGUOI_NHAN</td>
+
+                                                    <td>@item.NGAY_DAT.ToString("dd/MM/yyyy")</td>
+                                                    <td>Đang giao</td>
+                                                    <td>@item.TRANG_THAI_THANH_TOAN</td>
+                                                    <td>
+                                                        @if (item.HinhThucThanhToan == "COD")
+                                                        {
+                                                            <span>Thanh toán khi nhận hàng</span>
+                                                        }
+                                                        else if (item.HinhThucThanhToan == "VNPay")
+                                                        {
+                                                            <span>Thanh toán VNPay</span>
+                                                        }
+                                                    </td>
+                                                    <td>
+                                                        <div class="form-button-action">
+                                                            <form asp-controller="DonHangAdmin" asp-action="HoanThanh" method="post">
+                                                                <input type="hidden" name="id" value="@item.ID_DON_HANG" />
+                                                                <button type="submit" class="btn btn-link btn-primary">
+                                                                    <i class="fas fa-check"></i> <!-- Icon Hoàn thành -->
+                                                                </button>
+                                                            </form>
+                                                        </div>
+                                                        <div class="form-button-action">
+                                                            <button type="button" class="btn btn-link btn-secondary" onclick="loadChiTietDonHang(@item.ID_DON_HANG)">
+                                                                <i class="fas fa-bars"></i>
+                                                            </button>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="line-contact" role="tabpanel" aria-labelledby="line-contact-tab">
+                                <div class="table-responsive">
+                                    <table id="add-row" class="display table table-striped table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>STT</th>
+                                                <th>Tên khách hàng</th>
+
+                                                <th>Ngày đặt</th>
+                                                <th>Trạng thái</th>
+                                                <th>Thanh toán</th>
+                                                <th>Hình thức thanh toán</th>
+                                                <th>Thao tác</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach (var item in ViewBag.HoanThanh)
+                                            {
+                                                <tr>
+                                                    <td>@item.ID_DON_HANG</td>
+                                                    <td>@item.TEN_NGUOI_NHAN</td>
+
+                                                    <td>@item.NGAY_DAT.ToString("dd/MM/yyyy")</td>
+                                                    <td>Hoàn thành</td>
+                                                    <td>@item.TRANG_THAI_THANH_TOAN</td>
+                                                    <td>
+                                                        @if (item.HinhThucThanhToan == "COD")
+                                                        {
+                                                            <span>Thanh toán khi nhận hàng</span>
+                                                        }
+                                                        else if (item.HinhThucThanhToan == "VNPay")
+                                                        {
+                                                            <span>Thanh toán VNPay</span>
+                                                        }
+                                                    </td>
+                                                    <td>
+                                                        <div class="form-button-action">
+                                                            <button type="button" class="btn btn-link btn-secondary" onclick="loadChiTietDonHang(@item.ID_DON_HANG)">
+                                                                <i class="fas fa-bars"></i>
+                                                            </button>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function setDeleteId(donHangId) {
+        document.getElementById('donHangId').value = donHangId;
+    }
+
+
+
+    function loadChiTietDonHang(id) {
+        $.ajax({
+            url: '/Admin/DonHangAdmin/ChiTiet/' + id,
+            type: 'GET',
+            success: function (data) {
+                // Xóa nội dung cũ trong bảng chi tiết sản phẩm
+                $('#chiTietSanPham').empty();
+                // Thêm từng chi tiết sản phẩm vào bảng
+                data.chiTietDonHang.forEach(function (item, index) {
+                    $('#chiTietSanPham').append(
+                        '<tr>' +
+                        '<td>' + (index + 1) + '</td>' +
+                        '<td>' + item.tenSanPham + '</td>' +
+                        '<td>' + item.soLuong + '</td>' +
+                        '<td>' + item.giaBan + '</td>' +
+                        '<td>' + item.mauSP + '</td>' +
+                        '<td>' + item.thanhTien + '</td>' +
+                        '</tr>'
+                    );
+                });
+                // Cập nhật thông tin người dùng và đơn hàng
+                $('#tenNguoiNhan').text(data.nguoiDung.tenNguoiNhan);
+                $('#diaChi').text(data.nguoiDung.diaChi);
+                $('#soDienThoai').text(data.nguoiDung.soDienThoai);
+                $('#tenNguoiDat').text(data.nguoiDung.tenNguoiDat);
+                $('#ngayDat').text(data.ngayDat);
+                $('#trangThaiDonHang').text(data.trangThaiDonHang);
+                $('#trangThaiThanhToan').text(data.trangThaiThanhToan);
+                $('#hinhThucThanhToan').text(data.hinhThucThanhToan);
+
+                // Hiển thị modal
+                $('#ChiTietModal').modal('show');
+            },
+            error: function () {
+                alert('Không thể lấy chi tiết đơn hàng');
+            }
+        });
+    }
+
+</script>
