@@ -236,8 +236,8 @@ namespace WebBanGiay.Migrations
 
                     b.Property<string>("DIA_CHI")
                         .IsRequired()
-                        .HasMaxLength(40)
-                        .HasColumnType("nvarchar(40)");
+                        .HasMaxLength(300)
+                        .HasColumnType("nvarchar(300)");
 
                     b.Property<string>("EMAIL")
                         .IsRequired()
@@ -286,6 +286,263 @@ namespace WebBanGiay.Migrations
                     b.HasKey("ID_NGUOI_DUNG");
 
                     b.ToTable("NGUOI_DUNGs");
+
+                    b.HasData(
+                        new
+                        {
+                            ID_NGUOI_DUNG = 1,
+                            DIA_CHI = "400 Hà Huy Tập, Tân An, TP Buôn Ma Thuột",
+                            EMAIL = "user1@gmail.com",
+                            GTTT = "CMND001",
+                            HINH_ANH = "avt1.jpg",
+                            HO_TEN = "Trần Văn Lực",
+                            MAT_KHAU = "password1",
+                            NGAY_TAO = new DateTime(2024, 11, 12, 10, 36, 30, 799, DateTimeKind.Local).AddTicks(374),
+                            SDT = "0123456780",
+                            TAI_KHOAN = "user1",
+                            TRANG_THAI = 1,
+                            VAI_TRO = 0
+                        },
+                        new
+                        {
+                            ID_NGUOI_DUNG = 2,
+                            DIA_CHI = "400 Hà Huy Tập, Tân An, TP Buôn Ma Thuột 2",
+                            EMAIL = "user2@gmail.com",
+                            GTTT = "CMND002",
+                            HINH_ANH = "avt1.jpg",
+                            HO_TEN = "Trần Thị Yến ngọc",
+                            MAT_KHAU = "password2",
+                            NGAY_TAO = new DateTime(2024, 11, 12, 10, 36, 30, 799, DateTimeKind.Local).AddTicks(390),
+                            SDT = "0123456781",
+                            TAI_KHOAN = "user2",
+                            TRANG_THAI = 1,
+                            VAI_TRO = 0
+                        },
+                        new
+                        {
+                            ID_NGUOI_DUNG = 3,
+                            DIA_CHI = "400 Hà Huy Tập, Tân An, TP Buôn Ma Thuột 3",
+                            EMAIL = "user3@gmail.com",
+                            GTTT = "CMND003",
+                            HINH_ANH = "avt1.jpg",
+                            HO_TEN = "Nguyễn Ngọc Thạch",
+                            MAT_KHAU = "password3",
+                            NGAY_TAO = new DateTime(2024, 11, 12, 10, 36, 30, 799, DateTimeKind.Local).AddTicks(392),
+                            SDT = "0123456782",
+                            TAI_KHOAN = "user3",
+                            TRANG_THAI = 1,
+                            VAI_TRO = 0
+                        },
+                        new
+                        {
+                            ID_NGUOI_DUNG = 4,
+                            DIA_CHI = "400 Hà Huy Tập, Tân An, TP Buôn Ma Thuột 4",
+                            EMAIL = "user4@gmail.com",
+                            GTTT = "CMND004",
+                            HINH_ANH = "avt1.jpg",
+                            HO_TEN = "Nguyễn Tiến Thành",
+                            MAT_KHAU = "password4",
+                            NGAY_TAO = new DateTime(2024, 11, 12, 10, 36, 30, 799, DateTimeKind.Local).AddTicks(402),
+                            SDT = "0123456783",
+                            TAI_KHOAN = "user4",
+                            TRANG_THAI = 1,
+                            VAI_TRO = 0
+                        },
+                        new
+                        {
+                            ID_NGUOI_DUNG = 5,
+                            DIA_CHI = "400 Hà Huy Tập, Tân An, TP Buôn Ma Thuột 5",
+                            EMAIL = "user5@gmail.com",
+                            GTTT = "CMND005",
+                            HINH_ANH = "avt1.jpg",
+                            HO_TEN = "Nguyễn Thị Thu",
+                            MAT_KHAU = "password5",
+                            NGAY_TAO = new DateTime(2024, 11, 12, 10, 36, 30, 799, DateTimeKind.Local).AddTicks(406),
+                            SDT = "0123456784",
+                            TAI_KHOAN = "user5",
+                            TRANG_THAI = 1,
+                            VAI_TRO = 0
+                        },
+                        new
+                        {
+                            ID_NGUOI_DUNG = 6,
+                            DIA_CHI = "400 Hà Huy Tập, Tân An, TP Buôn Ma Thuột 6",
+                            EMAIL = "user6@gmail.com",
+                            GTTT = "CMND006",
+                            HINH_ANH = "avt1.jpg",
+                            HO_TEN = "Lê Hoàng Trọng Khôi",
+                            MAT_KHAU = "password6",
+                            NGAY_TAO = new DateTime(2024, 11, 12, 10, 36, 30, 799, DateTimeKind.Local).AddTicks(407),
+                            SDT = "0123456785",
+                            TAI_KHOAN = "user6",
+                            TRANG_THAI = 1,
+                            VAI_TRO = 0
+                        },
+                        new
+                        {
+                            ID_NGUOI_DUNG = 7,
+                            DIA_CHI = "400 Hà Huy Tập, Tân An, TP Buôn Ma Thuột 7",
+                            EMAIL = "user7@gmail.com",
+                            GTTT = "CMND007",
+                            HINH_ANH = "avt1.jpg",
+                            HO_TEN = "Võ Văn Đạt",
+                            MAT_KHAU = "password7",
+                            NGAY_TAO = new DateTime(2024, 11, 12, 10, 36, 30, 799, DateTimeKind.Local).AddTicks(415),
+                            SDT = "0123456786",
+                            TAI_KHOAN = "user7",
+                            TRANG_THAI = 1,
+                            VAI_TRO = 0
+                        },
+                        new
+                        {
+                            ID_NGUOI_DUNG = 8,
+                            DIA_CHI = "400 Hà Huy Tập, Tân An, TP Buôn Ma Thuột 8",
+                            EMAIL = "user8@gmail.com",
+                            GTTT = "CMND008",
+                            HINH_ANH = "avt1.jpg",
+                            HO_TEN = "Trần Thị Bích Nga",
+                            MAT_KHAU = "password8",
+                            NGAY_TAO = new DateTime(2024, 11, 12, 10, 36, 30, 799, DateTimeKind.Local).AddTicks(416),
+                            SDT = "0123456787",
+                            TAI_KHOAN = "user8",
+                            TRANG_THAI = 1,
+                            VAI_TRO = 0
+                        },
+                        new
+                        {
+                            ID_NGUOI_DUNG = 9,
+                            DIA_CHI = "400 Hà Huy Tập, Tân An, TP Buôn Ma Thuột 9",
+                            EMAIL = "user9@gmail.com",
+                            GTTT = "CMND009",
+                            HINH_ANH = "avt1.jpg",
+                            HO_TEN = "Nguyễn Trường Nhu",
+                            MAT_KHAU = "password9",
+                            NGAY_TAO = new DateTime(2024, 11, 12, 10, 36, 30, 799, DateTimeKind.Local).AddTicks(423),
+                            SDT = "0123456788",
+                            TAI_KHOAN = "user9",
+                            TRANG_THAI = 1,
+                            VAI_TRO = 0
+                        },
+                        new
+                        {
+                            ID_NGUOI_DUNG = 10,
+                            DIA_CHI = "400 Hà Huy Tập, Tân An, TP Buôn Ma Thuột 10",
+                            EMAIL = "user10@gmail.com",
+                            GTTT = "CMND010",
+                            HINH_ANH = "avt1.jpg",
+                            HO_TEN = "Phạm Nguyên Phước",
+                            MAT_KHAU = "password10",
+                            NGAY_TAO = new DateTime(2024, 11, 12, 10, 36, 30, 799, DateTimeKind.Local).AddTicks(424),
+                            SDT = "0123456789",
+                            TAI_KHOAN = "user10",
+                            TRANG_THAI = 1,
+                            VAI_TRO = 0
+                        },
+                        new
+                        {
+                            ID_NGUOI_DUNG = 11,
+                            DIA_CHI = "400 Hà Huy Tập, Tân An, TP Buôn Ma Thuột Admin 1",
+                            EMAIL = "admin1@gmail.com",
+                            GTTT = "CMND011",
+                            HINH_ANH = "Admin_images.jpg",
+                            HO_TEN = "Võ Văn Hưng",
+                            MAT_KHAU = "admin123",
+                            NGAY_TAO = new DateTime(2024, 11, 12, 10, 36, 30, 799, DateTimeKind.Local).AddTicks(435),
+                            SDT = "0987654321",
+                            TAI_KHOAN = "admin1",
+                            TRANG_THAI = 0,
+                            VAI_TRO = 1
+                        },
+                        new
+                        {
+                            ID_NGUOI_DUNG = 12,
+                            DIA_CHI = "400 Hà Huy Tập, Tân An, TP Buôn Ma Thuột Admin 2",
+                            EMAIL = "admin2@gmail.com",
+                            GTTT = "CMND012",
+                            HINH_ANH = "Admin_images.jpg",
+                            HO_TEN = "Phạm Bá Hưng",
+                            MAT_KHAU = "admin234",
+                            NGAY_TAO = new DateTime(2024, 11, 12, 10, 36, 30, 799, DateTimeKind.Local).AddTicks(436),
+                            SDT = "0987654322",
+                            TAI_KHOAN = "admin2",
+                            TRANG_THAI = 0,
+                            VAI_TRO = 1
+                        },
+                        new
+                        {
+                            ID_NGUOI_DUNG = 13,
+                            DIA_CHI = "400 Hà Huy Tập, Tân An, TP Buôn Ma Thuột NV 1",
+                            EMAIL = "employee1@gmail.com",
+                            GTTT = "CMND013",
+                            HINH_ANH = "Employee_images.jpg",
+                            HO_TEN = "Trần Tiến Quân",
+                            MAT_KHAU = "NhanVien123",
+                            NGAY_TAO = new DateTime(2024, 11, 12, 10, 36, 30, 799, DateTimeKind.Local).AddTicks(450),
+                            SDT = "0977654321",
+                            TAI_KHOAN = "NhanVien1",
+                            TRANG_THAI = 1,
+                            VAI_TRO = 2
+                        },
+                        new
+                        {
+                            ID_NGUOI_DUNG = 14,
+                            DIA_CHI = "400 Hà Huy Tập, Tân An, TP Buôn Ma Thuột NV 2",
+                            EMAIL = "employee2@gmail.com",
+                            GTTT = "CMND014",
+                            HINH_ANH = "Employee_images.jpg",
+                            HO_TEN = "Ngô Kiến Huy",
+                            MAT_KHAU = "employeepass2",
+                            NGAY_TAO = new DateTime(2024, 11, 12, 10, 36, 30, 799, DateTimeKind.Local).AddTicks(451),
+                            SDT = "0977654322",
+                            TAI_KHOAN = "employee2",
+                            TRANG_THAI = 1,
+                            VAI_TRO = 2
+                        },
+                        new
+                        {
+                            ID_NGUOI_DUNG = 15,
+                            DIA_CHI = "400 Hà Huy Tập, Tân An, TP Buôn Ma Thuột NV 3",
+                            EMAIL = "employee3@gmail.com",
+                            GTTT = "CMND015",
+                            HINH_ANH = "Employee_images.jpg",
+                            HO_TEN = "Nguyễn Trọng Tính",
+                            MAT_KHAU = "employeepass3",
+                            NGAY_TAO = new DateTime(2024, 11, 12, 10, 36, 30, 799, DateTimeKind.Local).AddTicks(453),
+                            SDT = "0977654323",
+                            TAI_KHOAN = "employee3",
+                            TRANG_THAI = 1,
+                            VAI_TRO = 2
+                        },
+                        new
+                        {
+                            ID_NGUOI_DUNG = 16,
+                            DIA_CHI = "400 Hà Huy Tập, Tân An, TP Buôn Ma Thuột NV 4",
+                            EMAIL = "employee4@gmail.com",
+                            GTTT = "CMND016",
+                            HINH_ANH = "Employee_images.jpg",
+                            HO_TEN = "Trần Anh Đức",
+                            MAT_KHAU = "employeepass4",
+                            NGAY_TAO = new DateTime(2024, 11, 12, 10, 36, 30, 799, DateTimeKind.Local).AddTicks(460),
+                            SDT = "0977654324",
+                            TAI_KHOAN = "employee4",
+                            TRANG_THAI = 1,
+                            VAI_TRO = 2
+                        },
+                        new
+                        {
+                            ID_NGUOI_DUNG = 17,
+                            DIA_CHI = "400 Hà Huy Tập, Tân An, TP Buôn Ma Thuột NV 5",
+                            EMAIL = "employee5@gmail.com",
+                            GTTT = "CMND017",
+                            HINH_ANH = "Employee_images.jpg",
+                            HO_TEN = "Trần Văn Đức Hồng",
+                            MAT_KHAU = "employeepass5",
+                            NGAY_TAO = new DateTime(2024, 11, 12, 10, 36, 30, 799, DateTimeKind.Local).AddTicks(462),
+                            SDT = "0977654325",
+                            TAI_KHOAN = "employee5",
+                            TRANG_THAI = 1,
+                            VAI_TRO = 2
+                        });
                 });
 
             modelBuilder.Entity("WebBanGiay.Models.SanPhamMauModel", b =>
