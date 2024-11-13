@@ -99,7 +99,7 @@ namespace WebBanGiay.Controllers
 
                 nguoiDung.VAI_TRO = 0; 
                 nguoiDung.HINH_ANH = "User_images.jpg";
-                nguoiDung.GTTT = nguoiDung.GTTT ?? "User_images.jpg"; 
+                nguoiDung.GTTT = "User_images.jpg";
                 nguoiDung.NGAY_TAO = DateTime.Now;
                 nguoiDung.TRANG_THAI = 0; 
 

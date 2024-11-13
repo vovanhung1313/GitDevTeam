@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "h86PEOMEkcnT7IJDT5+nmb+lTF2zbSahVhRZnyQffJg=",
+  "Hash": "DBQ8UUeUXXcx94C73CUW6kdC2XJ+SN06nEbKCOu7u6I=",
   "Source": "WebBanGiay",
   "BasePath": "_content/WebBanGiay",
   "Mode": "Default",
@@ -5468,6 +5468,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\media\\SanPham\\a4fe2104-c67b-43f6-8120-e782afdee4d8_anh22.png"
+    },
+    {
+      "Identity": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\WebBanGiay\\wwwroot\\media\\SanPham\\a5ffb09e-1b25-4e16-ba1b-0ab455caea1c_6_1f15eaafab4a47d5b23376e9c1b3c55a_master.jpg",
+      "SourceId": "WebBanGiay",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\WebBanGiay\\wwwroot\\",
+      "BasePath": "_content/WebBanGiay",
+      "RelativePath": "media/SanPham/a5ffb09e-1b25-4e16-ba1b-0ab455caea1c_6_1f15eaafab4a47d5b23376e9c1b3c55a_master.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\media\\SanPham\\a5ffb09e-1b25-4e16-ba1b-0ab455caea1c_6_1f15eaafab4a47d5b23376e9c1b3c55a_master.jpg"
     },
     {
       "Identity": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\WebBanGiay\\wwwroot\\media\\SanPham\\a63e1cfb-49f5-4fde-8c64-5c4e567ea196_anh31.png",
