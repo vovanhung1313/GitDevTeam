@@ -17,8 +17,8 @@ namespace WebBanGiay.Models
         [StringLength(10, MinimumLength = 10, ErrorMessage = "Số điện thoại phải có đúng 10 chữ số.")]
         public string SDT { get; set; }
 
-        [Required(ErrorMessage = "Không được để trống giấy tờ tùy thân.")]
-        public string GTTT { get; set; } = "User_images.jpg";
+        
+        public string GTTT { get; set; }
 
         [Required(ErrorMessage = "Yêu cầu nhập Email")]
         [EmailAddress(ErrorMessage = "Định dạng Email không đúng")]
@@ -36,8 +36,8 @@ namespace WebBanGiay.Models
 
         public int VAI_TRO { get; set; } = 0;
 
-        [Required(ErrorMessage = "Không được để trống hình ảnh.")]
-        public string HINH_ANH { get; set; } = "User_images.jpg";
+        
+        public string HINH_ANH { get; set; }
 
         public DateTime NGAY_TAO { get; set; } = DateTime.Now;
         public int TRANG_THAI { get; set; } = 0;
@@ -46,7 +46,7 @@ namespace WebBanGiay.Models
         public IFormFile? HinhAnhTaiLen { get; set; }
 
         [Required(ErrorMessage = "Không được để trống địa chỉ.")]
-        [StringLength(40, MinimumLength = 5, ErrorMessage = "Địa chỉ phải từ 5 đến 40 ký tự.")]
+        [StringLength(300, MinimumLength = 5, ErrorMessage = "Địa chỉ phải từ 5 đến 300 ký tự.")]
         public string DIA_CHI { get; set; }
 
         // Thêm các thuộc tính cho Google Login

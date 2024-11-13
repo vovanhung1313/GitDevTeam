@@ -88,94 +88,65 @@ namespace WebBanGiay.Areas.Admin.Controllers
             var nguoiDungModel = await _dataContext.NGUOI_DUNGs.FindAsync(id);
             if (nguoiDungModel == null)
             {
-                return NotFound();
+                TempData["ThatBai"] = "Người dùng không tồn tại.";
+                return RedirectToAction(nameof(Index));
             }
 
             return View(nguoiDungModel);
         }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> SuaNguoiDung(NguoiDungModel model)
         {
             if (!ModelState.IsValid)
             {
-
+                // Log các lỗi validation
                 foreach (var error in ModelState.Values.SelectMany(v => v.Errors))
                 {
-                    Console.WriteLine(error.ErrorMessage); 
+                    Console.WriteLine(error.ErrorMessage);  // Hoặc bạn có thể sử dụng logger để ghi lại lỗi
                 }
-                return View(model);
-            }
 
-            if (await IsEmailOrPhoneExists(model))
-            {
-                ModelState.AddModelError("", "Email hoặc số điện thoại đã tồn tại."); 
-                return View(model); 
+                TempData["ThatBai"] = "Dữ liệu không hợp lệ. Vui lòng kiểm tra và thử lại.";
+                return View(model);
             }
 
             var nguoiDungModel = await _dataContext.NGUOI_DUNGs.FindAsync(model.ID_NGUOI_DUNG);
             if (nguoiDungModel == null)
             {
-                return NotFound(); 
+                TempData["ThatBai"] = "Người dùng không tồn tại.";
+                return RedirectToAction(nameof(Index));
             }
 
-
-            UpdateUserDetails(nguoiDungModel, model);
-            await _dataContext.SaveChangesAsync();
-
-            TempData["ThanhCong"] = "Cập nhật thông tin người dùng thành công!"; 
-            return RedirectToAction(nameof(Index)); 
-        }
-
-
-
-        private async Task<bool> IsEmailOrPhoneExists(NguoiDungModel model)
-        {
-            var emailExists = await _dataContext.NGUOI_DUNGs
-                .AnyAsync(nd => nd.EMAIL == model.EMAIL && nd.ID_NGUOI_DUNG != model.ID_NGUOI_DUNG);
-
-            if (emailExists)
-            {
-                ModelState.AddModelError("EMAIL", "Email đã tồn tại. Vui lòng nhập email khác.");
-                return true;
-            }
-
-            var phoneExists = await _dataContext.NGUOI_DUNGs
-                .AnyAsync(nd => nd.SDT == model.SDT && nd.ID_NGUOI_DUNG != model.ID_NGUOI_DUNG);
-
-            if (phoneExists)
-            {
-                ModelState.AddModelError("SDT", "Số điện thoại đã tồn tại. Vui lòng nhập số điện thoại khác.");
-                return true;
-            }
-
-            return false;
-        }
-
-        private void UpdateUserDetails(NguoiDungModel nguoiDungModel, NguoiDungModel model)
-        {
+            // Cập nhật thông tin người dùng
             nguoiDungModel.HO_TEN = model.HO_TEN;
             nguoiDungModel.SDT = model.SDT;
             nguoiDungModel.EMAIL = model.EMAIL;
             nguoiDungModel.DIA_CHI = model.DIA_CHI;
-        }
+            nguoiDungModel.TAI_KHOAN = model.TAI_KHOAN;
+            nguoiDungModel.MAT_KHAU = model.MAT_KHAU;
 
-        public async Task<IActionResult> XoaNguoiDung(int? id)
-        {
-            if (id == null)
+            // Cập nhật hình ảnh nếu có
+            if (model.HinhAnhTaiLen != null)
             {
-                return NotFound();
+                // Xử lý lưu hình ảnh tải lên
+                var fileName = Path.GetFileName(model.HinhAnhTaiLen.FileName);
+                var filePath = Path.Combine(_webHostEnvironment.WebRootPath, "UserImages", fileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await model.HinhAnhTaiLen.CopyToAsync(stream);
+                }
+
+                nguoiDungModel.HINH_ANH = fileName;
             }
 
-            var nguoiDungModel = await _dataContext.NGUOI_DUNGs
-                .FirstOrDefaultAsync(m => m.ID_NGUOI_DUNG == id);
-            if (nguoiDungModel == null)
-            {
-                return NotFound();
-            }
+            await _dataContext.SaveChangesAsync();
 
-            return View(nguoiDungModel);
+            TempData["ThanhCong"] = "Cập nhật thông tin người dùng thành công!";
+            return RedirectToAction(nameof(Index));
         }
+
 
         [HttpPost]
         [ValidateAntiForgeryToken]
