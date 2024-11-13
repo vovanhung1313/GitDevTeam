@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebBanGiay")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b72e74641a0351cbc3c3aa79881404521e367bb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba27e633064b9b0be00b9bbb6cbf097723871a48")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebBanGiay")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebBanGiay")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

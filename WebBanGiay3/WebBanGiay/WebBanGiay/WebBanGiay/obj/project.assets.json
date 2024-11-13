@@ -2071,6 +2071,18 @@
           "lib/netstandard2.0/NuGet.Versioning.dll": {}
         }
       },
+      "reCAPTCHA.AspNetCore/3.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/reCAPTCHA.AspNetCore.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/reCAPTCHA.AspNetCore.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
         "type": "package",
         "runtimeTargets": {
@@ -6515,6 +6527,19 @@
         "nuget.versioning.nuspec"
       ]
     },
+    "reCAPTCHA.AspNetCore/3.0.10": {
+      "sha512": "MJ3MCMBWr4gd+JZBXyUyT+YOdnMTNlysRrWKne/B/4hSxrpqERxinenvup6hVkQAoPz0DXzzJDujROEQPwohow==",
+      "type": "package",
+      "path": "recaptcha.aspnetcore/3.0.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/netcoreapp3.1/reCAPTCHA.AspNetCore.dll",
+        "recaptcha.aspnetcore.3.0.10.nupkg.sha512",
+        "recaptcha.aspnetcore.nuspec"
+      ]
+    },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "sha512": "HdSSp5MnJSsg08KMfZThpuLPJpPwE5hBXvHwoKWosyHHfe8Mh5WKT0ylEOf6yNzX6Ngjxe4Whkafh5q7Ymac4Q==",
       "type": "package",
@@ -10445,27 +10470,28 @@
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.21",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.18",
       "X.PagedList >= 9.1.2",
-      "X.PagedList.Mvc.Core >= 9.1.2"
+      "X.PagedList.Mvc.Core >= 9.1.2",
+      "reCAPTCHA.AspNetCore >= 3.0.10"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hungv\\.nuget\\packages\\": {},
+    "C:\\Users\\nguye\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\WebBanGiay\\WebBanGiay.csproj",
+      "projectUniqueName": "D:\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\WebBanGiay\\WebBanGiay.csproj",
       "projectName": "WebBanGiay",
-      "projectPath": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\WebBanGiay\\WebBanGiay.csproj",
-      "packagesPath": "C:\\Users\\hungv\\.nuget\\packages\\",
-      "outputPath": "D:\\git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\WebBanGiay\\obj\\",
+      "projectPath": "D:\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\WebBanGiay\\WebBanGiay.csproj",
+      "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
+      "outputPath": "D:\\c4\\Git\\GitDevTeam\\WebBanGiay3\\WebBanGiay\\WebBanGiay\\WebBanGiay\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\hungv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -10537,6 +10563,10 @@
           "X.PagedList.Mvc.Core": {
             "target": "Package",
             "version": "[9.1.2, )"
+          },
+          "reCAPTCHA.AspNetCore": {
+            "target": "Package",
+            "version": "[3.0.10, )"
           }
         },
         "imports": [
@@ -10558,7 +10588,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
       }
     }
   }
