@@ -6,6 +6,9 @@
 }
 
 <style>
+    .container {
+        padding: 0 15px;
+    }
 
     .header-title {
         margin-top: 150px;
@@ -38,7 +41,7 @@
 
             .nav-tabs .nav-link.active {
                 background-color: black;
-                color: #fcf000;
+                color: orange;
                 border-color: black;
                 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             }
@@ -119,25 +122,25 @@
         margin-top: 20px;
     }
 
-    .nav-link.oke {
+    .nav-link.active {
         margin-bottom: 100px;
     }
 
-    .fixed-size {
-        width: 250px;
-        height: 250px;
-    }
 </style>
+
+<div class="breadcrumb-section breadcrumb-bg" style="padding: 50px 50px;">
+</div>
 
 
 <div class="container mt-5">
 
+    <h2 class="header-title">@ViewData["Thông tin đơn hàng"]</h2>
    <h2>Thông tin đơn hàng</h2>
    <br />
     <!-- Nav tabs -->
     <ul class="nav nav-tabs" id="orderTab" role="tablist">
         <li class="nav-item" role="presentation">
-            <a class="nav-link oke" id="all-tab" data-bs-toggle="tab" href="#all" role="tab" aria-controls="all" aria-selected="true">Tất cả</a>
+            <a class="nav-link active" id="all-tab" data-bs-toggle="tab" href="#all" role="tab" aria-controls="all" aria-selected="true">Tất cả</a>
         </li>
         <li class="nav-item" role="presentation">
             <a class="nav-link" id="pending-tab" data-bs-toggle="tab" href="#pending" role="tab" aria-controls="pending" aria-selected="false">Chờ Duyệt</a>
@@ -174,7 +177,7 @@
                             <div class="order-card">
                                 @if (item.SAN_PHAM.HINH_ANH != null && item.SAN_PHAM.HINH_ANH.Any())
                                 {
-                                    <img width="200px" height="100px" src="~/media/SanPham/@(item.SAN_PHAM.HINH_ANH.FirstOrDefault()?.TEN_HINH_ANH ?? "default.jpg")"
+                                    <img src="~/media/SanPham/@(item.SAN_PHAM.HINH_ANH.FirstOrDefault()?.TEN_HINH_ANH ?? "default.jpg")"
                                          alt="Hình ảnh sản phẩm"
                                          class="product-image"
                                          data-bs-toggle="modal"
@@ -191,8 +194,7 @@
                                 <div>
                                     <h5>Thông Tin Đơn Hàng</h5>
                                     <p><strong>Tên sản phẩm:</strong> @item.SAN_PHAM.TEN_SAN_PHAM</p>
-                                    <p><strong>Giá:</strong> @item.SAN_PHAM.GIA_BAN.ToString("N0") VND</p>
-
+                                    <p><strong>Giá:</strong> @item.SAN_PHAM.GIA_BAN</p>
                                     <p><strong>Trạng thái:</strong> @GetOrderStatus(order.TRANG_THAI_DH)</p>
                                     <p style="transform: translate(18cm, -4cm);"><strong>x</strong>@item.SO_LUONG</p>
 
@@ -227,7 +229,7 @@
                             <div class="order-card">
                                 @if (item.SAN_PHAM.HINH_ANH != null && item.SAN_PHAM.HINH_ANH.Count > 0)
                                 {
-                                    <img width="200px" height="100px" src="~/media/SanPham/@(item.SAN_PHAM.HINH_ANH.FirstOrDefault()?.TEN_HINH_ANH ?? "default.jpg")"
+                                    <img src="~/media/SanPham/@(item.SAN_PHAM.HINH_ANH.FirstOrDefault()?.TEN_HINH_ANH ?? "default.jpg")"
                                          alt="Hình ảnh sản phẩm"
                                          class="product-image"
                                          data-bs-toggle="modal"
@@ -243,8 +245,7 @@
                                 <div>
                                     <h5>Thông Tin Đơn Hàng</h5>
                                     <p><strong>Tên sản phẩm:</strong> @item.SAN_PHAM.TEN_SAN_PHAM</p>
-                                    <p><strong>Giá:</strong> @item.SAN_PHAM.GIA_BAN.ToString("N0") VND</p>
-
+                                    <p><strong>Giá:</strong> @item.SAN_PHAM.GIA_BAN</p>
                                     <p><strong>Trạng thái:</strong> @GetOrderStatus(order.TRANG_THAI_DH)</p>
                                     <p style="transform: translate(18cm, -4cm);"><strong>x</strong>@item.SO_LUONG</p>
 
@@ -278,7 +279,7 @@
                             <div class="order-card">
                                 @if (item.SAN_PHAM.HINH_ANH != null && item.SAN_PHAM.HINH_ANH.Count > 0)
                                 {
-                                    <img width="200px" height="100px" src="~/media/SanPham/@(item.SAN_PHAM.HINH_ANH.FirstOrDefault()?.TEN_HINH_ANH ?? "default.jpg")"
+                                    <img src="~/media/SanPham/@(item.SAN_PHAM.HINH_ANH.FirstOrDefault()?.TEN_HINH_ANH ?? "default.jpg")"
                                          alt="Hình ảnh sản phẩm"
                                          class="product-image"
                                          data-bs-toggle="modal"
@@ -294,8 +295,7 @@
                                 <div>
                                     <h5>Thông Tin Đơn Hàng</h5>
                                     <p><strong>Tên sản phẩm:</strong> @item.SAN_PHAM.TEN_SAN_PHAM</p>
-                                    <p><strong>Giá:</strong> @item.SAN_PHAM.GIA_BAN.ToString("N0") VND</p>
-
+                                    <p><strong>Giá:</strong> @item.SAN_PHAM.GIA_BAN</p>
                                     <p><strong>Trạng thái:</strong> @GetOrderStatus(order.TRANG_THAI_DH)</p>
                                     <p style="transform: translate(18cm, -4cm);"><strong>x</strong>@item.SO_LUONG</p>
 
@@ -323,9 +323,9 @@
             <div class="modal fade" id="cancelOrderModal" tabindex="-1" aria-labelledby="cancelOrderModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
-                        <div style="background-color: #fcf000;" class="modal-header">
+                        <div class="modal-header">
                             <h5 class="modal-title" id="cancelOrderModalLabel">Lý Do Hủy Đơn Hàng</h5>
-                            
+                            <button type="button" style="color:white;border:0px; background-color:red; width:30px" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
                         </div>
                         <div class="modal-body">
                             <form id="cancelOrderForm" method="post" action="@Url.Action("CancelOrder", "DonHang")">
@@ -357,10 +357,9 @@
                                         <input type="radio" id="reason6" name="cancelReason" value="Khác">
                                         <label for="reason6">Khác</label>
                                     </div>
-                                    <br />
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
                                     <button type="submit" class="btn btn-danger">Hủy Đơn</button>
                                 </div>
                             </form>
@@ -381,7 +380,7 @@
                             <div class="order-card">
                                 @if (item.SAN_PHAM.HINH_ANH != null && item.SAN_PHAM.HINH_ANH.Count > 0)
                                 {
-                                    <img width="200px" height="100px" src="~/media/SanPham/@(item.SAN_PHAM.HINH_ANH.FirstOrDefault()?.TEN_HINH_ANH ?? "default.jpg")"
+                                    <img src="~/media/SanPham/@(item.SAN_PHAM.HINH_ANH.FirstOrDefault()?.TEN_HINH_ANH ?? "default.jpg")"
                                          alt="Hình ảnh sản phẩm"
                                          class="product-image"
                                          data-bs-toggle="modal"
@@ -397,8 +396,7 @@
                                 <div>
                                     <h5>Thông Tin Đơn Hàng</h5>
                                     <p><strong>Tên sản phẩm:</strong> @item.SAN_PHAM.TEN_SAN_PHAM</p>
-                                    <p><strong>Giá:</strong> @item.SAN_PHAM.GIA_BAN.ToString("N0") VND</p>
-
+                                    <p><strong>Giá:</strong> @item.SAN_PHAM.GIA_BAN</p>
                                     <p><strong>Trạng thái:</strong> @GetOrderStatus(order.TRANG_THAI_DH)</p>
                                     <p style="transform: translate(18cm, -4cm);"><strong>x</strong>@item.SO_LUONG</p>
 
@@ -433,7 +431,7 @@
                             <div class="order-card">
                                 @if (item.SAN_PHAM.HINH_ANH != null && item.SAN_PHAM.HINH_ANH.Count > 0)
                                 {
-                                    <img  width="200px" height="200px" src="~/media/SanPham/@(item.SAN_PHAM.HINH_ANH.FirstOrDefault()?.TEN_HINH_ANH ?? "default.jpg")"
+                                    <img src="~/media/SanPham/@(item.SAN_PHAM.HINH_ANH.FirstOrDefault()?.TEN_HINH_ANH ?? "default.jpg")"
                                          alt="Hình ảnh sản phẩm"
                                          class="product-image"
                                          data-bs-toggle="modal"
@@ -449,8 +447,7 @@
                                 <div>
                                     <h5>Thông Tin Đơn Hàng</h5>
                                     <p><strong>Tên sản phẩm:</strong> @item.SAN_PHAM.TEN_SAN_PHAM</p>
-                                    <p><strong>Giá:</strong> @item.SAN_PHAM.GIA_BAN.ToString("N0") VND</p>
-
+                                    <p><strong>Giá:</strong> @item.SAN_PHAM.GIA_BAN</p>
                                     <p><strong>Trạng thái:</strong> @GetOrderStatus(order.TRANG_THAI_DH)</p>
                                     <p style="transform: translate(18cm, -4cm);"><strong>x</strong>@item.SO_LUONG</p>
 
@@ -571,17 +568,16 @@
 <div class="modal fade" id="productDetailsModal" tabindex="-1" aria-labelledby="productDetailsModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
-            <div style="background-color: #fcf000;" class="modal-header">
+            <div class="modal-header">
                 <h5 class="modal-title" id="productDetailsModalLabel">Thông Tin Sản Phẩm</h5>
-
+                <button type="button" style="color:white;border:0px; background-color:red; width:30px" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
             </div>
             <div class="modal-body">
                 <div class="text-center">
-                    <img id="productImage" alt="Hình ảnh sản phẩm" class="img-fluid mb-3 fixed-size">
+                    <img id="productImage" alt="Hình ảnh sản phẩm" class="img-fluid mb-3">
                 </div>
                 <p><strong>Tên sản phẩm:</strong> <span id="productName"></span></p>
-                <p><strong>Giá:</strong> <span id="productPrice"></span> VND</p>
-
+                <p><strong>Giá:</strong> <span id="productPrice"></span></p>
                 <p><strong>Số lượng:</strong> <span id="productQuantity"></span></p>
                 <p><strong>Người nhận:</strong> <span id="recipientName"></span></p>
                 <p><strong>Địa chỉ:</strong> <span id="recipientAddress"></span></p>

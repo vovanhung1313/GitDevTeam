@@ -7,7 +7,8 @@
 
 @inject Microsoft.AspNetCore.Antiforgery.IAntiforgery Antiforgery
 
-
+<div class="breadcrumb-section breadcrumb-bg" style="padding: 50px 50px;">
+</div>
 
 <div class="cart-section mt-150 mb-150">
     <div class="container">
@@ -20,13 +21,13 @@
                     <table class="cart-table">
                         <thead class="cart-table-head">
                             <tr class="table-head-row">
-                                <th   class="product-remove"></th>
+                                <th class="product-remove"></th>
                                 <th class="product-image">Hình ảnh</th>
                                 <th class="product-name">Tên sản phẩm</th>
                                 <th class="product-price">Giá</th>
                                 <th class="product-quantity">Số lượng</th>
                                 <th class="product-color">Màu</th>
-                                <th style="width: 9%" class="product-total">Thành tiền</th>
+                                <th class="product-total">Thành tiền</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -36,20 +37,20 @@
                                     <td class="product-remove">
                                         <form asp-controller="GioHang" asp-action="XoaKhoiGioHang" method="post">
                                             <input type="hidden" name="maGH" value="@item.ID_GIO_HANG" />
-                                            <button type="submit" class="btn oke btn-default btn-sm" style="width: 32px; height: 32px;"><i class="far fa-window-close"></i></button>
+                                            <button type="submit" class="btn btn-default btn-sm" style="width: 32px; height: 32px;"><i class="far fa-window-close"></i></button>
                                         </form>
                                     </td>
                                     <td class="product-image">
-                                        <img height="200px" width="90%" style="border-radius: 5px" src="~/media/SanPham/@item.SAN_PHAM.HINH_ANH.FirstOrDefault()?.TEN_HINH_ANH" alt="@item.SAN_PHAM.TEN_SAN_PHAM" />
+                                        <img src="~/media/SanPham/@item.SAN_PHAM.HINH_ANH.FirstOrDefault()?.TEN_HINH_ANH" alt="@item.SAN_PHAM.TEN_SAN_PHAM" />
                                     </td>
                                     <td class="product-name">@item.SAN_PHAM.TEN_SAN_PHAM</td>
                                     <td class="product-price">@item.GIA_BAN.ToString("N0", culture).Replace(",", ".") đ</td>
                                     <td class="product-quantity">
                                         <form asp-controller="GioHang" asp-action="CapNhatSoLuong" method="post" class="quantity-update-form">
                                             <input type="hidden" name="idGioHang" value="@item.ID_GIO_HANG" />
-                                            <button type="button" class="btn oke btn-secondary btn-sm quantity-decrement">-</button>
+                                            <button type="button" class="btn btn-secondary btn-sm quantity-decrement">-</button>
                                             <input style="width: 100px" type="text" name="soLuong" value="@item.SO_LUONG_GH" class="quantity-input text-center" />
-                                            <button type="button" class="btn oke btn-secondary btn-sm quantity-increment">+</button>
+                                            <button type="button" class="btn btn-secondary btn-sm quantity-increment">+</button>
                                         </form>
                                     </td>
                                     <td class="product-color">@item.MAU_SP</td>
@@ -78,8 +79,8 @@
                         </tbody>
                     </table>
                     <div class="cart-buttons">
-                        <a style="background-color: black;color: #fcf000;" href="@Url.Action("Index", "Home")" class="boxed-btn">Tiếp tục mua hàng</a>
-                        <a style="background-color: black;color: #fcf000;" href="@Url.Action("DatHang", "DonHang")" class="boxed-btn black">Thanh toán</a>
+                        <a href="@Url.Action("Index", "Home")" class="boxed-btn">Tiếp tục mua hàng</a>
+                        <a href="@Url.Action("DatHang", "DonHang")" class="boxed-btn black">Thanh toán</a>
                     </div>
                 </div>
             </div>
@@ -140,117 +141,3 @@
 
     </script>
 }
-<style>
-    /* Các hiệu ứng hover cho hình ảnh sản phẩm */
-    .single-product-item img {
-        transition: transform 0.4s ease, box-shadow 0.4s ease, filter 0.4s ease;
-        border-radius: 15px;
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-    }
-
-        .single-product-item img:hover {
-            transform: scale(1.1) rotate(3deg);
-            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
-            filter: brightness(1.3) contrast(1.2);
-        }
-    /* General Form and Table Styling */
-    .cart-section {
-        background-color: #f9f9f9;
-        padding: 50px 0;
-    }
-
-    .cart-table-wrap {
-        border: 1px solid #e6e6e6;
-        padding: 20px;
-        background-color: white;
-    }
-
-    .cart-table-head th {
-        color: #333;
-        font-weight: bold;
-        text-align: center;
-        padding: 15px;
-        background-color: #fcf000;
-    }
-
-    .table-body-row {
-        border-bottom: 1px solid #e6e6e6;
-    }
-
-        .table-body-row td {
-            text-align: center;
-            padding: 10px;
-        }
-
-    /* Buttons Styling */
-    .oke {
-        background-color: #fcf000;
-        color: #333;
-        border: 1px solid #e6e6e6;
-    }
-
-        .oke:hover {
-            background-color: #333;
-            color: #fcf000;
-        }
-
-    /* Quantity Buttons */
-    .quantity-decrement,
-    .quantity-increment {
-        background-color: #fcf000;
-        color: #333;
-        border: none;
-        font-weight: bold;
-        width: 32px;
-        height: 32px;
-        display: inline-block;
-        text-align: center;
-        line-height: 30px;
-        cursor: pointer;
-    }
-
-        .quantity-decrement:hover,
-        .quantity-increment:hover {
-            background-color: #333;
-            color: #fcf000;
-        }
-
-    /* Total Section */
-    .total-section {
-        background-color: #fcf000;
-        padding: 20px;
-        border-radius: 5px;
-    }
-
-    .total-table th,
-    .total-table td {
-        padding: 10px;
-        color: #333;
-        font-size: 16px;
-    }
-
-    .total-amount {
-        color: #333;
-        font-weight: bold;
-    }
-
-    /* Cart Buttons */
-    .cart-buttons .boxed-btn {
-        display: inline-block;
-        background-color: #fcf000;
-        color: #333;
-        padding: 10px 20px;
-        font-size: 16px;
-        font-weight: bold;
-        text-transform: uppercase;
-        border-radius: 5px;
-        margin-right: 10px;
-        text-align: center;
-    }
-
-        .cart-buttons .boxed-btn:hover {
-            background-color: #333;
-            color: #fcf000;
-        }
-
-</style>

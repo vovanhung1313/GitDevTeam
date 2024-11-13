@@ -21,23 +21,27 @@
         }
 </style>
 
+<!-- breadcrumb-section -->
 
+<div class="breadcrumb-section breadcrumb-bg" style="padding: 50px 50px;">
+</div>
+<!-- end breadcrumb section -->
 <!-- cart section -->
 <div class="cart-section mt-150 mb-150">
-    <div class="container">
+    <div class="container" style="width: 80%;">
         <h2>Thông tin đơn hàng đặt mua</h2>
         <br/>
         <div class="row">
             <div class="col-md-12">
                 <div class="cart-table-wrap">
-                    <table class="cart-table"  !important;">
+                    <table class="cart-table" style="width: 90% !important;">
                         <thead class="cart-table-head">
                             <tr class="table-head-row">
                                 <th>Hình ảnh</th>
                                 <th>Tên sản phẩm</th>
                                 <th>Giá</th>
                                 <th>Số lượng</th>
-                                <th style=" width: 12%;" class="product-total">Thành tiền</th>
+                                <th class="product-total">Thành tiền</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -47,7 +51,7 @@
                                 var hinhAnhDauTien = sanPham.HINH_ANH.FirstOrDefault()?.TEN_HINH_ANH ?? "default.jpg";
                                 <tr class="table-body-row">
                                     <td class="product-image">
-                                        <img src="~/media/SanPham/@hinhAnhDauTien" width="80%" style="border-radius: 5px" alt="Ảnh sản phẩm">
+                                        <img src="~/media/SanPham/@hinhAnhDauTien" alt="Ảnh sản phẩm">
                                     </td>
                                     <td class="product-name">@sanPham.TEN_SAN_PHAM</td>
                                     <td class="product-price">@item.GIA_BAN.ToString("N0") đ</td>
@@ -71,9 +75,9 @@
                 <div class="checkout-accordion-wrap">
                     <div class="accordion" id="accordionExample">
                         <div class="card single-accordion">
-                            <div style="background-color: #fcf000;color: #000;font-weight: bold;" class="card-header" id="headingOne">
-                                <h5  class="mb-0">
-                                    <button style="color: #000;font-weight: bold;" class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                         Thông tin khách hàng
                                     </button>
                                 </h5>
@@ -87,15 +91,12 @@
                                             <p><input type="tel" name="SoDienThoai" placeholder="Số điện thoại" required></p>
                                             <p><textarea name="GhiChu" id="GhiChu" cols="30" rows="5" placeholder="Ghi chú"></textarea></p>
 
-                                            <label class="radio-label">
-                                                <input type="radio" name="hinhThucThanhToan" value="COD" required>
-                                                Thanh toán khi nhận hàng
-                                            </label>
+                                            <input type="radio" name="hinhThucThanhToan" value="COD" required>
+                                            <label>Thanh toán khi nhận hàng</label>
+                                            <br />
 
-                                            <label class="radio-label">
-                                                <input type="radio" name="hinhThucThanhToan" value="VNPay" required>
-                                                Thanh toán VNPay
-                                            </label>
+                                            <input type="radio" name="hinhThucThanhToan" value="VNPay" required>
+                                            <label>Thanh toán VNPay</label>
 
                                             <hr />
                                             <button type="submit" class="boxed-btn">Đặt hàng</button>
@@ -110,10 +111,10 @@
             <div class="col-lg-4">
                 <div class="order-details-wrap">
                     <table class="order-details">
-                        <thead >
+                        <thead>
                             <tr>
-                                <th style="width: 40% ;margin: 0px 10px 0px 10px;">Đơn hàng</th>
-                                <th style="margin: 0px 10px 0px 10px;">Thành tiền</th>
+                                <th>Đơn hàng</th>
+                                <th>Thành tiền</th>
                             </tr>
                         </thead>
                         <tbody class="checkout-details">
@@ -128,132 +129,3 @@
         </div>
     </div>
 </div>
-
-<style>
-    /* Styling for inline radio button and label */
-    .radio-label {
-        display: flex;
-        align-items: center;
-        cursor: pointer;
-        font-weight: bold;
-        color: #333;
-        margin-bottom: 10px;
-    }
-
-        .radio-label input[type="radio"] {
-            margin-right: 8px;
-            cursor: pointer;
-        }
-    /* General button style */
-    .boxed-btn {
-        background-color: #fcf000;
-        color: #333;
-        width: 250px;
-        height: 45px;
-        border-radius: 15px;
-        border: none;
-        font-size: 18px;
-        font-weight: bold;
-        transition: background-color 0.3s, color 0.3s;
-    }
-
-        .boxed-btn:hover {
-            background-color: #333;
-            color: #fcf000;
-        }
-
-    /* Breadcrumb section */
-    .breadcrumb-section {
-        background-color: #f3f3f3;
-        padding: 50px 50px;
-        text-align: center;
-    }
-
-    /* Cart and Checkout Sections */
-    .cart-section, .checkout-section {
-        background-color: #fff;
-        padding: 50px 0;
-    }
-
-    h2 {
-        color: #333;
-        font-weight: bold;
-        margin-bottom: 20px;
-    }
-
-    /* Cart Table */
-    .cart-table-wrap {
-        overflow-x: auto;
-    }
-
-    .cart-table {
-        width: 100%;
-        border-collapse: collapse;
-    }
-
-        .cart-table th {
-            background-color: #fcf000;
-            color: #333;
-            padding: 10px;
-            font-size: 16px;
-            font-weight: bold;
-            text-align: left;
-            border: 1px solid #ddd;
-        }
-
-        .cart-table td {
-            padding: 10px;
-            border: 1px solid #ddd;
-            text-align: center;
-        }
-
-    .product-image img {
-        width: 200px;
-        height: 200px;
-        border-radius: 8px;
-    }
-
-    /* Checkout Form */
-    .billing-address-form input[type="text"],
-    .billing-address-form input[type="tel"],
-    .billing-address-form textarea {
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 15px;
-        border: 1px solid #ddd;
-        border-radius: 8px;
-        font-size: 14px;
-    }
-
-    .billing-address-form label {
-        font-weight: bold;
-        color: #333;
-        display: block;
-        margin-top: 10px;
-    }
-
-
-
-    /* Order Details */
-    .order-details-wrap {
-        background-color: #f9f9f9;
-        padding: 20px;
-        border-radius: 8px;
-        border: 1px solid #ddd;
-    }
-
-    .order-details th {
-        background-color: #fcf000;
-        color: #333;
-        padding: 10px;
-        font-size: 16px;
-        text-align: left;
-        border-radius: 10px;
-    }
-
-    .order-details td {
-        padding: 10px;
-        font-size: 14px;
-        color: #333;
-    }
-</style>
