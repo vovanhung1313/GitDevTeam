@@ -1,0 +1,451 @@
+﻿@model X.PagedList.IPagedList<WebBanGiay.Models.SanPhamModel>
+@using X.PagedList.Mvc.Core
+@{
+    ViewData["Title"] = "Cửa hàng";
+    var culture = System.Globalization.CultureInfo.InvariantCulture;
+}
+
+<style>
+    .hero-area {
+        position: relative;
+    }
+
+
+        .hero-area .carousel-caption {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            color: white;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.5); /* Optional: for better readability */
+            padding: 20px;
+            border-radius: 10px;
+            z-index: 10;
+        }
+
+        .hero-area .hero-text .subtitle {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .hero-area .hero-text h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .hero-area .hero-btns {
+            margin-top: 20px;
+        }
+
+    /* Adjust carousel control buttons */
+    .carousel-control-prev, .carousel-control-next {
+        z-index: 20; /* Higher z-index than captions to ensure they are on top */
+    }
+
+
+    .product-price {
+        font-size: 22px !important;
+    }
+
+
+
+
+    .single-product-item {
+        margin-bottom: 35px;
+        height: 500px;
+    }
+
+        .single-product-item img {
+            border-radius: 5px;
+            height: 269px;
+            padding-top: 5px;
+            padding-bottom: 8px;
+        }
+
+        /* Hiệu ứng hover cho hình ảnh sản phẩm */
+        .single-product-item img {
+            transition: transform 0.4s ease, box-shadow 0.4s ease, filter 0.4s ease;
+            border-radius: 15px; /* Làm cho hình ảnh có góc bo tròn */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Bóng mờ cơ bản */
+        }
+
+            .single-product-item img:hover {
+                transform: scale(1.1) rotate(3deg); /* Phóng to và xoay nhẹ hình ảnh khi hover */
+                box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Tăng bóng mờ khi hover */
+                filter: brightness(1.3) contrast(1.2); /* Tăng độ sáng và độ tương phản khi hover */
+            }
+
+        /* Hiệu ứng hover cho tiêu đề sản phẩm */
+        .single-product-item h3 {
+            position: relative;
+            transition: color 0.4s ease, text-shadow 0.4s ease;
+            font-weight: bold;
+        }
+
+            .single-product-item h3::after {
+                content: '';
+                position: absolute;
+                bottom: -5px;
+                left: 0;
+                width: 0;
+                height: 2px;
+                background: #4682B4; /* Đường gạch chân màu xanh dương */
+                transition: width 0.4s ease; /* Hiệu ứng mở rộng khi hover */
+            }
+
+            .single-product-item h3:hover::after {
+                width: 100%; /* Mở rộng đường gạch chân khi hover */
+            }
+
+            .single-product-item h3:hover {
+                color: #4682B4; /* Đổi màu tiêu đề khi hover */
+                text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Thêm hiệu ứng bóng mờ cho tiêu đề */
+            }
+
+    /* Hiệu ứng hover cho nút thêm vào giỏ hàng */
+    .cart-btn {
+        display: inline-block;
+        padding: 12px 24px;
+        border-radius: 30px; /* Góc bo tròn nút */
+        text-decoration: none;
+        text-transform: uppercase; /* Viết hoa chữ cái trong nút */
+        font-weight: bold;
+        position: relative;
+        overflow: hidden;
+        transition: background 0.4s ease, transform 0.4s ease, box-shadow 0.4s ease;
+        background-color: #fcf000 !important;
+        color: #000 !important;
+    }
+
+        .cart-btn::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 300%;
+            height: 300%;
+            background: rgba(255, 255, 255, 0.1); /* Gradient sáng */
+            border-radius: 50%;
+            transform: translate(-50%, -50%) scale(0);
+            transition: transform 0.4s ease;
+        }
+
+        .cart-btn:hover::before {
+            transform: translate(-50%, -50%) scale(1); /* Mở rộng gradient sáng khi hover */
+        }
+
+        .cart-btn:hover {
+            background-color: #000 !important;
+            color: #fcf000 !important;
+            transform: scale(1.1); /* Phóng to nút khi hover */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* Thêm bóng mờ khi hover */
+
+        }
+
+    /* Hiệu ứng hover cho các liên kết trong phân trang */
+    .pagination-wrap ul li a {
+        display: inline-block;
+        padding: 12px 18px;
+        border-radius: 25px;
+        transition: color 0.4s ease, background-color 0.4s ease, transform 0.4s ease, box-shadow 0.4s ease;
+        color: #333;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+        .pagination-wrap ul li a:hover {
+            color: #000; /* Đổi màu chữ khi hover */
+            background-color: #fcf000; /* Thay đổi màu nền khi hover */
+            transform: translateY(-5px); /* Di chuyển liên kết lên trên khi hover */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Thêm bóng mờ cho liên kết khi hover */
+
+        }
+
+        /* Hiệu ứng hover cho các liên kết phân trang hiện tại */
+        .pagination-wrap ul li a.active {
+            color: #fff; /* Đổi màu chữ khi là liên kết hiện tại */
+            background-color: #315a7e; /* Thay đổi màu nền khi là liên kết hiện tại */
+        }
+
+</style>
+
+
+<div class="container-fluid carousel px-0 mb-5 pb-5">
+    <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide đầu tiên"></li>
+            <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Slide thứ hai"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <img src="img/avt15.jpg" style="height: 550px;" class="img-fluid w-100" alt="Slide đầu tiên">
+                <div class="carousel-caption">
+                    <div class="container carousel-content">
+                        <h4 class="text-white mb-4 animated slideInDown">Giày Nike</h4>
+                        <h1 class="text-white display-1 mb-4 animated slideInDown">Giày Nike Nam Chính Hãng Chất Lượng Cao </h1>
+                        <a href="" class="me-2"><button type="button" class="px-5 py-3 btn btn-primary border-2 rounded-pill animated slideInDown">Đọc Thêm</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/avt16.jpg" style="height: 550px;" class="img-fluid w-100" alt="Slide thứ hai">
+                <div class="carousel-caption">
+                    <div class="container carousel-content">
+                        <h4 class="text-white mb-4 animated slideInDown">Sản Phẩm Giày Nike</h4>
+                        <h1 class="text-white display-1 mb-4 animated slideInDown">Thương hiệu giày thể thao đỉnh cao của thế giới</h1>
+                        <a href="" class="me-2"><button type="button" class="px-5 py-3 btn btn-primary border-2 rounded-pill animated slideInDown">Đọc Thêm</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev btn btn-primary border border-2 border-start-0 border-primary" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Trước</span>
+        </button>
+        <button class="carousel-control-next btn btn-primary border border-2 border-end-0 border-primary" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Tiếp theo</span>
+        </button>
+    </div>
+</div>
+
+
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <div class="text-center mb-5 wow fadeInUp" data-wow-delay=".3s">
+            <h1 style="font-size: 50px;" class="mb-2 px-3 py-1 text-dark rounded-pill d-inline-block border border-2 border-primary">Sản phẩm</h1>
+            <h5 class="display-5 w-50 mx-auto">Với thiết kế sang trọng</h5>
+            <br />
+
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <h2 style="margin-left: 1px"><i class="fas fa-filter"></i> Bộ Lọc</h2>
+                    <input style="padding: 15px 15px;font-size:25px" type="text" id="search-input" class="form-control" placeholder="Tìm kiếm sản phẩm...">
+                </div>
+                <div class="col-md-4">
+                    <h2 style="margin-left: 1px">Giá tối thiểu</h2>
+                    <input style="padding: 15px 15px; font-size:25px" type="number" id="min-price" class="form-control" placeholder="Nhập giá tối thiểu">
+                </div>
+                <div class="col-md-4">
+                    <h2>Giá tối đa</h2>
+                    <input style="padding: 15px 15px; font-size:25px" type="number" id="max-price" class="form-control" placeholder="Nhập giá tối đa">
+                </div>
+            </div>
+
+
+
+        </div>
+
+       
+        <br />
+        <div class="row g-5">
+            @if (!Model.Any())
+            {
+                <div class="col-12 text-center">
+                    <div class="no-products">
+                        <img src="~/media/NoProducts.png" alt="No Products" class="no-products-image">
+                        <p class="no-products-text">Không có sản phẩm nào</p>
+                    </div>
+                </div>
+            }
+            else
+            {
+                @foreach (var item in Model)
+                {
+                    var hinhAnhDauTien = item.HINH_ANH?.FirstOrDefault()?.TEN_HINH_ANH;
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="rounded bg-light pricing-item">
+                            <div class="bg-primary py-3 px-5 text-center rounded-top border-bottom border-dark">
+                                <h1>@item.TEN_SAN_PHAM</h1>
+                            </div>
+                            <div class="px-4 py-5 text-center bg-primary pricing-label mb-2">
+                                <h2 class="product-price">@item.GIA_BAN.ToString("N0", culture).Replace(",", ".") VNĐ</h2>
+                            </div>
+                            <div class="p-4 text-center fs-5">
+                                <div style="padding: 10px 0px;">
+                                    <a asp-controller="CuaHang" asp-action="ChiTietSP" asp-route-id="@item.ID_SAN_PHAM">
+                                        @if (!string.IsNullOrEmpty(hinhAnhDauTien))
+                                        {
+                                            <img src="~/media/SanPham/@hinhAnhDauTien" height="400px" width="80%" style="border-radius: 5px" alt="">
+                                        }
+                                        else
+                                        {
+                                            <img src="~/media/SanPham/default.jpg" height="400px" width="80%" style="border-radius: 5px" alt="No image available">
+                                        }
+                                    </a>
+                                </div>
+                                <br />
+                                <a asp-controller="CuaHang" asp-action="ChiTietSP" asp-route-id="@item.ID_SAN_PHAM" class="cart-btn">
+                                    <i class="fas fa-shopping-cart"></i> Thêm vào giỏ hàng
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+        <br /> <br /> <br />
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="pagination-wrap">
+                    @Html.PagedListPager(Model, page => Url.Action("Index", new { page }), new PagedListRenderOptions
+               {
+                   DisplayLinkToFirstPage = PagedListDisplayMode.Always,
+                   DisplayLinkToLastPage = PagedListDisplayMode.Always,
+                   DisplayLinkToPreviousPage = PagedListDisplayMode.Always,
+                   DisplayLinkToNextPage = PagedListDisplayMode.Always,
+                   LinkToPreviousPageFormat = "<i class='fas fa-chevron-left'></i>",
+                   LinkToNextPageFormat = "<i class='fas fa-chevron-right'></i>"
+               })
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .pagination {
+        display: inline-block;
+        padding-left: 0;
+        margin: 0;
+        border-radius: 0.25rem;
+
+    }
+
+        .pagination li {
+            display: inline;
+            margin: 0 5px;
+
+        }
+
+            .pagination li a {
+                display: block;
+                padding: 10px 15px;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                color: #eb1515;
+                text-decoration: none;
+                font-size: 14px;
+                line-height: 1.5;
+
+            }
+
+            .pagination li.active {
+                top: -2px;
+                height: 40px;
+                width: 40px;
+                border-radius: 50%;
+                background-color: #fcf000; /* Màu nền của trang hiện tại */
+                color: #000; /* Màu chữ của trang hiện tại */
+                border-color: #fcf000; /* Màu border của trang hiện tại */
+                font-weight: bold;
+                margin: 0 5px;
+                margin-bottom: 5px;
+                padding: 8px;
+                font-size: 25px;
+            }
+
+                .pagination li.active a {
+                }
+
+            .pagination li a:hover {
+                background-color: #f1f1f1;
+            }
+</style>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const minPriceSlider = document.getElementById('min-price');
+        const maxPriceSlider = document.getElementById('max-price');
+        const minPriceValue = document.getElementById('min-price-value');
+        const maxPriceValue = document.getElementById('max-price-value');
+
+        // Lấy giá sản phẩm nhỏ nhất và lớn nhất từ danh sách sản phẩm
+        function initializePriceRange() {
+            let products = document.getElementsByClassName('single-product-item');
+            let minPrice = Infinity;
+            let maxPrice = -Infinity;
+
+            Array.from(products).forEach(function (product) {
+                let productPrice = parseInt(product.getElementsByClassName('product-price')[0].innerText.replace(/[^0-9]/g, ''));
+                if (productPrice < minPrice) minPrice = productPrice;
+                if (productPrice > maxPrice) maxPrice = productPrice;
+            });
+
+            // Cập nhật giá trị của thanh trượt và hiển thị
+            minPriceSlider.min = minPrice;
+            minPriceSlider.max = maxPrice;
+            maxPriceSlider.min = minPrice;
+            maxPriceSlider.max = maxPrice;
+            minPriceSlider.value = minPrice;
+            maxPriceSlider.value = maxPrice;
+
+            minPriceValue.textContent = `${minPrice}đ`;
+            maxPriceValue.textContent = `${maxPrice}đ`;
+        }
+
+        // Hàm cập nhật giá trị giá
+        function updatePriceValues() {
+            minPriceValue.textContent = `${minPriceSlider.value}đ`;
+            maxPriceValue.textContent = `${maxPriceSlider.value}đ`;
+        }
+
+        minPriceSlider.addEventListener('input', updatePriceValues);
+        maxPriceSlider.addEventListener('input', updatePriceValues);
+        minPriceSlider.addEventListener('input', filterProducts);
+        maxPriceSlider.addEventListener('input', filterProducts);
+        document.getElementById('search-input').addEventListener('input', filterProducts);
+
+        // Hàm loại bỏ dấu tiếng Việt
+        function removeVietnameseTones(str) {
+            const accentsMap = {
+                'À|Á|Ạ|Ả|Ã|Â|Ầ|Ấ|Ậ|Ẩ|Ẫ|Ă|Ằ|Ắ|Ặ|Ẳ|Ẵ': 'A',
+                'à|á|ạ|ả|ã|â|ầ|ấ|ậ|ẩ|ẫ|ă|ằ|ắ|ặ|ẳ|ẵ': 'a',
+                'È|É|Ẹ|Ẻ|Ẽ|Ê|Ề|Ế|Ệ|Ể|Ễ': 'E',
+                'è|é|ẹ|ẻ|ẽ|ê|ề|ế|ệ|ể|ễ': 'e',
+                'Ì|Í|Ị|Ỉ|Ĩ': 'I',
+                'ì|í|ị|ỉ|ĩ': 'i',
+                'Ò|Ó|Ọ|Ỏ|Õ|Ô|Ồ|Ố|Ộ|Ổ|Ỗ|Ơ|Ờ|Ớ|Ợ|Ở|Ỡ': 'O',
+                'ò|ó|ọ|ỏ|õ|ô|ồ|ố|ộ|ổ|ỗ|ơ|ờ|ớ|ợ|ở|ỡ': 'o',
+                'Ù|Ú|Ụ|Ủ|Ũ|Ư|Ừ|Ứ|Ự|Ử|Ữ': 'U',
+                'ù|ú|ụ|ủ|ũ|ư|ừ|ứ|ự|ử|ữ': 'u',
+                'Ỳ|Ý|Ỵ|Ỷ|Ỹ': 'Y',
+                'ỳ|ý|ỵ|ỷ|ỹ': 'y',
+                'Đ': 'D',
+                'đ': 'd'
+            };
+
+            for (const [pattern, replacement] of Object.entries(accentsMap)) {
+                str = str.replace(new RegExp(pattern, 'g'), replacement);
+            }
+
+            // Loại bỏ các ký tự dấu tiếng Việt khác
+            str = str.replace(/\u0300|\u0301|\u0303|\u0309|\u0323|\u0331|\u0340|\u0341|\u0343|\u0344|\u0350|\u0351|\u0352|\u0357|\u0358|\u0359|\u0363|\u0364|\u0365|\u0366|\u0367|\u0368|\u0369|\u036A|\u036B|\u036C|\u036D|\u036E|\u036F/g, "");
+            return str;
+        }
+
+        // Hàm lọc sản phẩm
+        function filterProducts() {
+            let filter = removeVietnameseTones(document.getElementById('search-input').value.toLowerCase());
+            let minPrice = parseInt(minPriceSlider.value) || 0;
+            let maxPrice = parseInt(maxPriceSlider.value) || Infinity;
+            let products = document.getElementsByClassName('single-product-item');
+
+            Array.from(products).forEach(function (product) {
+                let productName = removeVietnameseTones(product.getElementsByTagName('h3')[0].innerText.toLowerCase());
+                let productPrice = parseInt(product.getElementsByClassName('product-price')[0].innerText.replace(/[^0-9]/g, ''));
+
+                if (productName.includes(filter) && productPrice >= minPrice && productPrice <= maxPrice) {
+                    product.style.display = '';
+                } else {
+                    product.style.display = 'none';
+                }
+            });
+        }
+
+        initializePriceRange();
+
+    });
+</script>
+

@@ -1,0 +1,188 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>@ViewData["Title"]</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+        <link rel="shortcut icon" type="image/png" href="~/image/logobeta.png">
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+        <!-- Icon Font Stylesheet -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="~/lib/animate/animate.min.css" rel="stylesheet">
+        <link href="~/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="~/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="~/css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div class="container-fluid topbar-top bg-primary">
+            <div class="container">
+                <div class="d-flex justify-content-between topbar py-2">
+                    <div class="d-flex align-items-center flex-shrink-0 topbar-info">
+                    <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12210.24681885916!2d108.075659!3d12.7105609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3171f7b6e379b675%3A0x72662967145555c0!2zVHJ1b25nIENhb8OqIGRhw7MgcG9seXRlY2huaWM!5e0!3m2!1svi!2s!4v1698473155913!5m2!1svi!2s" class="me-4 text-secondary"><i class="fas fa-map-marker-alt me-2 text-dark"></i>100, Hà Huy Tập, TP Buôn Ma Thuột</a>
+                    <a href="tel:+84383777823" class="me-4 text-secondary"><i class="fas fa-phone-alt me-2 text-dark"></i>0383 777 823</a>
+                    <a href="mailto:nguyenhuythien9a1@gmail.com" class="text-secondary"><i class="fas fa-envelope me-2 text-dark"></i>TeamDevHT@gmail.com</a>
+                    </div>
+                    <div class="text-end pe-4 me-4 border-end border-dark search-btn">
+                        <div class="search-form">
+                            <form method="post" action="index.html">
+                                <div class="form-group">
+                                    <div class="d-flex">
+                                        <input type="search" class="form-control border-0 rounded-pill" name="search-input" value="" placeholder="Tìm kiếm" required=""/>
+                                        <button type="submit" value="Search Now!" class="btn"><i class="fa fa-search text-dark"></i></button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center topbar-icon">
+                        <a href="https://www.facebook.com/nguyenthienmmo" class="me-4"><i class="fab fa-facebook-f text-dark"></i></a>
+                        <a href="https://www.x.com/nguyenthienmmo" class="me-4"><i class="fab fa-twitter text-dark"></i></a>
+                        <a href="https://www.instagram.com/nguyenthienmmo" class="me-4"><i class="fab fa-instagram text-dark"></i></a>
+                        <a href="https://www.linkedin.com/in/thi%C3%AAn-nguy%E1%BB%85n-huy-8806a9329/" class=""><i class="fab fa-linkedin-in text-dark"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+
+        <!-- Navbar Start -->
+        <div class="container-fluid bg-dark">
+            <div class="container">
+                <nav class="navbar navbar-dark navbar-expand-lg py-lg-0">
+                    <a asp-controller="Home" asp-action="Index" class="navbar-brand">
+                    <h1 class="text-primary mb-0 display-5">Team<span class="text-white">Dev</span><i class="fa fa-spider text-primary ms-2"></i></h1>
+                    </a>
+                    <button class="navbar-toggler bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="fa fa-bars text-dark"></span>
+                    </button>
+                    <div class="collapse navbar-collapse me-n3" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto">
+                            <a asp-controller="Home" asp-action="Index" class="nav-item nav-link active">Trang chủ</a>
+                            <a asp-controller="CuaHang" asp-action="Index" class="nav-item nav-link">Cửa hàng</a>
+                            <a asp-controller="GioiThieu" asp-action="Index" class="nav-item nav-link">Giới thiệu</a>                           
+                            <a asp-controller="LienHe" asp-action="Index" class="nav-item nav-link">Liên hệ</a>
+
+                            <a asp-controller="GioHang" asp-action="Index" class="nav-item nav-link"><i class="fas fa-shopping-cart"></i> Giỏ hàng</a>
+
+
+
+                            @inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+                            @using WebBanGiay.Repository
+
+                            @{
+                                var user = HttpContextAccessor.HttpContext.Session.GetJson<WebBanGiay.Models.NguoiDungModel>("User");
+                                var userName = user?.HO_TEN ?? "Tài khoản";
+                                var isAdmin = user?.VAI_TRO == 1; 
+                                var isNhanVien = user?.VAI_TRO == 2;
+                            }
+
+                            @if (user != null)
+                            {
+                                <li>
+                                    <div class="nav-item nav-link nav-item dropdown">
+                                        <a asp-controller="NguoiDung" asp-action="TrangCaNhan">
+                                            <i class="fas fa-user"></i> @userName
+                                        </a>
+                                        <ul class="sub-menu dropdown-menu m-0 bg-primary">
+                                            <li><a class="dropdown-item" asp-controller="NguoiDung" asp-action="TrangCaNhan">Trang cá nhân</a></li>
+                                            <li><a class="dropdown-item" asp-controller="NguoiDung" asp-action="QuenMatKhau">Đổi mật khẩu</a></li>
+                                        <li><a class="dropdown-item" asp-controller="DonHang" asp-action="DonMua">Đơn mua</a></li>
+
+                                            @if (isAdmin)
+                                            {
+                                                <li><a class="dropdown-item" asp-area="Admin" asp-controller="HomeAdmin" asp-action="Index">Trang quản trị viên</a></li>
+                                            }
+
+                                            @if (isNhanVien)
+                                            {
+                                                <li><a class="dropdown-item" asp-area="NhanVien" asp-controller="HomeNhanVien" asp-action="Index">Trang nhân viên</a></li>
+                                            }
+
+                                            <li><a class="dropdown-item" asp-controller="NguoiDung" asp-action="DangXuat">Đăng xuất</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <partial name="_Header" />
+                                    @await Html.PartialAsync("_Header")
+                                </li>
+                            }
+                            else
+                            {
+                                <li>
+                                    <div class="header-icons">
+                                        <a class="nav-item nav-link" asp-controller="NguoiDung" asp-action="DangNhap"><i class="fas fa-user"></i> Đăng nhập</a>
+                                    </div>
+
+                                    <partial name="_Header" />
+                                    @await Html.PartialAsync("_Header")
+                                </li>
+                            }
+
+
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+
+
+
+
+        <partial name="_notificationPartial" />
+        @RenderBody()
+
+        @RenderSection("Scripts", required: false)
+        <!-- Footer Start -->
+        <div class="footer-area">
+            @await Html.PartialAsync("_Footer")
+        </div>
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/lib/wow/wow.min.js"></script>
+        <script src="~/lib/easing/easing.min.js"></script>
+        <script src="~/lib/waypoints/waypoints.min.js"></script>
+        <script src="~/lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="~/js/main.js"></script>
+
+
+
+    <!-- Visual Studio Browser Link -->
+    <script type="text/javascript" src="/_vs/browserLink" async="async" id="__browserLink_initializationData" data-requestId="d7d08dd1f89047dc85e8e86f87c8cc50" data-requestMappingFromServer="false" data-connectUrl="http://localhost:60802/df58a47a9d0844bda412ef7b10128d99/browserLink"></script>
+    <!-- End Browser Link -->
+    <script src="/_framework/aspnetcore-browser-refresh.js"></script>
+
+    </body>
+
+</html>

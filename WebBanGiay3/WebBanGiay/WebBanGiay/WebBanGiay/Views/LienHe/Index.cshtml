@@ -1,0 +1,119 @@
+﻿@model WebBanGiay.Models.LienHeModel
+
+@{
+    ViewBag.Title = "Liên hệ";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid page-header py-5">
+    <div class="container text-center py-5">
+        <h1 class="display-2 text-white mb-4 animated slideInDown">Liên hệ</h1>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb justify-content-center mb-0 animated slideInDown">
+                <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Trang Chủ</a></li>
+                <li class="breadcrumb-item"><a asp-controller="CuaHang" asp-action="Index">Cửa hàng</a></li>
+                <li class="breadcrumb-item text-white" aria-current="page">Liên hệ</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <div class="text-center mb-5 wow fadeInUp" data-wow-delay=".3s">
+            <h5 class="mb-2 px-3 py-1 text-dark rounded-pill d-inline-block border border-2 border-primary">Liên hệ với chúng tôi</h5>
+            <h1 class="display-5 w-50 mx-auto">Liên hệ để nhận hỗ trợ</h1>
+        </div>
+        <div class="row g-5 mb-5">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
+                <div class="h-100">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12210.24681885916!2d108.075659!3d12.7105609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3171f7b6e379b675%3A0x72662967145555c0!2zVHJ1b25nIENhb8OqIGRhw7MgcG9seXRlY2huaWM!5e0!3m2!1svi!2s!4v1698473155913!5m2!1svi!2s"
+                            class="border-0 rounded w-100 h-100"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
+                <p class="mb-4">Form liên hệ để chúng tôi hỗ trợ !!</p>
+                <div class="rounded contact-form">
+                    
+                    <form asp-action="Index" method="post">
+                        <div class="mb-4">
+                            <input type="text" class="form-control p-3" placeholder="Tên của bạn" asp-for="Name" />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+                        <div class="mb-4">
+                            <input type="email" class="form-control p-3" placeholder="Email của bạn" asp-for="Email" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                        <div class="mb-4">
+                            <input type="text" class="form-control p-3" placeholder="Số điện thoại" asp-for="Phone" />
+                            <span asp-validation-for="Phone" class="text-danger"></span>
+                        </div>
+                        <div class="mb-4">
+                            <textarea class="w-100 form-control p-3" rows="6" placeholder="Nội dung tin nhắn" asp-for="Message"></textarea>
+                            <span asp-validation-for="Message" class="text-danger"></span>
+                        </div>
+                        <button class="btn btn-primary border-0 py-3 px-4 rounded-pill" type="submit">Gửi tin nhắn</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row g-4 wow fadeInUp" data-wow-delay=".3s">
+            <div class="col-xxl-3 col-lg-6 col-md-6 col-sm-12">
+                <div class="d-flex bg-light p-3 rounded contact-btn-link">
+                    <div class="flex-shrink-0 d-flex align-items-center justify-content-center bg-primary rounded-circle p-3 ms-3" style="width: 64px; height: 64px;">
+                        <i class="fa fa-share text-dark"></i>
+                    </div>
+                    <div class="ms-3 contact-link">
+                        <h4 class="text-dark">Theo dõi chúng tôi</h4>
+                        <div class="d-flex justify-content-center">
+                            <a class="pe-2" href="https://www.facebook.com/1455185131"><i class="fab fa-facebook-f text-dark"></i></a>
+                            <a class="px-2" href="https://www.x.com/nguyenthienmmo"><i class="fab fa-twitter text-dark"></i></a>
+                            <a class="px-2" href="https://www.instagram.com/nguyenthienmmo"><i class="fab fa-instagram text-dark"></i></a>
+                            <a class="px-2" href="https://www.linkedin.com/in/thi%C3%AAn-nguy%E1%BB%85n-huy-8806a9329/"><i class="fab fa-linkedin-in text-dark"></i></a>
+                            <a class="px-2" href="https://www.facebook.com/1455185131"><i class="fab fa-youtube text-dark"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-3 col-lg-6 col-md-6 col-sm-12">
+                <div class="d-flex bg-light p-3 rounded contact-btn-link">
+                    <div class="d-flex align-items-center justify-content-center bg-primary rounded-circle p-3 ms-3" style="width: 64px; height: 64px;">
+                        <i class="fas fa-map-marker-alt text-dark"></i>
+                    </div>
+                    <div class="ms-3 contact-link">
+                        <h4 class="text-dark">Địa chỉ</h4>
+                        <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12210.24681885916!2d108.075659!3d12.7105609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3171f7b6e379b675%3A0x72662967145555c0!2zVHJ1b25nIENhb8OqIGRhw7MgcG9seXRlY2huaWM!5e0!3m2!1svi!2s!4v1698473155913!5m2!1svi!2s">
+                            <h5 class="text-dark d-inline fs-6">100, Hà Huy Tập, TP Buôn Ma Thuột</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-3 col-lg-6 col-md-6 col-sm-12">
+                <div class="d-flex bg-light p-3 rounded contact-btn-link">
+                    <div class="d-flex align-items-center justify-content-center bg-primary rounded-circle p-3 ms-3" style="width: 64px; height: 64px;">
+                        <i class="fa fa-phone text-dark"></i>
+                    </div>
+                    <div class="ms-3 contact-link">
+                        <h4 class="text-dark">Liên hệ qua điện thoại</h4>
+                        <a class="h5 text-dark fs-6" href="tel:+0383777823">0383 777 823</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-3 col-lg-6 col-md-6 col-sm-12">
+                <div class="d-flex bg-light p-3 rounded contact-btn-link">
+                    <div class="d-flex align-items-center justify-content-center bg-primary rounded-circle p-3 ms-3" style="width: 64px; height: 64px;">
+                        <i class="fa fa-envelope text-dark"></i>
+                    </div>
+                    <div class="ms-3 contact-link">
+                        <h4 class="text-dark">Email cho chúng tôi</h4>
+                        <a class="h5 text-dark fs-6" href="mailto:TeamDevHT@gmail.com">TeamDevHT@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

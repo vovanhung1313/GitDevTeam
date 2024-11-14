@@ -1,0 +1,199 @@
+﻿@model X.PagedList.IPagedList<WebBanGiay.Models.NguoiDungModel>
+@using X.PagedList.Mvc.Core
+
+@{
+    ViewData["Title"] = "Danh sách nhân viên";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="container">
+    <div class="page-inner">
+        <div class="page-header"></div>
+        <div class="row">
+            <div class="col-md-12" style="margin: 50px 0;">
+                <div class="card">
+                    <div class="card-header" style="background-color: #eb1515; border-radius: 5px 5px 0 0;">
+                        <div class="d-flex align-items-center">
+                            <h4 class="card-title">Danh sách nhân viên</h4>
+                            <a class="btn btn-primary btn-round ms-auto" asp-controller="NhanVienAdmin" asp-action="ThemNhanVien">
+                                <i class="fa fa-plus"></i> Thêm mới nhân viên
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+
+                        <div class="row mb-3">
+                            <div class="col-md-4">
+                                <input style="background-color: #fff; color: #000" type="text" id="search-input" class="form-control" placeholder="Tìm kiếm nhân viên...">
+                            </div>
+                        </div>
+
+                        <div class="table-responsive">
+                            <table id="add-row" class="display table table-striped table-hover">
+                                <thead>
+                                    <tr>
+                                        <th class="col-hinh-anh">Hình ảnh</th>
+                                        <th class="col-tai-khoan">Tài khoản</th>
+                                        <th class="col-ho-ten">Họ và tên</th>
+                                        <th class="col-sdt">Số điện thoại</th>
+                                        <th class="col-dia-chi">Địa chỉ</th>
+                                        <th class="col-email">Email</th>
+                                        <th class="col-hanh-dong">Thao tác</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="employee-tbody">
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td style="width: 100px" class="id-column"><img style="object-fit: fill" src="~/media/NhanVien/@item.HINH_ANH" height="90" width="90" /></td>
+                                            <td style="width: 150px">@item.TAI_KHOAN</td>
+                                            <td style="width: 150px">@item.HO_TEN</td>
+                                            <td style="width: 150px">@item.SDT</td>
+                                            <td style="width: 200px">@item.DIA_CHI</td>
+                                            <td style="width: 200px">@item.EMAIL</td>
+                                            <td style="width: 150px">
+                                                <div class="form-button-action">
+                                                    <a style="background-color: #fcf000; color: #000; padding: 4px 16px;" class="btn btn-link btn-primary" asp-controller="NhanVienAdmin" asp-action="SuaNhanVien" asp-route-id="@item.ID_NGUOI_DUNG">
+                                                        <i class="fa fa-edit"></i> Sửa
+                                                    </a>
+                                                    <button style="background-color: #eb1515; color: #000; padding: 4px 16px;" class="btn btn-link btn-danger" data-bs-toggle="modal" data-bs-target="#deleteRowModal" onclick="setDeleteId(@item.ID_NGUOI_DUNG)">
+                                                        <i class="bi bi-trash-fill"></i> Xóa
+                                                    </button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="pagination-wrap d-flex justify-content-center">
+                                    @Html.PagedListPager(Model, page => Url.Action("Index", new { page }), new PagedListRenderOptions
+                               {
+                                   DisplayLinkToFirstPage = PagedListDisplayMode.Always,
+                                   DisplayLinkToLastPage = PagedListDisplayMode.Always,
+                                   DisplayLinkToPreviousPage = PagedListDisplayMode.Always,
+                                   DisplayLinkToNextPage = PagedListDisplayMode.Always,
+                                   LinkToPreviousPageFormat = "<i class='fas fa-chevron-left'></i>",
+                                   LinkToNextPageFormat = "<i class='fas fa-chevron-right'></i>",
+                               })
+                                </div>
+                            </div>
+                        </div>
+
+                        <style>
+                            .pagination-wrap .pagination a,
+                            .pagination-wrap .pagination span {
+                                display: inline-block;
+                                margin: 0 5px;
+                                padding: 10px 15px;
+                                border-radius: 50%;
+                                background-color: #fcf000;
+                                color: #eb1515;
+                                font-size: 1.2em;
+                                text-decoration: none;
+                                transition: background-color 0.3s, color 0.3s;
+                            }
+
+                                .pagination-wrap .pagination a:hover,
+                                .pagination-wrap .pagination span:hover {
+                                    background-color: #eb1515;
+                                    color: #fcf000;
+                                }
+
+                            .pagination-wrap .pagination .active span {
+                                background-color: #eb1515;
+                                color: #fcf000;
+                                border-radius: 50%;
+                            }
+                        </style>
+
+
+                        <div class="modal fade" id="deleteRowModal" tabindex="-1" role="dialog" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header" style="background-color: #eb1515; color: white; border-radius: 5px 5px 0 0;">
+                                        <h5 class="modal-title">Xóa nhân viên</h5>
+
+                                    </div>
+                                    <div class="modal-body">
+                                        <form asp-action="XoaNhanVien" method="post">
+                                            <input type="hidden" id="deleteId" name="id" />
+                                            <p>Bạn có chắc chắn muốn xóa nhân viên này</p>
+                                            <div class="modal-footer border-0">
+                                                <button type="submit" class="btn btn-danger">Xóa</button>
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                        <script>
+                            function setDeleteId(id) {
+                                document.getElementById('deleteId').value = id;
+                            }
+
+                            document.addEventListener('DOMContentLoaded', function () {
+                                const searchInput = document.getElementById('search-input');
+                                const employeeTbody = document.getElementById('employee-tbody');
+
+                                function removeVietnameseTones(str) {
+                                    const accentsMap = [
+                                        { base: 'a', letters: /[ÀÁẠẢÃÂẦẤẬẨẪĂẰẮẶẲẴàáạảãâầấậẩẫăằắặẳẵ]/g },
+                                        { base: 'e', letters: /[ÈÉẸẺẼÊỀẾỆỂỄèéẹẻẽêềếệểễ]/g },
+                                        { base: 'i', letters: /[ÌÍỊỈĨìíịỉĩ]/g },
+                                        { base: 'o', letters: /[ÒÓỌỎÕÔỒỐỘỔỖƠỜỚỢỞỠòóọỏõôồốộổỗơờớợởỡ]/g },
+                                        { base: 'u', letters: /[ÙÚỤỦŨƯỪỨỰỬỮùúụủũưừứựửữ]/g },
+                                        { base: 'y', letters: /[ỲÝỴỶỸỳýỵỷỹ]/g },
+                                        { base: 'd', letters: /[Đđ]/g },
+                                    ];
+                                    accentsMap.forEach(map => {
+                                        str = str.replace(map.letters, map.base);
+                                    });
+                                    return str;
+                                }
+
+
+                                function filterEmployees() {
+                                    const searchTerm = removeVietnameseTones(searchInput.value.toLowerCase());
+                                    const rows = employeeTbody.getElementsByTagName('tr');
+
+                                    Array.from(rows).forEach(function (row) {
+                                        const account = removeVietnameseTones(row.getElementsByTagName('td')[1].innerText.toLowerCase());
+                                        const name = removeVietnameseTones(row.getElementsByTagName('td')[2].innerText.toLowerCase());
+                                        const phone = row.getElementsByTagName('td')[3].innerText.toLowerCase();
+                                        const address = removeVietnameseTones(row.getElementsByTagName('td')[4].innerText.toLowerCase());
+                                        const email = removeVietnameseTones(row.getElementsByTagName('td')[5].innerText.toLowerCase());
+
+                                        const isVisible =
+                                            account.includes(searchTerm) ||
+                                            name.includes(searchTerm) ||
+                                            phone.includes(searchTerm) ||
+                                            address.includes(searchTerm) ||
+                                            email.includes(searchTerm);
+
+                                        row.style.display = isVisible ? '' : 'none';
+                                    });
+                                }
+
+
+                                searchInput.addEventListener('input', filterEmployees);
+                            });
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
