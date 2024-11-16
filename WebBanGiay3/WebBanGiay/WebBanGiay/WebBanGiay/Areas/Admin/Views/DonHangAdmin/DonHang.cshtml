@@ -6,31 +6,7 @@
 }
 
 <style>
-    /* Style cho các tab chưa được chọn */
-    .oke {
-        background-color: black;
-        border-radius: 5px 5px 0px 0px;
-    }
 
-        .oke:hover {
-            background-color: #fcf000;
-            color: black;
-        }
-
-        /* Style cho tab được chọn */
-        .oke .nav-link.active {
-            background-color: red;
-            color: black;
-            font-weight: bold; /* In đậm */
-            font-style: italic; /* In nghiêng */
-        }
-
-        /* Style cho các tab chưa được chọn */
-        .oke .nav-link {
-            color: #eb1515; /* Màu chữ */
-            font-weight: bold; /* In đậm */
-
-        }
 
 </style>
 
@@ -39,15 +15,15 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <form asp-controller="DonHangAdmin" asp-action="HuyDon" method="post">
-                <div class="modal-header" style="background-color: #eb1515; border-radius: 5px 5px 0px 0px;">
+                <div class="modal-header" style="background-color: #F28022; border-radius: 5px 5px 0px 0px;">
                     <h5 class="modal-title" id="huyDonModalLabel">Nhập lý do hủy đơn hàng</h5>
-
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <input type="hidden" id="donHangId" name="id" value="" />
                     <div class="mb-3">
                         <label for="lyDoHuy" class="col-form-label">Lý do hủy:</label>
-                        <textarea style="background-color: #fff;color: #000;" class="form-control" id="lyDoHuy" name="LyDoHuy" required></textarea>
+                        <textarea class="form-control" id="lyDoHuy" name="LyDoHuy" required></textarea>
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -62,7 +38,7 @@
 <div class="modal fade" id="ChiTietModal" tabindex="-1" aria-labelledby="ChiTietModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
-            <div class="modal-header" style="background-color: #eb1515; border-radius: 5px 5px 0px 0px;">
+            <div class="modal-header" style="background-color: #F28022; border-radius: 5px 5px 0px 0px;">
                 <h5 class="modal-title" id="ChiTietModalLabel">Chi tiết đơn hàng</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
@@ -111,25 +87,23 @@
 <div class="container">
     <div class="page-inner">
         <div class="row">
-            <div class="col-md-12" style="margin-top: 50px">
+            <div class="col-md-12">
                 <div class="card">
-                    <div class="card-header" style="background-color: #eb1515; border-radius: 5px 5px 0px 0px;">
+                    <div class="card-header" style="background-color: #F28022; border-radius: 5px 5px 0px 0px;">
                         <h4 class="card-title">Đơn hàng</h4>
                     </div>
                     <div class="card-body">
                         <ul class="nav nav-tabs nav-line nav-color-secondary" id="line-tab" role="tablist">
-                            <li  class="nav-item oke">
+                            <li class="nav-item">
                                 <a class="nav-link active" id="line-home-tab" data-bs-toggle="pill" href="#line-home" role="tab" aria-controls="pills-home" aria-selected="true">Đang xử lý</a>
                             </li>
-                            <li style="margin: 0px 20px 0px 20px;" class="nav-item oke">
+                            <li class="nav-item">
                                 <a class="nav-link" id="line-profile-tab" data-bs-toggle="pill" href="#line-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Đang giao</a>
                             </li>
-                            <li class="nav-item oke">
+                            <li class="nav-item">
                                 <a class="nav-link" id="line-contact-tab" data-bs-toggle="pill" href="#line-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Hoàn thành</a>
                             </li>
-                           
                         </ul>
-                        
                         <div class="tab-content mt-3 mb-3" id="line-tabContent">
                             <div class="tab-pane fade show active" id="line-home" role="tabpanel" aria-labelledby="line-home-tab">
                                 <div class="table-responsive">
@@ -171,13 +145,13 @@
                                                             <form asp-controller="DonHangAdmin" asp-action="DuyetDon" method="post">
                                                                 <input type="hidden" name="id" value="@item.ID_DON_HANG" />
                                                                 <button type="submit" class="btn btn-link btn-primary">
-                                                                    <i style="color: #000" class="fas fa-check"></i>
+                                                                    <i class="fas fa-check"></i>
                                                                 </button>
                                                             </form>
                                                             @if (item.HinhThucThanhToan == "COD")
                                                             {
                                                                 <button type="button" class="btn btn-link btn-danger" data-bs-toggle="modal" data-bs-target="#huyDonModal" onclick="setDeleteId(@item.ID_DON_HANG)">
-                                                                    <i style="color: #000" class="fas fa-times"></i> <!-- Icon Hủy -->
+                                                                    <i class="fas fa-times"></i> <!-- Icon Hủy -->
                                                                 </button>
                                                             }
 
@@ -233,13 +207,13 @@
                                                             <form asp-controller="DonHangAdmin" asp-action="HoanThanh" method="post">
                                                                 <input type="hidden" name="id" value="@item.ID_DON_HANG" />
                                                                 <button type="submit" class="btn btn-link btn-primary">
-                                                                    <i style="color: #000" class="fas fa-check"></i> <!-- Icon Hoàn thành -->
+                                                                    <i class="fas fa-check"></i> <!-- Icon Hoàn thành -->
                                                                 </button>
                                                             </form>
                                                         </div>
                                                         <div class="form-button-action">
                                                             <button type="button" class="btn btn-link btn-secondary" onclick="loadChiTietDonHang(@item.ID_DON_HANG)">
-                                                                <i  class="fas fa-bars"></i>
+                                                                <i class="fas fa-bars"></i>
                                                             </button>
                                                         </div>
                                                     </td>

@@ -27,10 +27,8 @@ namespace WebBanGiay.Controllers
 
 
                 string subject = "Đăng ký nhận bản tin thành công";
-                /*string body = "Chào bạn! Bạn đã đăng ký thành công để nhận các ưu đãi mới nhất từ chúng tôi.";*/
+                string body = "Chào bạn! Bạn đã đăng ký thành công để nhận các ưu đãi mới nhất từ chúng tôi.";
 
-                string body = "Chào bạn! Bạn đã đăng ký thành công để nhận các ưu đãi mới nhất từ chúng tôi.\n" +
-                              "Chúng tôi tặng bạn voucher khuyến mại 20%: TemDevMmo";
 
                 await _emailService.SendEmailAsync(model.Email, subject, body);
 

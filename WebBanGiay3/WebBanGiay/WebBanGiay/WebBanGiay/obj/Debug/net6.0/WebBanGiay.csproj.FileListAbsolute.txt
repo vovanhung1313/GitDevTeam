@@ -1799,4 +1799,3 @@ D:\git\GitDevTeam\WebBanGiay3\WebBanGiay\WebBanGiay\WebBanGiay\obj\Debug\net6.0\
 D:\git\GitDevTeam\WebBanGiay3\WebBanGiay\WebBanGiay\WebBanGiay\obj\Debug\net6.0\WebBanGiay.pdb
 D:\git\GitDevTeam\WebBanGiay3\WebBanGiay\WebBanGiay\WebBanGiay\obj\Debug\net6.0\WebBanGiay.genruntimeconfig.cache
 D:\git\GitDevTeam\WebBanGiay3\WebBanGiay\WebBanGiay\WebBanGiay\obj\Debug\net6.0\ref\WebBanGiay.dll
-D:\c4\Git\GitDevTeam\WebBanGiay3\WebBanGiay\WebBanGiay\WebBanGiay\bin\Debug\net6.0\reCAPTCHA.AspNetCore.dll
