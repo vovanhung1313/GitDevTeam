@@ -31,7 +31,7 @@ namespace WebBanGiay.Models
 
         [Required(ErrorMessage = "Không được để trống giá bán.")]
         [Range(1, int.MaxValue, ErrorMessage = "Giá bán phải là số nguyên dương.")]
-        [RegularExpression(@"^\d+$", ErrorMessage = "Giá bán phải là số nguyên dương.")]
+        [RegularExpression(@"^\d+$", ErrorMessage = "Giá bán phải là số nguyên dưdsdfsdfsdfơng.")]
         public int GIA_BAN { get; set; }
 
 
@@ -48,5 +48,6 @@ namespace WebBanGiay.Models
         [NotMapped]
         public IFormFile? HinhAnhTaiLen { get; set; }
         public virtual ICollection<Comment> Comments { get; set; } 
+
     }
 }
