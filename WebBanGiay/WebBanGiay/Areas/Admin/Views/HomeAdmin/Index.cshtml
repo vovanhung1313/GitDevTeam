@@ -1,0 +1,95 @@
+﻿@{
+    ViewData["Title"] = "Trang chủ Admin";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<!-- Doanh Thu & Doanh Số Bán Hàng Bắt Đầu -->
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <div class="col-sm-6 col-xl-3">
+            <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                <i class="fa fa-chart-line fa-3x text-primary"></i>
+                <div class="ms-3">
+                    <p class="mb-2">Doanh Thu Hôm Nay</p>
+                    <h6 id="todayRevenue" class="mb-0">0 VND</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-xl-3">
+            <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                <i class="fa fa-chart-bar fa-3x text-primary"></i>
+                <div class="ms-3">
+                    <p class="mb-2">Tổng Doanh Thu</p>
+                    <h6 id="totalRevenue" class="mb-0">0 VND</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-xl-3">
+            <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                <i class="fa fa-chart-area fa-3x text-primary"></i>
+                <div class="ms-3">
+                    <p class="mb-2">Đơn Hàng Hôm Nay</p>
+                    <h6 id="todayOrders" class="mb-0">0</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-xl-3">
+            <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                <i class="fa fa-chart-pie fa-3x text-primary"></i>
+                <div class="ms-3">
+                    <p class="mb-2">Tổng Đơn hàng</p>
+                    <h6 id="totalOrders" class="mb-0">0</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Doanh Thu & Doanh Số Bán Hàng Kết Thúc -->
+
+<script>
+    // Gọi API để lấy thống kê doanh thu và đơn hàng hôm nay
+    $.ajax({
+        url: '@Url.Action("GetTodayStatistics", "HomeAdmin", new { area = "Admin" })',  // URL API trong controller
+        type: 'GET',
+        success: function (data) {
+            // Cập nhật dữ liệu vào các phần tử HTML
+            $('#todayRevenue').text(data.TotalRevenueToday.toLocaleString() + ' VND');
+            $('#todayOrders').text(data.TotalOrdersToday);
+        },
+        error: function (xhr, status, error) {
+            console.log("Có lỗi xảy ra khi lấy dữ liệu: " + error);
+        }
+    });
+</script>
+
+<!-- Doanh Thu Gần Đây Bắt Đầu -->
+<div class="container-fluid pt-4 px-4">
+    <div class="bg-secondary text-center rounded p-4">
+        <div class="d-flex align-items-center justify-content-between mb-4">
+            <h6 class="mb-0">Doanh Thu Gần Đây</h6>
+            <a href="">Xem Tất Cả</a>
+        </div>
+        <div class="table-responsive">
+            <table class="table text-start align-middle table-bordered table-hover mb-0">
+                <thead>
+                    <tr class="text-white">
+                        <th scope="col"><input class="form-check-input" type="checkbox"></th>
+                        <th scope="col">Ngày</th>
+                        <th scope="col">Hóa Đơn</th>
+                        <th scope="col">Khách Hàng</th>
+                        <th scope="col">Số Tiền</th>
+                        <th scope="col">Trạng Thái</th>
+                        <th scope="col">Hành Động</th>
+                    </tr>
+                </thead>
+                <tbody id="recentOrders">
+                    <!-- Dữ liệu sẽ được thêm vào ở đây bằng AJAX -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!-- Doanh Thu Gần Đây Kết Thúc -->
+<br />
+<br />
+<br />

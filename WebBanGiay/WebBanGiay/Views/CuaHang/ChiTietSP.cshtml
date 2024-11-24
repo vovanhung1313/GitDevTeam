@@ -1,0 +1,484 @@
+﻿@model WebBanGiay.Models.SanPhamModel
+
+@{
+    ViewData["Title"] = "Chi tiết sản phẩm " + Model.TEN_SAN_PHAM;
+    var culture = System.Globalization.CultureInfo.InvariantCulture;
+}
+
+<style>
+    /* Các hi?u ?ng hover cho hình ?nh s?n ph?m */
+    .single-product-item img {
+        transition: transform 0.4s ease, box-shadow 0.4s ease, filter 0.4s ease;
+        border-radius: 15px;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+
+        .single-product-item img:hover {
+            transform: scale(1.1) rotate(3deg);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+            filter: brightness(1.3) contrast(1.2);
+        }
+
+    /* Hi?u ?ng hover cho tiêu d? s?n ph?m */
+    .single-product-item h3 {
+        position: relative;
+        transition: color 0.4s ease, text-shadow 0.4s ease;
+        font-weight: bold;
+        color: #333;
+    }
+
+        .single-product-item h3::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: #4682B4;
+            transition: width 0.4s ease;
+        }
+
+        .single-product-item h3:hover::after {
+            width: 100%;
+        }
+
+        .single-product-item h3:hover {
+            color: #4682B4;
+            text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+    /* Hi?u ?ng hover cho nút thêm vào gi? hàng */
+    .cart-btn {
+        display: inline-block;
+        padding: 12px 24px;
+        border-radius: 30px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        background: linear-gradient(to right, #fcf000, #f56342);
+        color: #fff;
+        position: relative;
+        overflow: hidden;
+        transition: background 0.4s ease, transform 0.4s ease, box-shadow 0.4s ease;
+    }
+
+        .cart-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+        }
+
+        .cart-btn::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 300%;
+            height: 300%;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            transform: translate(-50%, -50%) scale(0);
+            transition: transform 0.4s ease;
+        }
+
+        .cart-btn:hover::before {
+            transform: translate(-50%, -50%) scale(1);
+        }
+
+    /* C?i ti?n cho carousel */
+    .carousel-inner {
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .carousel-item img {
+        transition: transform 0.4s ease, filter 0.4s ease;
+    }
+
+        .carousel-item img:hover {
+            transform: scale(1.05);
+            filter: brightness(1.2);
+        }
+
+    #rating .star {
+        font-size: 30px;
+        color: gray;
+        cursor: pointer;
+        transition: color 0.2s;
+    }
+
+        #rating .star:hover,
+        #rating .star:hover ~ .star {
+            color: gold;
+        }
+
+        #rating .star.selected {
+            color: gold;
+        }
+    /* Ð?nh d?ng nút dánh giá */
+    #ratingButtons .rating-btn {
+        background-color: transparent;
+        border: 2px solid gold; /* Vi?n vàng */
+        color: gold; /* Màu ch? vàng */
+        padding: 10px 20px;
+        margin: 5px;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 25px;
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        transition: all 0.3s ease; /* Hi?u ?ng chuy?n d?i */
+    }
+
+        #ratingButtons .rating-btn:hover {
+            background-color: gold; /* N?n vàng khi hover */
+            color: white; /* Ch? tr?ng khi hover */
+        }
+
+    /* Bi?u tu?ng ngôi sao */
+    .star-icon {
+        margin-right: 8px; /* Kho?ng cách gi?a ngôi sao và s? sao */
+        font-size: 18px;
+    }
+
+    /* Ði?u ch?nh cho các nút khi du?c ch?n */
+    #ratingButtons .rating-btn.selected {
+        background-color: gold;
+        color: white;
+    }
+
+    #ratingButtons .rating-btn {
+        background-color: transparent;
+        border: 2px solid gold; /* Vi?n vàng */
+        color: gold; /* Màu ch? vàng */
+        padding: 10px 20px;
+        margin: 5px;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 25px;
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        transition: all 0.3s ease; /* Hi?u ?ng chuy?n d?i */
+    }
+
+        /* Hi?u ?ng hover */
+        #ratingButtons .rating-btn:hover {
+            background-color: gold;
+            color: white;
+        }
+
+    /* Bi?u tu?ng ngôi sao */
+    .star-icon {
+        margin-right: 8px;
+        font-size: 18px;
+    }
+
+    /* Nút du?c ch?n s? có n?n vàng và ch? tr?ng */
+    #ratingButtons .rating-btn.selected {
+        background-color: gold;
+        color: white;
+    }
+    /* Ð?nh d?ng nút G?i dánh giá */
+    #submitButton {
+        background-color: gold;
+        border: 2px solid gold; /* Vi?n vàng */
+        color: white;
+        padding: 12px 30px;
+        margin: 20px 0;
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: 30px;
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease; /* Hi?u ?ng chuy?n d?i */
+    }
+
+        /* Hi?u ?ng hover */
+        #submitButton:hover {
+            background-color: gold;
+            color: white;
+            transform: scale(1.1);
+        }
+
+        /* Bi?u tu?ng (n?u có) cho nút G?i dánh giá */
+        #submitButton .star-icon {
+            margin-right: 8px;
+            font-size: 18px;
+        }
+</style>
+<!-- Thông báo -->
+@if (TempData["Message"] != null)
+{
+    var messageType = TempData["MessageType"]?.ToString() ?? "info";
+    <div class="alert alert-@messageType alert-dismissible fade show" role="alert">
+        @TempData["Message"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+<div class="single-product mt-150 mb-150">
+    <div class="container">
+        <div class="row" style="margin-top: 70px;">
+            <div class="col-md-5">
+                <div id="productCarousel" class="carousel slide single-product-img" data-ride="carousel">
+                    <div class="carousel-inner">
+                        @if (Model.HINH_ANH != null && Model.HINH_ANH.Count > 0)
+                        {
+                            var isFirst = true;
+                            foreach (var hinhAnh in Model.HINH_ANH)
+                            {
+                                <div class="carousel-item @(isFirst ? "active" : "")">
+                                    <img class="d-block w-100" src="~/media/SanPham/@hinhAnh.TEN_HINH_ANH" height="500px" alt="Hình ảnh sản phẩm">
+                                </div>
+                                isFirst = false;
+                            }
+                        }
+                        else
+                        {
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="~/media/SanPham/default.jpg" alt="No image available">
+                            </div>
+                        }
+                    </div>
+                    <a class="carousel-control-prev" href="#productCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#productCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-7">
+                <div class="single-product-content">
+                    <h1>@Model.TEN_SAN_PHAM</h1>
+                    <h3>@Model.MO_TA</h3>
+                    <h5>Chất liệu: @Model.CHAT_LIEU</h5>
+                    <div>
+                        <h3>Đánh giá: @ViewBag.AverageRating/5 sao</h3>
+                        <small>(Dựa trên @Model.Comments.Count đánh giá)</small>
+                    </div>
+                    <h1 class="single-product-pricing">
+                        <span></span> @Model.GIA_BAN.ToString("N0", culture).Replace(",", ".") VNĐ
+                    </h1>
+                    <br />
+                    <div class="single-product-form">
+                        <form method="post" asp-action="ThemGioHang" asp-controller="GioHang" id="productForm">
+                            <input type="hidden" name="ID_SAN_PHAM" value="@Model.ID_SAN_PHAM" />
+                            <div class="form-group">
+                                <label for="SoLuong">Số lượng:</label>
+                                <div class="input-group" style="width: 350px;">
+                                    <button type="button" class="btn btn-outline-secondary btn-minus">-</button>
+                                    <input type="number" id="SoLuong" name="SoLuong" class="form-control text-center" value="1" min="1" style="width: 100px;">
+                                    <button type="button" class="btn btn-outline-secondary btn-plus">+</button>
+                                </div>
+                            </div>
+                            <br />
+                            <div class="form-group">
+                                <label style="margin-bottom: 20px;" for="Mau">Chọn màu sắc:</label>
+                                <div id="Mau">
+                                    @if (ViewBag.DANHSACHMAU != null)
+                                    {
+                                        foreach (var mau in ViewBag.DANHSACHMAU)
+                                        {
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input mau-radio" type="radio" name="Mau" id="Mau_@mau.ID_MAU" value="@mau.TEN_MAU" required>
+                                                <label class="form-check-label" for="Mau_@mau.ID_MAU">@mau.TEN_MAU</label>
+                                            </div>
+                                        }
+                                    }
+                                </div>
+                            </div>
+
+                            <br/>
+                            <button style="color: #000" class="btn cart-btn" type="submit">Thêm vào giỏ hàng</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="container mt-5">
+   
+
+
+
+    <!-- Form đánh giá -->
+    <div class="row mb-4">
+        <div class="col-lg-8">
+            <h4 class="fw-bold">Đánh giá sản phẩm</h4>
+            <p class="text-muted">Đánh giá trung bình: <strong>@ViewBag.AverageRating</strong>/5</p>
+            <form id="ratingForm" method="post" action="/CuaHang/AddComment">
+                <input type="hidden" name="productId" value="@Model.ID_SAN_PHAM" />
+                <input type="hidden" id="starRating" name="starRating" />
+                <div class="mb-3">
+                    <label for="commentContent" class="form-label">Nhận xét của bạn</label>
+                    <textarea id="commentContent" name="commentContent" class="form-control" rows="4" placeholder="Viết nhận xét của bạn..."></textarea>
+                </div>
+               
+
+                <div id="ratingButtons">
+                    <button type="button" class="rating-btn" onclick="submitRating(1, this)">
+                        <span class="star-icon">&#9733;</span> 1 Sao
+                    </button>
+                    <button type="button" class="rating-btn" onclick="submitRating(2, this)">
+                        <span class="star-icon">&#9733;</span> 2 Sao
+                    </button>
+                    <button type="button" class="rating-btn" onclick="submitRating(3, this)">
+                        <span class="star-icon">&#9733;</span> 3 Sao
+                    </button>
+                    <button type="button" class="rating-btn" onclick="submitRating(4, this)">
+                        <span class="star-icon">&#9733;</span> 4 Sao
+                    </button>
+                    <button type="button" class="rating-btn" onclick="submitRating(5, this)">
+                        <span class="star-icon">&#9733;</span> 5 Sao
+                    </button>
+                </div>
+
+                <button type="submit" id="submitButton">Gửi đánh giá</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Danh sách bình luận -->
+    <div class="row">
+        <div class="col-lg-8">
+            <h4 class="fw-bold">Bình luận</h4>
+            <div id="commentList">
+                @if (!Model.Comments.Any())
+                {
+                    <p class="text-muted">Chưa có bình luận nào.</p>
+                }
+                else
+                {
+                    @foreach (var comment in Model.Comments)
+                    {
+                        <div class="border rounded p-3 mb-3">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <strong class="text-primary">@comment.NguoiDung.HO_TEN</strong>
+                                <span class="badge bg-warning text-dark">Đánh giá: @comment.SaoDanhGia sao</span>
+                            </div>
+                            <p class="mt-2 mb-1">@comment.NoiDungComment</p>
+                            <small class="text-muted">Ngày: @comment.NgayTao.ToString("dd/MM/yyyy")</small>
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $(".btn-minus").click(function () {
+                var input = $(this).siblings("input");
+                var value = parseInt(input.val());
+                if (value > 1) input.val(value - 1);
+            });
+
+            $(".btn-plus").click(function () {
+                var input = $(this).siblings("input");
+                var value = parseInt(input.val());
+                input.val(value + 1);
+            });
+
+            $("input[name='Mau']").change(function () {
+                var selectedMau = $("input[name='Mau']:checked").val();
+                var idSanPham = $("input[name='ID_SAN_PHAM']").val();
+
+                $.ajax({
+                    url: '@Url.Action("LaySoLuongSanPham", "GioHang")',
+                    type: 'GET',
+                    data: { idSanPham: idSanPham, mau: selectedMau },
+                    success: function (data) {
+                        $("h5:contains('Số lượng còn:')").text("Số lượng còn: " + data);
+                    }
+                });
+            });
+        });
+        document.addEventListener("DOMContentLoaded", function () {
+            const stars = document.querySelectorAll("#rating .star");
+            const ratingValueDisplay = document.getElementById("rating-value");
+            let currentRating = 0;
+
+            stars.forEach((star) => {
+                star.addEventListener("mouseover", function () {
+                    resetStars();
+                    highlightStars(this.dataset.value);
+                });
+
+                star.addEventListener("mouseout", resetStars);
+
+                star.addEventListener("click", function () {
+                    currentRating = this.dataset.value;
+                    updateRating(currentRating);
+                });
+            });
+
+            function resetStars() {
+                stars.forEach((star) => {
+                    star.classList.remove("selected");
+                });
+            }
+
+            function highlightStars(value) {
+                stars.forEach((star) => {
+                    if (star.dataset.value <= value) {
+                        star.classList.add("selected");
+                    }
+                });
+            }
+
+            function updateRating(value) {
+                ratingValueDisplay.textContent = `Đánh giá: ${value} sao`;
+            }
+        });
+            $("#commentForm").submit(function (e) {
+            e.preventDefault();
+
+            const data = {
+                productId: $("#productId").val(),
+                commentContent: $("#commentContent").val(),
+                starRating: $("#starRating").val()
+
+            };
+
+            $.post("/CuaHang/AddComment", data, function (response) {
+                // Reload bình luận
+                $("#commentList").load(location.href + " #commentList > *");
+            }).fail(function (xhr) {
+                alert(xhr.responseText); 
+            });
+        });
+        function submitRating(value) {
+           
+            document.getElementById('starRating').value = value;
+
+            document.getElementById('ratingValueDisplay').textContent = `Đánh giá: ${value} sao`;
+        }
+        
+
+       
+        document.getElementById('ratingForm').onsubmit = function (event) {
+            const starRating = document.getElementById('starRating').value;
+            const commentContent = document.getElementById('commentContent').value.trim();
+
+            if (starRating === "" || commentContent === "") {
+                alert("Vui lòng chọn sao và nhập nội dung nhận xét.");
+                event.preventDefault(); 
+            }
+        };
+    </script>
+}
+

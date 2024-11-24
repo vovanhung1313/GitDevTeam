@@ -1,0 +1,200 @@
+﻿@model WebBanGiay.Models.GioiThieuModel
+
+@{
+    ViewBag.Title = "Giới thiệu";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container-fluid page-header py-5">
+    <div class="container text-center py-5">
+        <h1 class="display-2 text-white mb-4 animated slideInDown">Giới Thiệu</h1>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb justify-content-center mb-0 animated slideInDown">
+                <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Trang Chủ</a></li>
+                <li class="breadcrumb-item"><a asp-controller="CuaHang" asp-action="Index">Cửa hàng</a></li>
+                <li class="breadcrumb-item text-white" aria-current="page">Giới Thiệu</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-6 col-md-12 wow fadeInUp" data-wow-delay=".3s">
+                <div class="about-img">
+                    <div class="rotate-left bg-dark"></div>
+                    <div class="rotate-right bg-dark"></div>
+                    <img src="img/avt10.jpg" class="img-fluid h-100" alt="img">
+                    <div class="bg-white experiences">
+                        <h1 class="display-3">20</h1>
+                        <h6 class="fw-bold">Năm Kinh Nghiệm Bán Hàng</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 wow fadeInUp" data-wow-delay=".6s">
+                <div class="about-item overflow-hidden">
+                    <h1 class="mb-2 px-3 py-1 text-dark rounded-pill d-inline-block border border-2 border-primary">Về TeamDev</h1>
+                    <h1 class="display-5 mb-2">Nike tiếp tục khẳng định sự cân bằng giữa kiểu dáng và chức năng</h1>
+                    <p class="fs-5" style="text-align: justify;">Giày thể thao chức năng không chỉ phục vụ nhu cầu vận động mà còn trở thành biểu tượng thời trang hiện đại.Thiết kế vấu bám chắc cùng phần thân trên bằng lưới bền bỉ càng làm tăng thêm độ tin cậy.</p>
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="text-center">
+                                <div class="p-4 bg-dark rounded d-flex" style="align-items: center; justify-content: center;">
+                                    <i class="fas fa-city fa-4x text-primary"></i>
+                                </div>
+                                <div class="my-2">
+                                    <h5>Giày thể thao</h5>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="text-center">
+                                <div class="p-4 bg-dark rounded d-flex" style="align-items: center; justify-content: center;">
+                                    <i class="fas fa-school fa-4x text-primary"></i>
+                                </div>
+                                <div class="my-2">
+                                    <h5>Giày leo núi</h5>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="text-center">
+                                <div class="p-4 bg-dark rounded d-flex" style="align-items: center; justify-content: center;">
+                                    <i class="fas fa-warehouse fa-4x text-primary"></i>
+                                </div>
+                                <div class="my-2">
+                                    <h5>Giày cao cấp</h5>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="text-center">
+                                <div class="p-4 bg-dark rounded d-flex" style="align-items: center; justify-content: center;">
+                                    <i class="fas fa-hospital fa-4x text-primary"></i>
+                                </div>
+                                <div class="my-2">
+                                    <h5>Mẫu giày mới</h5>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="btn btn-primary border-0 rounded-pill px-4 py-3 mt-5"
+                       asp-controller="CuaHang" asp-action="Index">
+                        Đi đến cửa hàng
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid py-5 call-to-action wow fadeInUp" data-wow-delay=".3s" style="margin: 6rem 0;">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-lg-6">
+                <img src="img/avt11.jpg" class="img-fluid w-100 rounded-circle p-5" alt="">
+            </div>
+            <div class="col-lg-6 my-auto">
+                <div class="text-start mt-4">
+                    <h1 class="pb-4 text-white">Đăng Ký Bản Tin Của Chúng Tôi Để Nhận Các Ưu Đãi Mới Nhất</h1>
+                </div>
+
+                <form asp-action="RegisterNewsletter" asp-controller="GioiThieu" method="post">
+                    <div class="form-group" >
+                        <input  type="email" id="email" name="Email" class="form-control py-3 px-4 w-100 border-0 rounded-0  rounded-pill"
+                               placeholder="Nhập email của bạn" required />
+                    </div>
+                    <button style="padding: 10px 50px 10px 50px; border-radius: 30px;" type="submit" class="btn btn-primary mt-3">Đăng Ký</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <div class="text-center mb-5 wow fadeInUp" data-wow-delay=".3s">
+            <h5 class="mb-2 px-3 py-1 text-dark rounded-pill d-inline-block border border-2 border-primary">Đội Ngũ</h5>
+            <h1 class="display-5 w-50 mx-auto">Thành Viên Của Chúng Tôi</h1>
+        </div>
+        <div class="row g-5">
+            <div class="col-xxl-3 col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".3s">
+                <div class="rounded team-item">
+                    <img src="img/avt5.jpg" class="img-fluid w-100 rounded-top border border-bottom-0" alt="">
+                    <div class="team-content bg-primary text-dark text-center py-3">
+                        <span class="fs-4 fw-bold">Nguyễn Huy Thiên</span>
+                        <p class="text-muted mb-0">Trưởng nhóm</p>
+                    </div>
+                    <div class="team-icon d-flex flex-column ">
+                        <a href="https://www.facebook.com/1455185131" class="btn btn-primary border-0 mb-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.x.com/nguyenthienmmo" class="btn btn-primary border-0 mb-2"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/nguyenthienmmo" class="btn btn-primary border-0 mb-2"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/thi%C3%AAn-nguy%E1%BB%85n-huy-8806a9329/" class="btn btn-primary border-0"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-3 col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".5s">
+                <div class="rounded team-item">
+                    <img src="img/avt2.jpg" class="img-fluid w-100 rounded-top border border-bottom-0" alt="">
+                    <div class="team-content bg-primary text-dark text-center py-3">
+                        <span class="fs-4 fw-bold">Trần Quốc Thiện</span>
+                        <p class="text-muted mb-0">Thành viên</p>
+                    </div>
+                    <div class="team-icon d-flex flex-column ">
+                        <a href="https://www.facebook.com/1455185131" class="btn btn-primary border-0 mb-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.x.com/nguyenthienmmo" class="btn btn-primary border-0 mb-2"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/nguyenthienmmo" class="btn btn-primary border-0 mb-2"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/thi%C3%AAn-nguy%E1%BB%85n-huy-8806a9329/" class="btn btn-primary border-0"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-3 col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".7s">
+                <div class="rounded team-item">
+                    <img src="img/avt3.jpg" class="img-fluid w-100 rounded-top border border-bottom-0" alt="">
+                    <div class="team-content bg-primary text-dark text-center py-3">
+                        <span class="fs-4 fw-bold">Võ Văn Hưng</span>
+                        <p class="text-muted mb-0">Thành viên</p>
+                    </div>
+                    <div class="team-icon d-flex flex-column ">
+                        <a href="https://www.facebook.com/1455185131" class="btn btn-primary border-0 mb-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.x.com/nguyenthienmmo" class="btn btn-primary border-0 mb-2"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/nguyenthienmmo" class="btn btn-primary border-0 mb-2"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/thi%C3%AAn-nguy%E1%BB%85n-huy-8806a9329/" class="btn btn-primary border-0"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-3 col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".9s">
+                <div class="rounded team-item">
+                    <img src="img/avt4.jpg" class="img-fluid w-100 rounded-top border border-bottom-0" alt="">
+                    <div class="team-content bg-primary text-dark text-center py-3">
+                        <span class="fs-4 fw-bold">Võ Văn Hiếu</span>
+                        <p class="text-muted mb-0">Thành viên</p>
+                    </div>
+                    <div class="team-icon d-flex flex-column ">
+                        <a href="https://www.facebook.com/1455185131" class="btn btn-primary border-0 mb-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.x.com/nguyenthienmmo" class="btn btn-primary border-0 mb-2"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/nguyenthienmmo" class="btn btn-primary border-0 mb-2"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/thi%C3%AAn-nguy%E1%BB%85n-huy-8806a9329/" class="btn btn-primary border-0"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="lib/wow/wow.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="js/main.js"></script>

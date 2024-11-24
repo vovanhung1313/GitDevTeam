@@ -1,0 +1,281 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dev_team\\WebBanGiay\\WebBanGiay\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\dev_team\\webbangiay\\webbangiay\\webbangiay\\models\\sanphammodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\models\\sanphammodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\dev_team\\webbangiay\\webbangiay\\webbangiay\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\dev_team\\webbangiay\\webbangiay\\webbangiay\\models\\chitietdonhangmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\models\\chitietdonhangmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\dev_team\\webbangiay\\webbangiay\\webbangiay\\models\\loaisanphammodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\models\\loaisanphammodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\dev_team\\webbangiay\\webbangiay\\webbangiay\\views\\cuahang\\chitietsp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\views\\cuahang\\chitietsp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\dev_team\\webbangiay\\webbangiay\\webbangiay\\models\\nguoidungmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\models\\nguoidungmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\dev_team\\webbangiay\\webbangiay\\webbangiay\\controllers\\cuahangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\controllers\\cuahangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\dev_team\\webbangiay\\webbangiay\\webbangiay\\migrations\\20241122070101_hung1232212344.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\migrations\\20241122070101_hung1232212344.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\dev_team\\webbangiay\\webbangiay\\webbangiay\\views\\nguoidung\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\views\\nguoidung\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\dev_team\\webbangiay\\webbangiay\\webbangiay\\repository\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\repository\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\dev_team\\webbangiay\\webbangiay\\webbangiay\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\dev_team\\webbangiay\\webbangiay\\webbangiay\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\dev_team\\webbangiay\\webbangiay\\webbangiay\\areas\\admin\\controllers\\sanphamadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\areas\\admin\\controllers\\sanphamadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\dev_team\\webbangiay\\webbangiay\\webbangiay\\areas\\admin\\views\\sanphamadmin\\themsanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\areas\\admin\\views\\sanphamadmin\\themsanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|d:\\dev_team\\webbangiay\\webbangiay\\webbangiay\\models\\sanphammaumodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C81C89-33B7-4B68-8FB5-32DA2FB52BFB}|WebBanGiay\\WebBanGiay.csproj|solutionrelative:webbangiay\\models\\sanphammaumodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Dev_team\\WebBanGiay\\WebBanGiay\\WebBanGiay\\Migrations\\20241122032954_hung456.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebBanGiay\\Migrations\\20241122032954_hung456.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChiTietDonHangModel.cs",
+              "DocumentMoniker": "D:\\Dev_team\\WebBanGiay\\WebBanGiay\\WebBanGiay\\Models\\ChiTietDonHangModel.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Models\\ChiTietDonHangModel.cs",
+              "ToolTip": "D:\\Dev_team\\WebBanGiay\\WebBanGiay\\WebBanGiay\\Models\\ChiTietDonHangModel.cs",
+              "RelativeToolTip": "WebBanGiay\\Models\\ChiTietDonHangModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T13:27:31.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoaiSanPhamModel.cs",
+              "DocumentMoniker": "D:\\Dev_team\\WebBanGiay\\WebBanGiay\\WebBanGiay\\Models\\LoaiSanPhamModel.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Models\\LoaiSanPhamModel.cs",
+              "ToolTip": "D:\\Dev_team\\WebBanGiay\\WebBanGiay\\WebBanGiay\\Models\\LoaiSanPhamModel.cs",
+              "RelativeToolTip": "WebBanGiay\\Models\\LoaiSanPhamModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T13:27:24.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChiTietSP.cshtml",
+              "DocumentMoniker": "D:\\Dev_team\\WebBanGiay\\WebBanGiay\\WebBanGiay\\Views\\CuaHang\\ChiTietSP.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Views\\CuaHang\\ChiTietSP.cshtml",
+              "ToolTip": "D:\\Dev_team\\WebBanGiay\\WebBanGiay\\WebBanGiay\\Views\\CuaHang\\ChiTietSP.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Views\\CuaHang\\ChiTietSP.cshtml",
+              "ViewState": "AgIAAFYBAAAAAAAAAADwv2kBAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T03:27:07.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NguoiDungModel.cs",
+              "DocumentMoniker": "D:\\Dev_team\\WebBanGiay\\WebBanGiay\\WebBanGiay\\Models\\NguoiDungModel.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Models\\NguoiDungModel.cs",
+              "ToolTip": "D:\\Dev_team\\WebBanGiay\\WebBanGiay\\WebBanGiay\\Models\\NguoiDungModel.cs",
+              "RelativeToolTip": "WebBanGiay\\Models\\NguoiDungModel.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAIAwwB0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T03:11:40.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "D:\\Dev_team\\WebBanGiay\\WebBanGiay\\WebBanGiay\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Models\\Comment.cs",
+              "ToolTip": "D:\\Dev_team\\WebBanGiay\\WebBanGiay\\WebBanGiay\\Models\\Comment.cs",
+              "RelativeToolTip": "WebBanGiay\\Models\\Comment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T02:37:41.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CuaHangController.cs",
+              "DocumentMoniker": "D:\\Dev_team\\WebBanGiay\\WebBanGiay\\WebBanGiay\\Controllers\\CuaHangController.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Controllers\\CuaHangController.cs",
+              "ToolTip": "D:\\Dev_team\\WebBanGiay\\WebBanGiay\\WebBanGiay\\Controllers\\CuaHangController.cs",
+              "RelativeToolTip": "WebBanGiay\\Controllers\\CuaHangController.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAuwI0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T03:05:51.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20241122070101_hung1232212344.cs",
+              "DocumentMoniker": "D:\\Dev_team\\WebBanGiay\\WebBanGiay\\WebBanGiay\\Migrations\\20241122070101_hung1232212344.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Migrations\\20241122070101_hung1232212344.cs",
+              "ToolTip": "D:\\Dev_team\\WebBanGiay\\WebBanGiay\\WebBanGiay\\Migrations\\20241122070101_hung1232212344.cs",
+              "RelativeToolTip": "WebBanGiay\\Migrations\\20241122070101_hung1232212344.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T07:01:02.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Dev_team\\WebBanGiay\\WebBanGiay\\WebBanGiay\\Program.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Program.cs",
+              "ToolTip": "D:\\Dev_team\\WebBanGiay\\WebBanGiay\\WebBanGiay\\Program.cs",
+              "RelativeToolTip": "WebBanGiay\\Program.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T06:48:42.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SanPhamModel.cs",
+              "DocumentMoniker": "D:\\Dev_team\\WebBanGiay\\WebBanGiay\\WebBanGiay\\Models\\SanPhamModel.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Models\\SanPhamModel.cs",
+              "ToolTip": "D:\\Dev_team\\WebBanGiay\\WebBanGiay\\WebBanGiay\\Models\\SanPhamModel.cs",
+              "RelativeToolTip": "WebBanGiay\\Models\\SanPhamModel.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAqwDEAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T03:12:58.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DangNhap.cshtml",
+              "DocumentMoniker": "D:\\Dev_team\\WebBanGiay\\WebBanGiay\\WebBanGiay\\Views\\NguoiDung\\DangNhap.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Views\\NguoiDung\\DangNhap.cshtml",
+              "ToolTip": "D:\\Dev_team\\WebBanGiay\\WebBanGiay\\WebBanGiay\\Views\\NguoiDung\\DangNhap.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Views\\NguoiDung\\DangNhap.cshtml",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T09:34:12.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "D:\\Dev_team\\WebBanGiay\\WebBanGiay\\WebBanGiay\\Repository\\DataContext.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Repository\\DataContext.cs",
+              "ToolTip": "D:\\Dev_team\\WebBanGiay\\WebBanGiay\\WebBanGiay\\Repository\\DataContext.cs",
+              "RelativeToolTip": "WebBanGiay\\Repository\\DataContext.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAAAJMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T05:32:28.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Dev_team\\WebBanGiay\\WebBanGiay\\WebBanGiay\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Dev_team\\WebBanGiay\\WebBanGiay\\WebBanGiay\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebBanGiay\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T05:33:32.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SanPhamAdminController.cs",
+              "DocumentMoniker": "D:\\Dev_team\\WebBanGiay\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Controllers\\SanPhamAdminController.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Areas\\Admin\\Controllers\\SanPhamAdminController.cs",
+              "ToolTip": "D:\\Dev_team\\WebBanGiay\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Controllers\\SanPhamAdminController.cs",
+              "RelativeToolTip": "WebBanGiay\\Areas\\Admin\\Controllers\\SanPhamAdminController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAuwCsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T03:34:35.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ThemSanPham.cshtml",
+              "DocumentMoniker": "D:\\Dev_team\\WebBanGiay\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\SanPhamAdmin\\ThemSanPham.cshtml",
+              "RelativeDocumentMoniker": "WebBanGiay\\Areas\\Admin\\Views\\SanPhamAdmin\\ThemSanPham.cshtml",
+              "ToolTip": "D:\\Dev_team\\WebBanGiay\\WebBanGiay\\WebBanGiay\\Areas\\Admin\\Views\\SanPhamAdmin\\ThemSanPham.cshtml",
+              "RelativeToolTip": "WebBanGiay\\Areas\\Admin\\Views\\SanPhamAdmin\\ThemSanPham.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T03:35:24.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20241122032954_hung456.cs",
+              "DocumentMoniker": "D:\\Dev_team\\WebBanGiay\\WebBanGiay\\WebBanGiay\\Migrations\\20241122032954_hung456.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Migrations\\20241122032954_hung456.cs",
+              "ToolTip": "D:\\Dev_team\\WebBanGiay\\WebBanGiay\\WebBanGiay\\Migrations\\20241122032954_hung456.cs",
+              "RelativeToolTip": "WebBanGiay\\Migrations\\20241122032954_hung456.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T03:29:55.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SanPhamMauModel.cs",
+              "DocumentMoniker": "D:\\Dev_team\\WebBanGiay\\WebBanGiay\\WebBanGiay\\Models\\SanPhamMauModel.cs",
+              "RelativeDocumentMoniker": "WebBanGiay\\Models\\SanPhamMauModel.cs",
+              "ToolTip": "D:\\Dev_team\\WebBanGiay\\WebBanGiay\\WebBanGiay\\Models\\SanPhamMauModel.cs",
+              "RelativeToolTip": "WebBanGiay\\Models\\SanPhamMauModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T02:38:18.498Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

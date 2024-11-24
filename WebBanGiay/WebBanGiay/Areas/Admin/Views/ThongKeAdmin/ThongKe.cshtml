@@ -1,0 +1,316 @@
+﻿@model IEnumerable<WebBanGiay.Models.ThongKeModel>
+
+@{
+    ViewData["Title"] = "Thống Kê Admin";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<style>
+    .small-pie-chart {
+        width: 295px !important; /* Thay đổi kích thước theo ý muốn */
+        height: 293px !important; /* Thay đổi kích thước theo ý muốn */
+        margin-left: 100px;
+    }
+
+    #dailyDate {
+        width: 280px;
+    }
+
+</style>
+<style>
+    /* Style cho các tab chưa được chọn */
+    .oke {
+        background-color: black;
+        border-radius: 5px 5px 0px 0px;
+    }
+
+        .oke:hover {
+            background-color: #fcf000;
+            color: black;
+        }
+
+        /* Style cho tab được chọn */
+        .oke .nav-link.active {
+            background-color: red;
+            color: black;
+            font-weight: bold; /* In đậm */
+            font-style: italic; /* In nghiêng */
+        }
+
+        /* Style cho các tab chưa được chọn */
+        .oke .nav-link {
+            color: #eb1515; /* Màu chữ */
+            font-weight: bold; /* In đậm */
+        }
+
+</style>
+
+<div class="container">
+    <div class="page-inner">
+        <div class="page-header"></div>
+        <div class="card" style="margin: 50px 0;">
+            <div class="card-header" style="background-color: #eb1515; border-radius: 5px 5px 0px 0px;">
+                <div class="d-flex align-items-center">
+                    <h4 class="card-title">Thống Kê</h4>
+                </div>
+            </div>
+            <div class="card-body">
+                <!-- Tabs -->
+                <ul class="nav nav-tabs" id="thongKeTab" role="tablist">
+                    <li class="nav-item oke" role="presentation">
+                        <button class="nav-link active" id="daily-tab" data-bs-toggle="tab" data-bs-target="#daily" type="button" role="tab" aria-controls="daily" aria-selected="true">Theo Ngày</button>
+                    </li>
+                    <li style="margin: 0px 20px 0px 20px;" class="nav-item oke" role="presentation">
+                        <button class="nav-link" id="monthly-tab" data-bs-toggle="tab" data-bs-target="#monthly" type="button" role="tab" aria-controls="monthly" aria-selected="false">Theo Tháng</button>
+                    </li>
+                    <li class="nav-item oke" role="presentation">
+                        <button class="nav-link" id="yearly-tab" data-bs-toggle="tab" data-bs-target="#yearly" type="button" role="tab" aria-controls="yearly" aria-selected="false">Theo Năm</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="thongKeTabContent">
+                    <!-- Thống kê theo ngày -->
+                    <div class="tab-pane fade show active" id="daily" role="tabpanel" aria-labelledby="daily-tab">
+                        <div class="form-group mt-3">
+                            <label for="dailyDate">Chọn Ngày:</label>
+                            <input type="date" id="dailyDate" class="form-control" style="background-color: #fff; color: #000;margin: 15px 0px 15px 0px;">
+                            <button style="padding: 8px 110px 8px 100px" class="btn btn-primary mt-2" onclick="getDailyStatistics()">Thống Kê</button>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-6">
+                                <h4 style="color: #000" class="text-center">Sản phẩm bán được theo ngày</h4>
+                                <canvas id="dailyBarChart" width="400" height="200"></canvas>
+                                <ul id="dailyOrderDetails" class="list-group mt-3"></ul>
+                            </div>
+                            <div class="col-md-6">
+                                <h4 style="color: #000" class="text-center">Tổng doanh thu bán được theo ngày</h4>
+                                <canvas id="dailyPieChart" class="small-pie-chart"></canvas>
+                                <ul id="dailyRevenueDetails" class="list-group mt-3"></ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Thống kê theo tháng -->
+                    <div class="tab-pane fade" id="monthly" role="tabpanel" aria-labelledby="monthly-tab">
+                        <div class="form-group mt-3">
+                            <label for="monthlyYear">Chọn Năm:</label>
+                            <input style="background-color: #fff; color: #000;margin: 15px 0px 15px 0px;" type="number" id="monthlyYear" class="form-control" min="2000" max="2100" value="@DateTime.Now.Year" readonly>
+                            <label for="monthlyMonth">Chọn Tháng:</label>
+                            <select style="background-color: #fff; color: #000;margin: 15px 0px 15px 0px;" id="monthlyMonth" class="form-control">
+                                <option value="1">Tháng 1</option>
+                                <option value="2">Tháng 2</option>
+                                <option value="3">Tháng 3</option>
+                                <option value="4">Tháng 4</option>
+                                <option value="5">Tháng 5</option>
+                                <option value="6">Tháng 6</option>
+                                <option value="7">Tháng 7</option>
+                                <option value="8">Tháng 8</option>
+                                <option value="9">Tháng 9</option>
+                                <option value="10">Tháng 10</option>
+                                <option value="11">Tháng 11</option>
+                                <option value="12">Tháng 12</option>
+                            </select>
+                            <button style="padding: 8px 110px 8px 100px" class="btn btn-primary mt-2" onclick="getMonthlyStatistics()">Thống Kê</button>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-6">
+                                <h4 style="color: #000" class="text-center">Sản phẩm bán được theo tháng</h4>
+                                <canvas id="monthlyBarChart" width="400" height="200"></canvas>
+                                <ul id="monthlyOrderDetails" class="list-group mt-3"></ul>
+                            </div>
+                            <div class="col-md-6">
+                                <h4 style="color: #000" class="text-center">Tổng doanh thu bán được theo tháng</h4>
+                                <canvas id="monthlyPieChart" class="small-pie-chart"></canvas>
+                                <ul id="monthlyRevenueDetails" class="list-group mt-3"></ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Thống kê theo năm -->
+                    <div class="tab-pane fade" id="yearly" role="tabpanel" aria-labelledby="yearly-tab">
+                        <div class="form-group mt-3">
+                            <label for="yearlyYear">Chọn Năm:</label>
+                            <input style="background-color: #fff; color: #000;margin: 15px 0px 15px 0px;" type="number" id="yearlyYear" class="form-control" min="2000" max="2100">
+                            <button style="padding: 8px 110px 8px 100px" class="btn btn-primary mt-2" onclick="getYearlyStatistics()">Thống Kê</button>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-6">
+                                <h4 style="color: #000" class="text-center">Sản phẩm bán được theo năm</h4>
+                                <canvas id="yearlyBarChart" width="400" height="200"></canvas>
+                                <ul id="yearlyOrderDetails" class="list-group mt-3"></ul>
+                            </div>
+                            <div class="col-md-6">
+                                <h4 style="color: #000" class="text-center">Tổng doanh thu bán được theo năm</h4>
+                                <canvas id="yearlyPieChart" class="small-pie-chart"></canvas>
+                                <ul id="yearlyRevenueDetails" class="list-group mt-3"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        function formatDate(dateStr) {
+            const date = new Date(dateStr);
+            return `${date.getDate().toString().padStart(2, '0')}-${(date.getMonth() + 1).toString().padStart(2, '0')}-${date.getFullYear()}`;
+        }
+
+        function getDailyStatistics() {
+            var date = document.getElementById("dailyDate").value;
+            if (date) {
+                fetch(`/Admin/ThongKeAdmin/GetDailyStatistics?date=${date}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        displayCharts('dailyBarChart', 'dailyPieChart', data, 'Ngày');
+                        displayDetails('dailyOrderDetails', 'dailyRevenueDetails', data);
+                    })
+                    .catch(error => console.error('Error:', error));
+            }
+        }
+
+        function getMonthlyStatistics() {
+            var year = document.getElementById("monthlyYear").value;
+            var month = document.getElementById("monthlyMonth").value;
+            if (month) {
+                fetch(`/Admin/ThongKeAdmin/GetMonthlyStatistics?year=${year}&month=${month}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        displayCharts('monthlyBarChart', 'monthlyPieChart', data, 'Tháng');
+                        displayDetails('monthlyOrderDetails', 'monthlyRevenueDetails', data);
+                    })
+                    .catch(error => console.error('Error:', error));
+            }
+        }
+
+
+        function getYearlyStatistics() {
+            var year = document.getElementById("yearlyYear").value;
+            if (year) {
+                fetch(`/Admin/ThongKeAdmin/GetYearlyStatistics?year=${year}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        displayCharts('yearlyBarChart', 'yearlyPieChart', data, 'Năm');
+                        displayDetails('yearlyOrderDetails', 'yearlyRevenueDetails', data);
+                    })
+                    .catch(error => console.error('Error:', error));
+            }
+        }
+
+        function displayCharts(barChartId, pieChartId, data, period) {
+            var barCtx = document.getElementById(barChartId).getContext('2d');
+            var pieCtx = document.getElementById(pieChartId).getContext('2d');
+
+            // Chuyển đổi dữ liệu ngày để hiển thị theo định dạng ngày-tháng-năm
+            var labels = data.map(item => formatDate(item.date));
+            var orders = data.map(item => item.totalOrders);
+            var revenue = data.map(item => item.totalRevenue);
+
+            // Tạo biểu đồ cột
+            new Chart(barCtx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: `Số Đơn Hàng - ${period}`,
+                        data: orders,
+                        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                        borderColor: 'rgba(75, 192, 192, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            ticks: {
+                                callback: function (value) {
+                                    return value.toLocaleString(); // Hiển thị số lượng đơn hàng với dấu phân cách
+                                }
+                            }
+                        },
+                        x: {
+                            ticks: {
+                                autoSkip: true,
+                                maxTicksLimit: 10
+                            }
+                        }
+                    },
+                    animation: {
+                        duration: 2000, // Thời gian hiệu ứng
+                        easing: 'easeOutBounce' // Loại hiệu ứng
+                    },
+                    plugins: {
+                        legend: {
+                            display: true,
+                            position: 'top'
+                        }
+                    }
+                }
+            });
+
+            // Tạo biểu đồ tròn
+            new Chart(pieCtx, {
+                type: 'pie',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: `Doanh Thu - ${period}`,
+                        data: revenue,
+                        backgroundColor: ['rgba(255, 99, 132, 0.2)', 'rgba(54, 162, 235, 0.2)', 'rgba(255, 206, 86, 0.2)', 'rgba(75, 192, 192, 0.2)', 'rgba(153, 102, 255, 0.2)', 'rgba(255, 159, 64, 0.2)'],
+                        borderColor: ['rgba(255, 99, 132, 1)', 'rgba(54, 162, 235, 1)', 'rgba(255, 206, 86, 1)', 'rgba(75, 192, 192, 1)', 'rgba(153, 102, 255, 1)', 'rgba(255, 159, 64, 1)'],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            display: true,
+                            position: 'top'
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function (tooltipItem) {
+                                    return ` ${tooltipItem.label}: ${formatCurrency(tooltipItem.raw)}`;
+                                }
+                            }
+                        }
+                    },
+                    animation: {
+                        duration: 2000, // Thời gian hiệu ứng
+                        easing: 'easeOutQuart' // Loại hiệu ứng
+                    }
+                }
+            });
+        }
+
+        function formatCurrency(amount) {
+            return amount.toLocaleString('vi-VN') + ' VND';
+        }
+
+        function displayDetails(orderDetailsId, revenueDetailsId, data) {
+            var orderDetails = document.getElementById(orderDetailsId);
+            var revenueDetails = document.getElementById(revenueDetailsId);
+
+            orderDetails.innerHTML = "";
+            revenueDetails.innerHTML = "";
+
+            data.forEach(item => {
+                var orderItem = document.createElement('li');
+                orderItem.className = "list-group-item";
+                orderItem.textContent = `Ngày: ${formatDate(item.date)} - Số Đơn Hàng: ${item.totalOrders}`;
+                orderDetails.appendChild(orderItem);
+
+                var revenueItem = document.createElement('li');
+                revenueItem.className = "list-group-item";
+                revenueItem.textContent = `Ngày: ${formatDate(item.date)} - Doanh Thu: ${formatCurrency(item.totalRevenue)}`;
+                revenueDetails.appendChild(revenueItem);
+            });
+        }
+    </script>
+}

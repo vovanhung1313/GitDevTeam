@@ -1,0 +1,90 @@
+﻿@model WebBanGiay.Models.NguoiDungModel
+
+@{
+    ViewData["Title"] = "Sửa thông tin nhân viên";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="row justify-content-center">
+    <div class="col-md-8" style="margin-bottom: 50px;">
+        <div class="card">
+            <div class="card-header bg-primary text-white text-center">
+                <h4 class="card-title mb-0">Sửa thông tin nhân viên</h4>
+            </div>
+            <div class="card-body">
+                <form asp-action="SuaNhanVien" method="post" enctype="multipart/form-data">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <input type="hidden" asp-for="ID_NGUOI_DUNG" />
+
+                    <div class="form-group">
+                        <label asp-for="TAI_KHOAN" class="control-label">Tài khoản</label>
+                        <input asp-for="TAI_KHOAN" class="form-control" readonly style="background-color: #f5f5f5; color: black;" />
+                        <span asp-validation-for="TAI_KHOAN" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="HO_TEN" class="control-label">Họ tên</label>
+                        <input asp-for="HO_TEN" class="form-control" placeholder="Vui lòng nhập họ tên" style="background-color: #fff; color: #000" />
+                        <span asp-validation-for="HO_TEN" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="EMAIL" class="control-label">Email</label>
+                        <input asp-for="EMAIL" class="form-control" placeholder="Vui lòng nhập email" style="background-color: #fff; color: #000" />
+                        <span asp-validation-for="EMAIL" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="SDT" class="control-label">Số điện thoại</label>
+                        <input asp-for="SDT" class="form-control" placeholder="Vui lòng nhập số điện thoại" style="background-color: #fff; color: #000" />
+                        <span asp-validation-for="SDT" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="DIA_CHI" class="control-label">Địa chỉ</label>
+                        <input asp-for="DIA_CHI" class="form-control" placeholder="Vui lòng nhập địa chỉ" style="background-color: #fff; color: #000" />
+                        <span asp-validation-for="DIA_CHI" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="HinhAnhTaiLen" class="control-label">Giấy tờ tùy thân</label>
+                        <input asp-for="HinhAnhTaiLen" type="file" accept="image/*" class="form-control" onchange="previewImage(event)" />
+                        <img id="imagePreview" src="~/media/KhachHang/@Model?.GTTT" alt="Image Preview" style="max-width: 200px; height: 200px; margin-top: 20px; border-radius: 10px;" />
+                        <span asp-validation-for="HinhAnhTaiLen" class="text-danger"></span>
+                    </div>
+
+                    <input type="hidden" asp-for="MAT_KHAU" />
+                    <input type="hidden" asp-for="VAI_TRO" />
+
+                    <input style="margin: 10px 0px 10px 0px; background-color: #a01212;" type="submit" value="Lưu sửa nhân viên" class="btn btn-primary save-button form-control" />
+                    <a asp-action="Index" class="btn btn-link mt-3">Quay lại danh sách</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function previewImage(event) {
+        const reader = new FileReader();
+        reader.onload = function () {
+            const preview = document.getElementById('imagePreview');
+            preview.src = reader.result;
+        };
+        reader.readAsDataURL(event.target.files[0]);
+    }
+</script>
+
+<style>
+    .save-button {
+        transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    }
+
+        .save-button:hover {
+            background-color: #a01212;
+            transform: scale(1.01);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+</style>

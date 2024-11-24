@@ -1,0 +1,102 @@
+﻿@model WebBanGiay.Models.SanPhamModel
+
+@{
+    ViewData["Title"] = "Thêm sản phẩm Admin";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header text-white" style="background-color: #eb1515; border-radius: 5px 5px 0 0;">
+                    <h4 class="card-title mb-0">Thêm mới sản phẩm</h4>
+                </div>
+                <div class="card-body">
+                    <form asp-action="ThemSanPham" method="post" enctype="multipart/form-data">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label asp-for="TEN_SAN_PHAM" class="control-label">Tên sản phẩm</label>
+                                    <input asp-for="TEN_SAN_PHAM" class="form-control" placeholder="Nhập tên sản phẩm" style="background-color: #fff; color: #000" />
+                                    <span asp-validation-for="TEN_SAN_PHAM" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="ID_LOAI" class="control-label">Loại sản phẩm</label>
+                                    <select asp-for="ID_LOAI" class="form-control" asp-items="ViewBag.Loais">
+                                        
+                                    </select>
+                                    <span asp-validation-for="ID_LOAI" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="ID_KICH_THUOC" class="control-label">Kích thước</label>
+                                    <select asp-for="ID_KICH_THUOC" class="form-control" asp-items="ViewBag.KichThuocs">
+                                        
+                                    </select>
+                                    <span asp-validation-for="ID_KICH_THUOC" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label>Chọn màu:</label>
+                                    <div>
+                                        @foreach (var mau in ViewBag.Maus as SelectList)
+                                        {
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" name="selectedColors" value="@mau.Value" id="color_@mau.Value" style="background-color: #eb1515; color: #000" />
+                                                <label class="form-check-label" for="color_@mau.Value">@mau.Text</label>
+                                            </div>
+                                        }
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="SO_LUONG" class="control-label">Số lượng</label>
+                                    <input asp-for="SO_LUONG" class="form-control" placeholder="Nhập số lượng" style="background-color: #fff; color: #000" />
+                                    <span asp-validation-for="SO_LUONG" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="GIA_NHAP" class="control-label">Giá nhập</label>
+                                    <input asp-for="GIA_NHAP" class="form-control" placeholder="Nhập giá nhập" style="background-color: #fff; color: #000" />
+                                    <span asp-validation-for="GIA_NHAP" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="GIA_BAN" class="control-label">Giá bán</label>
+                                    <input asp-for="GIA_BAN" class="form-control" placeholder="Nhập giá bán" style="background-color: #fff; color: #000" />
+                                    <span asp-validation-for="GIA_BAN" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="CHAT_LIEU" class="control-label">Chất liệu</label>
+                                    <input asp-for="CHAT_LIEU" class="form-control" placeholder="Nhập chất liệu" style="background-color: #fff; color: #000"  />
+                                    <span asp-validation-for="CHAT_LIEU" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="MO_TA" class="control-label">Mô tả</label>
+                                    <textarea asp-for="MO_TA" class="form-control" style="background-color: #fff; color: #000" placeholder="Nhập mô tả" rows="3"></textarea>
+                                    <span asp-validation-for="MO_TA" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="HinhAnhTaiLen" class="control-label">Hình ảnh</label>
+                                    <input asp-for="HinhAnhTaiLen" type="file" multiple class="form-control" style="background-color: #fff; color: #000" />
+                                    <span asp-validation-for="HinhAnhTaiLen" class="text-danger"></span>
+                                </div>
+                                <hr/>
+                                <div class="form-group text-center">
+                                    <input style="background-color: #eb1515" type="submit" value="Tạo mới sản phẩm" class="btn btn-primary form-control" style="padding: 10px 150px;" />
+                                </div>
+                                
+                            </div>
+
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+            <br /><br /><br />
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
