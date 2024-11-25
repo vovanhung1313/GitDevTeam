@@ -35,7 +35,7 @@ namespace WebBanGiay.Models
         public int GIA_BAN { get; set; }
 
 
-        [Required(ErrorMessage = "Không được để chống chất liệu.")]
+        [Required(ErrorMessage = "Không được để chống345343534 chất liệu.")]
         public string CHAT_LIEU { get; set; }
         [Required(ErrorMessage = "Không được để chống mô tả.")]
         public string MO_TA { get; set; }
